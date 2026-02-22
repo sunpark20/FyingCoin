@@ -82,6 +82,28 @@
 - **이유:** 스마트폰(iPhone 등) 환경에서 `EventSystem`이 없으면 화면 터치가 완전히 무시되어, 첫 오프닝 검은 화면에서 게임이 영원히 멈추는(Hang) 치명적인 버그 해결.
 - **주의:** 이 프로젝트는 New Input System (`activeInputHandler: 1`, `com.unity.inputsystem: 1.18.0`) 을 사용하므로 `StandaloneInputModule`이 아닌 `InputSystemUIInputModule`을 써야 iOS 터치가 정상 동작함.
 
+### 2026-02-23 — iOS 실기기 블랙스크린 완전 해결 (3건)
+
+#### 1. 오프닝 터치 무반응 근본 수정 (`OpeningManager.cs`)
+- **진짜 원인:** `InputSystemUIInputModule`의 `m_PointerBehavior: 0`(SingleUnifiedPointer) 모드가 iOS 실기기 터치를 `GraphicRaycaster → Button.onClick` 체인까지 전달하지 못함 (Unity 6 + New Input System + iOS 알려진 호환성 문제)
+- **이전:** `Button.AddComponent` + `onClick.AddListener(OnScreenClicked)` + `GraphicRaycaster` 의존
+- **이후:** `Button`, `GraphicRaycaster` 완전 제거. `Update()`에서 `Touchscreen.current.primaryTouch.press.wasPressedThisFrame` 직접 폴링 (에디터는 `Mouse.current`). `CoinPhysics.cs`와 동일 패턴 통일.
+
+#### 2. 폰트 크래시 → 한글 텍스트 정상 표시 (`OpeningManager.cs`)
+- **진짜 원인:** `public TMP_FontAsset customFont` Inspector 참조 → iOS IL2CPP 빌드에서 `atlasTexture` getter가 `NullReferenceException` 발생 → `Start()` 크래시 → `TypeText()` 코루틴 미실행 → `isTyping/isFinished` 둘 다 false → `Update()` 가드에서 터치 영원히 무반응 (블랙스크린의 실제 원인)
+- **이전:** `public TMP_FontAsset customFont` Inspector 할당 → `introText.font = customFont`
+- **이후:** `2002 SDF.asset`을 `Assets/Resources/`로 이동, `Resources.Load<TMP_FontAsset>("2002 SDF")`로 런타임 로드. Inspector 직렬화 참조 완전 제거. 로드 실패 시 `LogWarning` 후 TMP 기본 폰트로 fallback.
+- **연계 수정 (`AutoSetupCoinGame.cs`):** `openingMgr.customFont = loadedFont` 참조 제거 (CS1061 컴파일 에러 수정)
+
+#### 3. 동전 터치 무반응 수정 (`CoinPhysics.cs`)
+- **원인:** `Update()`가 `Mouse.current`만 체크 → iOS 실기기에서 터치 완전 미감지
+- **이후:** `Touchscreen.current.primaryTouch.press.wasPressedThisFrame` 추가. 공통 로직을 `TryHitAt(Vector2 worldPos)` 헬퍼로 분리.
+
+#### 4. Git 초기 설정
+- Unity 전용 `.gitignore` 생성 (`Library/`, `Temp/`, `build_ios/`, `UserSettings/`, `.DS_Store` 등 제외)
+- remote origin 설정: `git@github.com:sunpark20/FyingCoin.git`
+- `git push --force`로 Unity 프로젝트 전면 교체 완료
+
 ---
 
 ## 🛠️ 향후 계획 (To Do)
