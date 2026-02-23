@@ -94,7 +94,7 @@ public class AutoSetupCoinGame : MonoBehaviour
             }
 
             // [콤보 사운드 세팅 추가] gunshot 사운드 매핑
-            string[] comboGuids = AssetDatabase.FindAssets("gunshot t:AudioClip");
+            string[] comboGuids = AssetDatabase.FindAssets("gshot t:AudioClip");
             if (comboGuids.Length > 0)
             {
                 string comboPath = AssetDatabase.GUIDToAssetPath(comboGuids[0]);

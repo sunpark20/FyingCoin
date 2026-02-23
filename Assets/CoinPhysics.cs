@@ -152,8 +152,8 @@ public class CoinPhysics : MonoBehaviour
             finalJumpVelocity = jumpVelocity * comboMultiplier;
             
             // 🔊 타격감이 쎄졌으므로 사운드 피치와 볼륨도 다이내믹하게 증폭
-            soundPitch *= comboMultiplier; // 더 높고 경쾌한 톤
-            soundVolume *= comboMultiplier; // 더 큰 소리
+            //soundPitch *= comboMultiplier; // 더 높고 경쾌한 톤
+            //soundVolume *= comboMultiplier; // 더 큰 소리
             
             // 콤보 성공 사운드 재생 (총소리)
             if (comboSound != null && audioSource != null)
