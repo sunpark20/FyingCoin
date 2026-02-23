@@ -48,11 +48,24 @@
 ### 7. 다이나믹 스피드 라인 (`SpeedLineManager.cs`)
 - 동전이 하늘로 치솟거나 땅으로 무섭게 떨어질 때(속도 15 이상), 화면 양옆에 만화적인 **세로 속도 집중선** 이펙트를 무더기로 쏟아내어 역동성을 더합니다.
 
-### 8. 모바일 화면 비율 자동 보정 (`MobileCameraAspect.cs`)
-- 기준 해상도(1080x1920, 16:9)를 바탕으로 세로로 긴 스마트폰(19.5:9 등)에서도 가로폭(Width)이 잘리지 않도록 카메라 사이즈(`orthographicSize`)를 동적으로 키워줍니다.
-- `OpeningManager.cs`의 UI Canvas 역시 가로 기준 넓이에 맞춰 늘어나도록 자동 최적화 되었습니다.
+### 8. 모바일 화면 비율 자동 보정 (`MobileCameraAspect.cs` + `GameManager.cs` fallback)
+- **벽 기준 카메라 보정:** 좌우 벽 외측 엣지(±5.5 world units)를 기준으로 `orthographicSize = 5.5 / (Screen.width / Screen.height)` 계산. 어떤 기기에서도 벽이 화면 가장자리에 정확히 맞춤.
+- **iOS 실기기 대응:** `MobileCameraAspect.Update()`에서 `Screen.width/height`가 유효해질 때까지 매 프레임 체크. `GameManager.Update()`에도 fallback 로직 포함.
+- **바닥 벽 자동 보정:** 카메라 orthoSize 적용 직후 `BottomWall_Auto`를 화면 하단에 자동 배치 (`AdjustBottomWall()`).
 
-### 9. GitQuickMenu (커스텀 메뉴바 앱)
+### 9. 터치 구멍 이펙트 (`CoinPhysics.cs`)
+- 동전을 정확히 터치(탭)하면 타격 지점에 `circle.png` 구멍 이미지가 동전을 따라가며 표시됩니다.
+- 1초 동안 유지 후 0.5초에 걸쳐 서서히 투명해지며 사라집니다.
+- 동전의 2.5D 회전에 영향받지 않도록 월드 공간 오프셋 방식으로 추적.
+- Inspector에서 `Hole Effect Scale`(크기)과 `Hole Sorting Order`(레이어 순서) 조정 가능.
+- `Assets/Resources/circle.png`에서 런타임 로드 (iOS 빌드 대응).
+
+### 10. 디버그 탭 타이밍 표시 (`GameManager.cs` + `CoinPhysics.cs`)
+- 화면 하단에 더블 탭 간격을 ms 단위로 실시간 표시 (개발/튜닝용).
+- 쌍별 측정: 1→2번째 터치 간격, 3→4번째 터치 간격... 순차 갱신.
+- `CoinPhysics.lastPairDeltaMs` static 필드를 `GameManager`가 읽어 UI 표시.
+
+### 11. GitQuickMenu (커스텀 메뉴바 앱)
 - 터미널이나 VS Code를 열지 않고도 Mac 상단 메뉴바(Menu Bar)에서 원클릭으로 GitHub에 코드를 Push 할 수 있도록 만들어진 Swift App이 내장되어 있습니다. (`/GitQuickMenu` 폴더 참고)
 
 ---
@@ -103,6 +116,30 @@
 - Unity 전용 `.gitignore` 생성 (`Library/`, `Temp/`, `build_ios/`, `UserSettings/`, `.DS_Store` 등 제외)
 - remote origin 설정: `git@github.com:sunpark20/FyingCoin.git`
 - `git push --force`로 Unity 프로젝트 전면 교체 완료
+
+### 2026-02-23 — 터치 이펙트 + 카메라/바닥 보정 (6건)
+
+#### 1. 터치 구멍 이펙트 추가 (`CoinPhysics.cs`)
+- 동전 터치 시 `Assets/Resources/circle.png`를 타격 지점에 표시. 동전을 따라가며 1초 후 0.5초 페이드아웃.
+- `SpawnHoleEffect()` + `FadeAndDestroy()` 코루틴. 월드 공간 오프셋으로 동전 추적 (2.5D 회전 영향 없음).
+
+#### 2. 카메라 벽 기준 보정 (`MobileCameraAspect.cs`)
+- **이전:** 1080×1920(16:9) 레퍼런스 기반 `orthoSize = defaultOrthoSize * (targetAspect / currentAspect)`
+- **이후:** 벽 외측 엣지 기준 `orthoSize = targetHalfWidth(5.5) / currentAspect`. 어떤 기기에서도 벽이 화면 가장자리에 정확히 맞음.
+- **iOS 타이밍 이슈 해결:** `Start()` → `Update()` 전환. `Screen.width/height`가 유효해질 때까지 매 프레임 체크.
+
+#### 3. 카메라 설정 GameManager fallback (`GameManager.cs`)
+- **원인:** `MobileCameraAspect` 컴포넌트가 카메라에 미부착된 상태로 iOS 빌드 시 orthoSize 미적용.
+- **이후:** `GameManager.Update()`에 카메라 orthoSize 강제 설정 fallback 추가. 확실히 실행되는 스크립트에서 이중 안전장치.
+
+#### 4. 바닥 벽 화면 하단 자동 맞춤 (`GameManager.cs`)
+- `AdjustBottomWall()`: 카메라 orthoSize 적용 직후 `BottomWall_Auto` Y 위치를 `cameraY - orthoSize - 0.5` (화면 하단)으로 자동 이동.
+
+#### 5. 벽 시각화 개선 (`AutoSetupCoinGame.cs`)
+- 벽 알파 0.5 → 0.9 (반투명 → 거의 불투명). 아이폰에서 벽이 선명하게 보이도록.
+
+#### 6. 디버그 탭 타이밍 UI (`CoinPhysics.cs` + `GameManager.cs`)
+- 쌍별 더블 탭 간격(ms) 측정 및 화면 하단 실시간 표시 (개발/튜닝용).
 
 ---
 

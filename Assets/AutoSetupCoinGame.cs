@@ -163,9 +163,8 @@ public class AutoSetupCoinGame : MonoBehaviour
             if (existingAspect != null) DestroyImmediate(existingAspect);
             
             MobileCameraAspect aspectMgr = Camera.main.gameObject.AddComponent<MobileCameraAspect>();
-            // 기본 카메라 사이즈를 10으로 설정해 동전 크기와 벽 위치가 적절하게 맞게 함 (필요시 조정)
-            // Default Size 10 is appropriate for the very large bouncy walls.
-            aspectMgr.defaultOrthoSize = 10f;
+            // 벽 외측 엣지(5.5) = 벽 중심(5) + 반두께(0.5) → 화면 가장자리에 벽이 딱 맞게 배치됨
+            aspectMgr.targetHalfWidth = 5.5f;
             Debug.Log("📱 모바일 화면 비율 유지(MobileCameraAspect) 매니저 세팅 완료!");
             
             // 폰트 찾기 (TMP_FontAsset으로 검색 - Unity에서 2002.ttf를 TMP 폰트 에셋으로 변환 필요)
@@ -211,7 +210,7 @@ public class AutoSetupCoinGame : MonoBehaviour
 #if UNITY_EDITOR
         sr.sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Background.psd");
 #endif
-        sr.color = new Color(0.2f, 0.8f, 1f, 0.5f); // 반투명한 네온 블루
+        sr.color = new Color(0.2f, 0.8f, 1f, 0.9f); // 선명한 네온 블루 (거의 불투명)
         wall.transform.localScale = new Vector3(size.x, size.y, 1f);
         
         return wall;

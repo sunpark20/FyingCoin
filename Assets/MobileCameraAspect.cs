@@ -1,41 +1,36 @@
 using UnityEngine;
 
-// 모바일 기기(iPhone/Android)의 화면 비율에 맞춰 카메라의 가로 시야를 고정해주는 스크립트입니다.
-// 16:9(1080x1920) 비율을 기준으로 가로가 잘리지 않게 동적으로 Orthographic Size를 조절합니다.
+// 벽(±5 world units, 두께 1)의 외측 엣지(±5.5)가 화면 가장자리에 정확히 맞도록
+// 기기 가로/세로 비율에 따라 Orthographic Size를 자동 계산합니다.
+// iOS 실기기에서 Start() 시점에 Screen.width/height가 0으로 보고되는 문제를
+// Update()에서 유효한 값이 잡힐 때까지 매 프레임 체크하는 방식으로 우회합니다.
 [RequireComponent(typeof(Camera))]
 public class MobileCameraAspect : MonoBehaviour
 {
-    [Tooltip("기준 해상도 가로")]
-    public float targetWidth = 1080f;
-    [Tooltip("기준 해상도 세로")]
-    public float targetHeight = 1920f;
-    
-    [Tooltip("기본 Orthographic Size (16:9 일 때의 카메라 사이즈)")]
-    public float defaultOrthoSize = 10f; // 필요시 조정
+    [Tooltip("카메라가 보여줄 가로 반너비 (월드 유닛). 기본 5.5 = 벽 중심(5) + 반두께(0.5)")]
+    public float targetHalfWidth = 5.5f;
 
-    void Start()
+    private Camera cam;
+    private bool applied = false;
+
+    void Awake()
     {
-        Camera cam = GetComponent<Camera>();
-        
-        // 기준 비율 (예: 1080 / 1920 = 0.5625)
-        float targetAspect = targetWidth / targetHeight;
-        
-        // 현재 기기 비율
-        float currentAspect = (float)Screen.width / (float)Screen.height;
+        cam = GetComponent<Camera>();
+    }
 
-        // 현재 기기의 가로 비율이 기준보다 좁다면 (예: 좀 더 길쭉한 최신 스마트폰 19.5:9 등)
-        if (currentAspect < targetAspect)
+    void Update()
+    {
+        if (applied) return;
+
+        float w = Screen.width;
+        float h = Screen.height;
+
+        if (w > 0 && h > 0)
         {
-            // 가로 시야가 잘리지 않도록 카메라 사이즈를 키워줌
-            cam.orthographicSize = defaultOrthoSize * (targetAspect / currentAspect);
+            float currentAspect = w / h;
+            cam.orthographicSize = targetHalfWidth / currentAspect;
+            applied = true;
+            Debug.Log($"📱 카메라 orthoSize 설정 완료: {cam.orthographicSize:F2} (해상도: {w}x{h}, 비율: {currentAspect:F2})");
         }
-        else
-        {
-            // 태블릿처럼 가로 리율이 더 넓다면, 기본 사이즈 유지 (세로 기준으로 맞춰짐)
-            // 혹은 레터박스를 넣을 수 있지만, 현재는 무한 상승 게임이므로 기본값(가로가 더 넓게 보임) 유지
-            cam.orthographicSize = defaultOrthoSize;
-        }
-        
-        Debug.Log($"📱 모바일 해상도 대응 완료: 기기 비율({currentAspect:F2}), 오르토그래픽 사이즈 조정({cam.orthographicSize:F2})");
     }
 }

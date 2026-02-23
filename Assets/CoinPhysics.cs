@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,6 +32,11 @@ public class CoinPhysics : MonoBehaviour
 
     private float lastHitTime = -100f; // 마지막으로 맞은 시간 기록 변수
     private int currentCombo = 0; // 현재 연속으로 맞춘 횟수
+
+    // [디버그] 더블 탭 간격 측정 (1→2, 3→4, 5→6... 쌍별 측정)
+    private int hitCount = 0;
+    private float pairStartTime = 0f;
+    public static float lastPairDeltaMs = 0f;
     
     [Space(10)]
     [Tooltip("맞은 위치에 비례하여 생기는 빙글빙글 스핀 속도 배율 (Z축 2D 회전)")]
@@ -46,6 +52,13 @@ public class CoinPhysics : MonoBehaviour
     [Tooltip("최대 하강 속도 제한 (너무 빨리 떨어져서 누르기 힘든 현상 방지)")]
     public float maxFallSpeed = -10f;
 
+    [Header("구멍 이펙트")]
+    [Tooltip("터치 타격 지점에 표시되는 구멍 이미지 크기 (동전 크기 대비)")]
+    [SerializeField] private float holeEffectScale = 0.3f;
+    [Tooltip("구멍 이미지의 렌더링 레이어 (동전보다 높아야 앞에 보임)")]
+    [SerializeField] private int holeSortingOrder = 10;
+    private Sprite holeSprite;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -57,7 +70,11 @@ public class CoinPhysics : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
         audioSource.playOnAwake = false;
-        
+
+        holeSprite = Resources.Load<Sprite>("circle");
+        if (holeSprite == null)
+            Debug.LogWarning("[CoinPhysics] circle.png를 Assets/Resources/ 폴더에 넣어주세요!");
+
         if (rb != null)
         {
             // 영상 분석 1: 묵직하고 기민한 아크(Arc)를 위한 고중력 세팅
@@ -141,6 +158,13 @@ public class CoinPhysics : MonoBehaviour
         
         lastHitTime = Time.time; // 방금 맞은 시간 저장
 
+        // [디버그] 쌍별 더블 탭 간격 측정
+        hitCount++;
+        if (hitCount % 2 == 1)
+            pairStartTime = Time.time; // 홀수 터치: 타이머 시작
+        else
+            lastPairDeltaMs = (Time.time - pairStartTime) * 1000f; // 짝수 터치: 간격 기록
+
         // 콤보가 쌓일수록 점프력이 '곱빼기'로 강해집니다
         float finalJumpVelocity = jumpVelocity;
         float soundPitch = Random.Range(0.9f, 1.1f); // 기본 피치
@@ -195,5 +219,55 @@ public class CoinPhysics : MonoBehaviour
 
         // 영상 분석 4: 맞은 타점(중심점 대비 좌/우)에 따라 아케이드스러운 엄청난 회전(스핀) 부여
         rb.AddTorque(-offsetX * spinMultiplier, ForceMode2D.Impulse);
+
+        SpawnHoleEffect(hitPoint);
+    }
+
+    private void SpawnHoleEffect(Vector2 worldPos)
+    {
+        if (holeSprite == null) return;
+
+        GameObject hole = new GameObject("HoleEffect");
+        hole.transform.position = new Vector3(worldPos.x, worldPos.y, 0f);
+        hole.transform.localScale = Vector3.one * holeEffectScale;
+
+        SpriteRenderer sr = hole.AddComponent<SpriteRenderer>();
+        sr.sprite = holeSprite;
+        sr.sortingOrder = holeSortingOrder;
+
+        // 타격 순간의 동전 중심 대비 오프셋을 월드 공간으로 고정 기록
+        Vector3 offset = new Vector3(worldPos.x, worldPos.y, 0f) - transform.position;
+
+        StartCoroutine(FadeAndDestroy(hole, sr, offset));
+    }
+
+    private IEnumerator FadeAndDestroy(GameObject obj, SpriteRenderer sr, Vector3 offset)
+    {
+        // 1초 동안 동전 위치를 따라가며 표시
+        float waitElapsed = 0f;
+        while (waitElapsed < 1.0f)
+        {
+            if (obj == null) yield break;
+            obj.transform.position = transform.position + offset;
+            waitElapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // 0.5초에 걸쳐 따라가면서 서서히 사라짐
+        float elapsed = 0f;
+        const float fadeDuration = 0.5f;
+        Color c = sr.color;
+
+        while (elapsed < fadeDuration)
+        {
+            if (obj == null) yield break;
+            obj.transform.position = transform.position + offset;
+            elapsed += Time.deltaTime;
+            c.a = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
+            sr.color = c;
+            yield return null;
+        }
+
+        Destroy(obj);
     }
 }

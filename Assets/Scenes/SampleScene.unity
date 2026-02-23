@@ -506,7 +506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52222e82b869942a9ab4565699ee2893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OpeningManager
-  customFont: {fileID: 12800000, guid: 579595aead67d4bd0922834c5b67a714, type: 3}
   lineDelay: 0.8
 --- !u!114 &519420068
 MonoBehaviour:
@@ -1063,13 +1062,15 @@ MonoBehaviour:
   hitSounds:
   - {fileID: 8300000, guid: 2bf378c8371aa4f5a90b282060ea11a8, type: 3}
   - {fileID: 8300000, guid: e11384f33b7674b4daa1997e22b63670, type: 3}
-  comboSound: {fileID: 8300000, guid: 5137bcb6ca0e245c1b97590d86fad8d6, type: 3}
+  comboSound: {fileID: 8300000, guid: 7c46b1ad44c554dda8dba1dcf56939b6, type: 3}
   comboTimeLimit: 0.3
   comboMultiplier: 3
   spinMultiplier: 600
   visual3DSpinSpeed: 2000
   horizontalBounceForce: 15
   maxFallSpeed: -200
+  holeEffectScale: 0.3
+  holeSortingOrder: 10
 --- !u!58 &1381473020
 CircleCollider2D:
   m_ObjectHideFlags: 0
