@@ -203,6 +203,14 @@ public class AutoSetupCoinGame : MonoBehaviour
             Debug.Log("🎬 오프닝 타이핑 연출 세팅 완료!");
         }
 
+        // 5. 스킬바 매니저 부착 (피버 스킬 등)
+        GameObject skillBarObj = GameObject.Find("SkillBarManager");
+        if (skillBarObj != null) DestroyImmediate(skillBarObj);
+
+        skillBarObj = new GameObject("SkillBarManager");
+        skillBarObj.AddComponent<SkillBarManager>();
+        Debug.Log("🔥 스킬바 매니저 (피버 스킬) 세팅 완료!");
+
         Debug.Log("🎉 [자동 세팅 완료] 이제 화면 상단의 Play(▶️) 버튼을 눌러보세요!");
     }
 

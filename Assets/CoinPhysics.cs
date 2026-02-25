@@ -8,6 +8,11 @@ public class CoinPhysics : MonoBehaviour
 {
     private Rigidbody2D rb;
 
+    // 피버 스킬 연동 (SkillBarManager가 제어)
+    public static bool isFeverActive = false;
+    public static int feverHitCount = 0;        // 터치 횟수 (UI 표시용)
+    public static float feverHitPower = 0f;      // 거리 가중치 누적 (보너스 계산용)
+
     [Header("산도알 스타일 물리 파라미터")]
     [Tooltip("기초 중력 조절 (기본 2.0 - 숫자가 클수록 무겁고 빨리 떨어짐)")]
     public float gravityScale = 2.0f; 
@@ -96,6 +101,15 @@ public class CoinPhysics : MonoBehaviour
         // 기본 Y스케일 저장 (두께감 계산용)
         baseScaleY = transform.localScale.y;
 
+        // 정면 상태의 터치 반경 계산 (콜라이더 기준)
+        CircleCollider2D col = GetComponent<CircleCollider2D>();
+        if (col != null)
+            touchRadius = col.radius * transform.localScale.x * 2.1f;
+        else
+            touchRadius = transform.localScale.x * 0.5f;
+
+        Debug.Log($"[CoinPhysics] touchRadius={touchRadius}, col.radius={col?.radius}, scale.x={transform.localScale.x}");
+
         holeSprite = Resources.Load<Sprite>("circle");
         if (holeSprite == null)
             Debug.LogWarning("[CoinPhysics] circle.png를 Assets/Resources/ 폴더에 넣어주세요!");
@@ -171,22 +185,51 @@ public class CoinPhysics : MonoBehaviour
 
     private void TryHitAt(Vector2 worldPos)
     {
-        RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject == this.gameObject)
+        // 정면 기준 원형 터치 영역 (Y스케일 변해도 항상 동일한 크기)
+        float dist = Vector2.Distance(worldPos, (Vector2)transform.position);
+        if (dist <= touchRadius)
         {
             Debug.Log($"동전 맞춤! 좌표: {worldPos}");
             HitCoin(worldPos);
         }
         else
         {
-            Debug.Log($"빗나감! 좌표: {worldPos}, 충돌체: {(hit.collider != null ? hit.collider.name : "없음")}");
+            Debug.Log($"빗나감! 좌표: {worldPos}, 충돌체: 없음");
         }
     }
 
     private void HitCoin(Vector2 hitPoint)
     {
+        // 피버 중에는 카운트만 올리고 물리 적용 스킵
+        if (isFeverActive)
+        {
+            feverHitCount++;
+
+            // 중심에서 떨어진 거리 비율 (0=정중앙, 1=가장자리)로 가중치 계산
+            // 가장자리 맞출수록 세게 (0.5 ~ 2.0 범위)
+            float dist = Vector2.Distance(hitPoint, (Vector2)transform.position);
+            float ratio = Mathf.Clamp01(dist / touchRadius);
+            float hitWeight = 0.5f + ratio * 1.5f; // 중앙=0.5, 가장자리=2.0
+            feverHitPower += hitWeight;
+
+            SpawnHoleEffect(hitPoint);
+
+            // 피버 터치 사운드 (일반 효과음)
+            if (hitSounds != null && hitSounds.Length > 0 && audioSource != null)
+            {
+                AudioClip randomClip = hitSounds[Random.Range(0, hitSounds.Length)];
+                if (randomClip != null)
+                {
+                    // 가장자리 맞출수록 피치도 높게
+                    audioSource.pitch = 1.0f + feverHitCount * 0.05f + ratio * 0.3f;
+                    audioSource.PlayOneShot(randomClip, 0.7f + ratio * 0.3f);
+                }
+            }
+            return;
+        }
+
         Vector2 center = transform.position;
-        
+
         // 영상 분석 3: 이전 속도를 무시하고 '즉각적으로(Instant Burst)' 타겟 속도로 변경
         float offsetX = hitPoint.x - center.x;
 
@@ -315,5 +358,12 @@ public class CoinPhysics : MonoBehaviour
         }
 
         Destroy(obj);
+    }
+
+    // 피버 종료 시 SkillBarManager가 호출하는 보너스 점프
+    public static void ApplyFeverBonus(Rigidbody2D rb, float bonusVelocity)
+    {
+        if (rb == null) return;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, bonusVelocity);
     }
 }

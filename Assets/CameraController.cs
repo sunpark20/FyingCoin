@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // 메인 카메라에 부착되어 동전의 높이를 부드럽게 추적하는 스크립트입니다.
@@ -63,10 +64,47 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    // 카메라를 즉시 타겟 위치로 스냅 (피버 발사 등 급격한 이동 시)
+    public void SnapToTarget()
+    {
+        if (target == null) return;
+        float targetY = target.position.y + yOffset;
+        logicalPosition = new Vector3(logicalPosition.x, targetY, logicalPosition.z);
+        transform.position = logicalPosition;
+    }
+
     // 외부(CoinPhysics 등)에서 콤보 터치 시 호출하는 흔들림 함수
     public void TriggerShake(float magnitude, float duration)
     {
         currentShakeMagnitude = magnitude;
         shakeTimer = duration;
+    }
+
+    // 카메라 orthographicSize를 부드럽게 변경 (피버 줌인/아웃용)
+    private Coroutine zoomCoroutine;
+
+    public void ZoomTo(float targetSize, float duration)
+    {
+        if (zoomCoroutine != null)
+            StopCoroutine(zoomCoroutine);
+        zoomCoroutine = StartCoroutine(ZoomRoutine(targetSize, duration));
+    }
+
+    private IEnumerator ZoomRoutine(float targetSize, float duration)
+    {
+        Camera cam = GetComponent<Camera>();
+        if (cam == null) yield break;
+
+        float startSize = cam.orthographicSize;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            cam.orthographicSize = Mathf.Lerp(startSize, targetSize, elapsed / duration);
+            yield return null;
+        }
+        cam.orthographicSize = targetSize;
+        zoomCoroutine = null;
     }
 }
