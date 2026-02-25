@@ -52,6 +52,17 @@ public class CoinPhysics : MonoBehaviour
     [Tooltip("최대 하강 속도 제한 (너무 빨리 떨어져서 누르기 힘든 현상 방지)")]
     public float maxFallSpeed = -10f;
 
+    [Header("동전 앞뒷면 스프라이트")]
+    [Tooltip("동전 옆면 최소 Y스케일 (0에 가까울수록 얇음, 0.05 = 5%)")]
+    [SerializeField] private float edgeMinScaleY = 0.08f;
+
+    private Sprite frontSprite;
+    private Sprite backSprite;
+    private SpriteRenderer sr;
+    private float baseScaleY;
+    private float touchRadius; // 정면 기준 터치 반경 (고정)
+    private float virtualFlipAngle = 0f; // X축 회전을 가상으로 추적 (실제 transform.Rotate 대체)
+
     [Header("구멍 이펙트")]
     [Tooltip("터치 타격 지점에 표시되는 구멍 이미지 크기 (동전 크기 대비)")]
     [SerializeField] private float holeEffectScale = 0.3f;
@@ -70,6 +81,20 @@ public class CoinPhysics : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
         audioSource.playOnAwake = false;
+
+        // 앞뒷면 스프라이트 로드
+        sr = GetComponent<SpriteRenderer>();
+        frontSprite = Resources.Load<Sprite>("dena-front");
+        backSprite = Resources.Load<Sprite>("dena-back");
+        if (frontSprite == null || backSprite == null)
+            Debug.LogWarning("[CoinPhysics] dena-front.png / dena-back.png를 Assets/Resources/ 폴더에 넣어주세요!");
+
+        // 앞면 스프라이트 초기 적용
+        if (sr != null && frontSprite != null)
+            sr.sprite = frontSprite;
+
+        // 기본 Y스케일 저장 (두께감 계산용)
+        baseScaleY = transform.localScale.y;
 
         holeSprite = Resources.Load<Sprite>("circle");
         if (holeSprite == null)
@@ -96,15 +121,36 @@ public class CoinPhysics : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, maxFallSpeed);
         }
 
-        // --- 2.5D 시각적 3D 회전 효과 구현 ---
-        // 물리엔진의 속도 비율에 맞춰서, 유니티 2D 공간의 오브젝트를 X축으로 강제 회전시켜 3D처럼 보이게 만듭니다.
-        // 현재 Y축 방향 속도가 빠를수록 더 격렬하게 덤블링합니다.
+        // --- 2.5D 시각적 3D 회전 효과 (가상 각도 + Y스케일) ---
+        // 기존 X축 transform.Rotate 대신, 가상 각도로 추적하고 Y스케일로 시각화
         if (Mathf.Abs(rb.linearVelocity.y) > 0.1f)
         {
             float flipAmount = visual3DSpinSpeed * Time.deltaTime;
-            // 위로 올라갈 땐 뒤로 돌고, 내려갈 땐 앞으로 돌게 방향 설정
             float direction = rb.linearVelocity.y > 0 ? -1f : 1f;
-            transform.Rotate(direction * flipAmount, 0, 0, Space.Self);
+            virtualFlipAngle += direction * flipAmount;
+        }
+
+        // X축 실제 회전 제거 (가상 각도로 대체했으므로)
+        Vector3 euler = transform.eulerAngles;
+        euler.x = 0f;
+        transform.eulerAngles = euler;
+
+        // --- 앞뒷면 스프라이트 전환 + Y스케일로 두께감 ---
+        if (sr != null && frontSprite != null && backSprite != null)
+        {
+            float angle = ((virtualFlipAngle % 360f) + 360f) % 360f;
+
+            // 앞면/뒷면 판정
+            bool showFront = (angle <= 90f || angle >= 270f);
+            sr.sprite = showFront ? frontSprite : backSprite;
+
+            // cos으로 자연스러운 두께감: 정면(0°) = 1.0, 옆면(90°) = edgeMinScaleY
+            float cosVal = Mathf.Abs(Mathf.Cos(angle * Mathf.Deg2Rad));
+            float scaleY = Mathf.Lerp(edgeMinScaleY, 1f, cosVal) * baseScaleY;
+
+            Vector3 s = transform.localScale;
+            s.y = scaleY;
+            transform.localScale = s;
         }
 
         // 에디터/PC 마우스

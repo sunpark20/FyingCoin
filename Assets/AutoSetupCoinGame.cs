@@ -40,10 +40,23 @@ public class AutoSetupCoinGame : MonoBehaviour
             coin = new GameObject("Coin");
             coin.transform.position = new Vector3(0, 3f, 0); // 공중에서 시작
             
-            // 동전 모양(기본 원) 시각화
+            // 동전 모양 시각화 (dena-front 스프라이트 사용)
             SpriteRenderer sr = coin.AddComponent<SpriteRenderer>();
-            sr.sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
-            coin.transform.localScale = new Vector3(4f, 4f, 1f); // 보기 좋게 키움
+            Sprite denaFront = Resources.Load<Sprite>("dena-front");
+            if (denaFront != null)
+            {
+                sr.sprite = denaFront;
+                // 512x512 스프라이트에 맞게 스케일 조정 (100 PPU 기준 → 5.12 유닛)
+                // 기존 Knob(4x4) 대비 비슷한 화면 크기를 유지하도록 약 0.8 스케일
+                coin.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
+            }
+            else
+            {
+                // 폴백: dena-front가 없으면 기존 Knob 사용
+                sr.sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
+                coin.transform.localScale = new Vector3(4f, 4f, 1f);
+                Debug.LogWarning("⚠️ dena-front.png를 Assets/Resources/ 폴더에 넣어주세요! 기본 Knob 사용 중.");
+            }
 
             // 물리 컴포넌트 추가 및 덜덜거림(Jitter) 방지
             Rigidbody2D rb = coin.AddComponent<Rigidbody2D>();
