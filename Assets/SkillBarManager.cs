@@ -11,20 +11,17 @@ public class SkillBarManager : MonoBehaviour
     [Tooltip("피버 지속 시간 (초)")]
     public float feverDuration = 5f;
 
-    [Tooltip("피버 쿨다운 (초)")]
-    public float feverCooldown = 30f;
+    [Tooltip("피버 쿨다운 (초) — 0이면 즉시 재사용 가능")]
+    public float feverCooldown = 0f;
 
     [Tooltip("피버 중 동전 확대 배율")]
-    public float feverZoomScale = 1.8f;
+    public float feverZoomScale = 1.2f;
 
     [Tooltip("피버 종료 시 기본 점프 속도 (제곱 보너스에 곱해짐)")]
     public float feverBaseJump = 10f;
 
-    [Tooltip("피버 보너스 최대 속도 (이 이상은 잘림)")]
-    public float feverMaxVelocity = 200f;
-
-    [Tooltip("피버 줌인 시 카메라 orthographicSize 목표값")]
-    public float feverCameraZoom = 3f;
+    [Tooltip("피버 줌인 시 카메라 orthographicSize 목표값 (클수록 덜 줌인)")]
+    public float feverCameraZoom = 6f;
 
     // UI 요소들
     private Canvas skillCanvas;
@@ -43,6 +40,7 @@ public class SkillBarManager : MonoBehaviour
     private Transform coinTransform;
     private Rigidbody2D coinRb;
     private Vector3 originalCoinScale;
+    private Vector2 originalCoinPosition; // 피버 전 동전 위치 저장
     private float originalCameraSize;
     private float originalGravityScale;
     private CameraController cameraController;
@@ -250,6 +248,13 @@ public class SkillBarManager : MonoBehaviour
         coinRb.gravityScale = 0f;
         coinRb.constraints = RigidbodyConstraints2D.FreezeAll;
 
+        // 동전을 화면 정중앙으로 이동 (어디에 있든 중앙에서 확대)
+        originalCoinPosition = coinRb.position;
+        Vector2 screenCenter = Camera.main.transform.position; // 카메라 중심 = 화면 중앙
+        coinRb.constraints = RigidbodyConstraints2D.None; // 이동 위해 잠시 해제
+        coinRb.position = screenCenter;
+        coinRb.constraints = RigidbodyConstraints2D.FreezeAll; // 다시 고정
+
         // 동전 확대 (Lerp)
         originalCoinScale = coinTransform.localScale;
         Vector3 targetScale = originalCoinScale * feverZoomScale;
@@ -263,7 +268,7 @@ public class SkillBarManager : MonoBehaviour
         }
         coinTransform.localScale = targetScale;
 
-        // 카메라 줌인
+        // 카메라 줌인 (동전이 이미 중앙에 있으므로 줌만)
         if (Camera.main != null)
         {
             originalCameraSize = Camera.main.orthographicSize;
@@ -306,28 +311,34 @@ public class SkillBarManager : MonoBehaviour
         }
         coinTransform.localScale = originalCoinScale;
 
-        // 카메라 원복
+        // 카메라 원복 (줌)
         if (cameraController != null)
             cameraController.ZoomTo(originalCameraSize, 0.3f);
 
-        // 물리 복원
+        // 거리 가중치 기반 √×ln 보너스 높이 계산
+        float totalPower = CoinPhysics.feverHitPower;
+        float bonusVelocity = feverBaseJump * Mathf.Sqrt(totalPower) * Mathf.Log(1f + totalPower);
+        float gravity = 9.81f * originalGravityScale;
+        float peakHeight = (bonusVelocity * bonusVelocity) / (2f * gravity);
+
+        // ★ 제약 해제 → 원래 위치 기준으로 정점 순간이동
         coinRb.constraints = RigidbodyConstraints2D.None;
         coinRb.gravityScale = originalGravityScale;
 
-        // 거리 가중치 기반 제곱 보너스 점프 발사! (상한선 적용)
-        float totalPower = CoinPhysics.feverHitPower;
-        float bonusVelocity = feverBaseJump * (totalPower * totalPower) * 0.5f;
-        bonusVelocity = Mathf.Min(bonusVelocity, feverMaxVelocity);
-        CoinPhysics.ApplyFeverBonus(coinRb, bonusVelocity);
+        // 동전을 원래 X위치 + 정점 높이로 순간이동 (화면 중앙이 아니라 원래 있던 곳 기준)
+        Vector2 peakPos = new Vector2(originalCoinPosition.x, originalCoinPosition.y + peakHeight);
+        coinRb.position = peakPos;
+        coinRb.linearVelocity = Vector2.zero;
 
-        // 피버 발사 직후 카메라가 즉시 동전을 따라가도록 스냅
+        // 카메라도 즉시 정점으로 스냅 + 낙하 동안 즉시 추적
+        float fallTime = Mathf.Sqrt(2f * peakHeight / gravity) + 1f;
         if (cameraController != null)
         {
-            cameraController.SnapToTarget();
+            cameraController.StartInstantTrack(fallTime);
             cameraController.TriggerShake(1.2f, 0.3f);
         }
 
-        Debug.Log($"[Fever] 종료! {finalHits}회 터치, 파워={totalPower:F1} → 보너스 속도: {bonusVelocity:F1} (cap={feverMaxVelocity})");
+        Debug.Log($"[Fever] 종료! {finalHits}회 터치, 파워={totalPower:F1} → 높이: {peakHeight:F0}m, 낙하시간: {fallTime:F1}초");
 
         // 쿨다운 시작
         isCooldown = true;

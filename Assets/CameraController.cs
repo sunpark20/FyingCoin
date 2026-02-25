@@ -22,9 +22,12 @@ public class CameraController : MonoBehaviour
 
     // 시작 높이 (이 아래로는 카메라가 내려가지 않음)
     private float initialY;
-    
+
     // 흔들림 등으로 인해 카메라 진짜 위치가 오염되지 않게 논리적 위치를 추적합니다.
     private Vector3 logicalPosition;
+
+    // 즉시 추적 모드 (피버 발사 후 동전이 빠르게 이동할 때)
+    private float instantTrackTimer = 0f;
 
     void Start()
     {
@@ -42,8 +45,17 @@ public class CameraController : MonoBehaviour
             // X와 Z는 흔들림 이전의 논리적 위치(logicalPosition)를 유지합니다.
             Vector3 desiredPosition = new Vector3(logicalPosition.x, targetY, logicalPosition.z);
             
-            // 논리적 위치를 Lerp를 사용하여 부드럽게 이동 (산도알 특유의 카메라 워킹 + 지연)
-            logicalPosition = Vector3.Lerp(logicalPosition, desiredPosition, smoothSpeed * Time.deltaTime);
+            // 즉시 추적 모드: 피버 발사 후 동전을 순간이동처럼 따라감
+            if (instantTrackTimer > 0f)
+            {
+                logicalPosition = desiredPosition;
+                instantTrackTimer -= Time.deltaTime;
+            }
+            else
+            {
+                // 논리적 위치를 Lerp를 사용하여 부드럽게 이동 (산도알 특유의 카메라 워킹 + 지연)
+                logicalPosition = Vector3.Lerp(logicalPosition, desiredPosition, smoothSpeed * Time.deltaTime);
+            }
 
             Vector3 finalRenderPosition = logicalPosition;
 
@@ -64,13 +76,51 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    // 카메라를 즉시 타겟 위치로 스냅 (피버 발사 등 급격한 이동 시)
-    public void SnapToTarget()
+    // 카메라를 동전 중심으로 부드럽게 이동 (피버 줌인용)
+    private float originalX;
+    private bool isCenteredOnCoin = false;
+
+    public void CenterOnCoin(float duration)
     {
         if (target == null) return;
-        float targetY = target.position.y + yOffset;
-        logicalPosition = new Vector3(logicalPosition.x, targetY, logicalPosition.z);
-        transform.position = logicalPosition;
+        originalX = logicalPosition.x;
+        isCenteredOnCoin = true;
+        StartCoroutine(CenterRoutine(target.position.x, target.position.y + yOffset, duration));
+    }
+
+    public void RestoreCenter(float duration)
+    {
+        isCenteredOnCoin = false;
+        StartCoroutine(CenterRoutine(originalX, logicalPosition.y, duration));
+    }
+
+    private IEnumerator CenterRoutine(float targetX, float targetY, float duration)
+    {
+        Vector3 start = logicalPosition;
+        Vector3 end = new Vector3(targetX, targetY, start.z);
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            logicalPosition = Vector3.Lerp(start, end, t);
+            transform.position = logicalPosition;
+            yield return null;
+        }
+        logicalPosition = end;
+    }
+
+    // 일정 시간 동안 카메라가 동전을 순간이동처럼 즉시 따라감
+    public void StartInstantTrack(float duration)
+    {
+        instantTrackTimer = duration;
+        // 시작하는 순간도 즉시 스냅
+        if (target != null)
+        {
+            float targetY = target.position.y + yOffset;
+            logicalPosition = new Vector3(logicalPosition.x, targetY, logicalPosition.z);
+            transform.position = logicalPosition;
+        }
     }
 
     // 외부(CoinPhysics 등)에서 콤보 터치 시 호출하는 흔들림 함수

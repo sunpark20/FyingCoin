@@ -41,13 +41,28 @@ public class AtmosphereObjectSpawner : MonoBehaviour
     private Sprite circleSprite;
     private Sprite squareSprite;
 
+    // bg 에셋 스프라이트
+    private Sprite clouds1Sprite;
+    private Sprite clouds2Sprite;
+    private Sprite planetsSprite;
+
     void Start()
     {
-        // 원형, 사각형 기본 스프라이트 로드
+        // bg 에셋 스프라이트 로드
+        clouds1Sprite = Resources.Load<Sprite>("bg/clouds_1");
+        clouds2Sprite = Resources.Load<Sprite>("bg/clouds_2");
+        planetsSprite = Resources.Load<Sprite>("bg/planets");
+
+        // 빌트인 스프라이트 로드 (새, 유성, 제트기 등 에셋 없는 오브젝트용 폴백)
 #if UNITY_EDITOR
         circleSprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
         squareSprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Background.psd");
 #endif
+        // 에셋이 없을 경우 clouds를 circleSprite 폴백으로 사용
+        if (clouds1Sprite == null) clouds1Sprite = circleSprite;
+        if (clouds2Sprite == null) clouds2Sprite = circleSprite;
+        if (planetsSprite == null) planetsSprite = circleSprite;
+
         nextSpawnTime = Time.time + Random.Range(minSpawnDelay, maxSpawnDelay);
     }
 
@@ -96,15 +111,15 @@ public class AtmosphereObjectSpawner : MonoBehaviour
             // 대류권 (구름 또는 새)
             if (Random.value > 0.3f)
             {
-                // 구름 (흰색 반투명 동그라미/타원)
-                sr.sprite = circleSprite;
-                sr.color = new Color(1f, 1f, 1f, Random.Range(0.3f, 0.7f));
-                propGo.transform.localScale = new Vector3(Random.Range(2f, 5f), Random.Range(1f, 2f), 1f);
+                // 구름 (픽셀아트 clouds_1 / clouds_2 랜덤)
+                sr.sprite = Random.value > 0.5f ? clouds1Sprite : clouds2Sprite;
+                sr.color = new Color(1f, 1f, 1f, Random.Range(0.5f, 0.9f));
+                propGo.transform.localScale = Vector3.one * Random.Range(1.5f, 3.5f);
                 prop.velocity = new Vector2(Random.Range(-1f, 1f), Random.Range(-0.5f, 0.5f)); // 천천히 표류
             }
             else
             {
-                // 실루엣 새 (검은빛 타원)
+                // 실루엣 새 (검은빛 타원) — 에셋 없으므로 기존 유지
                 sr.sprite = circleSprite;
                 sr.color = new Color(0.1f, 0.1f, 0.15f, 0.8f);
                 propGo.transform.localScale = new Vector3(1f, 0.2f, 1f); // 얇게
@@ -113,18 +128,18 @@ public class AtmosphereObjectSpawner : MonoBehaviour
         }
         else if (currentAltitude < 5000f)
         {
-            // 성층권 (대형 풍선 또는 고고도 제트기)
+            // 성층권 (높은 구름 또는 고고도 제트기)
             if (Random.value > 0.5f)
             {
-                // 기상 관측 풍선
-                sr.sprite = circleSprite;
-                sr.color = Color.white;
-                propGo.transform.localScale = Vector3.one * Random.Range(1.5f, 3f);
-                prop.velocity = new Vector2(0, Random.Range(0.5f, 1f)); // 천천히 상승
+                // 높은 구름 (clouds_2)
+                sr.sprite = clouds2Sprite;
+                sr.color = new Color(1f, 1f, 1f, Random.Range(0.4f, 0.8f));
+                propGo.transform.localScale = Vector3.one * Random.Range(2f, 4f);
+                prop.velocity = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(0.3f, 0.8f)); // 천천히 표류
             }
             else
             {
-                // 제트기 (어두운 색)
+                // 제트기 (어두운 색) — 에셋 없으므로 기존 유지
                 sr.sprite = squareSprite;
                 sr.color = new Color(0.2f, 0.2f, 0.2f, 1f);
                 propGo.transform.localScale = new Vector3(2f, 0.5f, 1f);
