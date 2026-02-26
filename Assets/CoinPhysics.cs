@@ -185,6 +185,9 @@ public class CoinPhysics : MonoBehaviour
 
     void Update()
     {
+        // 궤적 보간 판정용: 이전 프레임 위치 저장 (Update 시작에서 저장해야 정확)
+        previousPosition = (Vector2)transform.position;
+
         // 최저 낙하 속도 제한 (너무 빨라지면 프레임 뚫고 나가는 버그 방지)
         if (rb.linearVelocity.y < maxFallSpeed)
         {
@@ -230,8 +233,7 @@ public class CoinPhysics : MonoBehaviour
 
         if (debugTouchTimer > 0) debugTouchTimer -= Time.deltaTime;
 
-        // 괤적 보간 판정용: 매 프레임 이전 위치 저장
-        previousPosition = (Vector2)transform.position;
+        // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
 
         // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
     }

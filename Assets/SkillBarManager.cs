@@ -181,6 +181,49 @@ public class SkillBarManager : MonoBehaviour
         cooldownOverlay.fillAmount = 0f;
         cooldownOverlay.raycastTarget = false;
 
+        // === 연사 토글 버튼 (피버 버튼 왼쪽) ===
+        GameObject rapidObj = new GameObject("RapidFireButton");
+        rapidObj.transform.SetParent(canvasObj.transform, false);
+
+        RectTransform rapidRect = rapidObj.AddComponent<RectTransform>();
+        rapidRect.anchorMin = new Vector2(1f, barTopY);
+        rapidRect.anchorMax = new Vector2(1f, barTopY);
+        rapidRect.pivot = new Vector2(1f, 0f);
+        rapidRect.anchoredPosition = new Vector2(-135f, 15f); // 피버 버튼 왼쪽 (100+15+20)
+        rapidRect.sizeDelta = new Vector2(100f, 100f);
+
+        Image rapidImage = rapidObj.AddComponent<Image>();
+        rapidImage.color = new Color(0.2f, 0.5f, 1f, 0.8f); // 파란색
+
+        Button rapidButton = rapidObj.AddComponent<Button>();
+        rapidButton.targetGraphic = rapidImage;
+
+        // 토글 동작
+        rapidButton.onClick.AddListener(() =>
+        {
+            CrosshairManager.autoFire = !CrosshairManager.autoFire;
+            rapidImage.color = CrosshairManager.autoFire
+                ? new Color(0f, 1f, 0.5f, 1f)    // ON: 밝은 초록
+                : new Color(0.2f, 0.5f, 1f, 0.8f); // OFF: 파란색
+            Debug.Log($"🔫 연사 모드: {(CrosshairManager.autoFire ? "ON" : "OFF")}");
+        });
+
+        // 버튼 텍스트
+        GameObject rapidLabelObj = new GameObject("RapidLabel");
+        rapidLabelObj.transform.SetParent(rapidObj.transform, false);
+        RectTransform rapidLabelRect = rapidLabelObj.AddComponent<RectTransform>();
+        rapidLabelRect.anchorMin = Vector2.zero;
+        rapidLabelRect.anchorMax = Vector2.one;
+        rapidLabelRect.offsetMin = Vector2.zero;
+        rapidLabelRect.offsetMax = Vector2.zero;
+
+        TextMeshProUGUI rapidLabel = rapidLabelObj.AddComponent<TextMeshProUGUI>();
+        rapidLabel.text = "R";
+        rapidLabel.fontSize = 36;
+        rapidLabel.alignment = TextAlignmentOptions.Center;
+        rapidLabel.color = Color.white;
+        if (customFont != null) rapidLabel.font = customFont;
+
         // === 피버 히트 카운트 텍스트 (화면 중앙 상단) ===
         GameObject hitObj = new GameObject("FeverHitCount");
         hitObj.transform.SetParent(canvasObj.transform, false);

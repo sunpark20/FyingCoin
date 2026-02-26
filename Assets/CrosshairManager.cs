@@ -15,6 +15,9 @@ public class CrosshairManager : MonoBehaviour
     
     // 외부에 공개할 상태
     public Vector2 CrosshairWorldPos { get; private set; }
+
+    // 연사 모드 (SkillBarManager에서 토글)
+    public static bool autoFire = false;
     
     private int currentAmmo;
     private float rechargeTimer;
@@ -76,6 +79,12 @@ public class CrosshairManager : MonoBehaviour
             Vector3 screenPos = RectTransformUtility.WorldToScreenPoint(null, crosshairUI.position);
             screenPos.z = Mathf.Abs(Camera.main.transform.position.z);
             CrosshairWorldPos = Camera.main.ScreenToWorldPoint(screenPos);
+        }
+
+        // 연사 모드: 활성화 시 매 프레임 자동 발사
+        if (autoFire)
+        {
+            OnShootPressed();
         }
     }
 
