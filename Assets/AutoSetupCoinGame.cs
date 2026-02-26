@@ -13,7 +13,7 @@ public class AutoSetupCoinGame : MonoBehaviour
         // 1. 완벽 탄성 / 마찰 0 인 물리 메테리얼 생성
         PhysicsMaterial2D mat = new PhysicsMaterial2D("AutoBouncy");
         mat.friction = 0f;
-        mat.bounciness = 1f;
+        mat.bounciness = 0.8f;
 
         // 존재하지 않을 때만 파일로 저장
         if (AssetDatabase.LoadAssetAtPath<PhysicsMaterial2D>("Assets/AutoBouncy.physicsMaterial2D") == null)
@@ -132,52 +132,47 @@ public class AutoSetupCoinGame : MonoBehaviour
         if (Camera.main != null)
         {
             // 배경색은 BackgroundManager에서 고도에 따라 자동 설정되므로 고정색 세팅은 제거
-            // 기존 배경/카메라 스크립트 정리
-            CameraController existingCamCtrl = Camera.main.GetComponent<CameraController>();
-            if (existingCamCtrl != null) DestroyImmediate(existingCamCtrl);
-            
-            BackgroundManager existingBgMgr = Camera.main.GetComponent<BackgroundManager>();
-            if (existingBgMgr != null) DestroyImmediate(existingBgMgr);
-
-            // 4-1. 카메라 추적 스크립트 부착
-            CameraController camCtrl = Camera.main.gameObject.AddComponent<CameraController>();
+            // 4-1. 카메라 추적 스크립트 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
+            CameraController camCtrl = Camera.main.GetComponent<CameraController>();
+            if (camCtrl == null)
+                camCtrl = Camera.main.gameObject.AddComponent<CameraController>();
             camCtrl.target = coin.transform;
             Debug.Log("🎥 카메라 무한 추적 세팅 완료!");
 
-            // 4-2. 배경색 변화 매니저 부착
-            BackgroundManager bgManager = Camera.main.gameObject.AddComponent<BackgroundManager>();
+            // 4-2. 배경색 변화 매니저 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
+            BackgroundManager bgManager = Camera.main.GetComponent<BackgroundManager>();
+            if (bgManager == null)
+                bgManager = Camera.main.gameObject.AddComponent<BackgroundManager>();
             bgManager.target = coin.transform;
             Debug.Log("🌌 고도별 대기권 배경색 변환 매니저 세팅 완료!");
 
-            // 4-3. 고도별 오브젝트 스포너 부착
+            // 4-3. 고도별 오브젝트 스포너 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
             AtmosphereObjectSpawner spawner = Camera.main.gameObject.GetComponent<AtmosphereObjectSpawner>();
-            if (spawner != null) DestroyImmediate(spawner);
-            
-            spawner = Camera.main.gameObject.AddComponent<AtmosphereObjectSpawner>();
+            if (spawner == null)
+                spawner = Camera.main.gameObject.AddComponent<AtmosphereObjectSpawner>();
             spawner.target = coin.transform;
             Debug.Log("🛸 고도별 대기권 배경 오브젝트 스포너 세팅 완료!");
 
-            // 4-4. 가속 시 화면 집중선 이펙트 매니저 부착
+            // 4-4. 가속 시 화면 집중선 이펙트 매니저 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
             SpeedLineManager speedLineMgr = Camera.main.gameObject.GetComponent<SpeedLineManager>();
-            if (speedLineMgr != null) DestroyImmediate(speedLineMgr);
-
-            speedLineMgr = Camera.main.gameObject.AddComponent<SpeedLineManager>();
+            if (speedLineMgr == null)
+                speedLineMgr = Camera.main.gameObject.AddComponent<SpeedLineManager>();
             speedLineMgr.target = coin.transform;
             Debug.Log("⚡ 최고 속도 시 발생하는 스피드 집중선 효과 세팅 완료!");
 
-            // 4-5. 게임 시작 오프닝 매니저 및 폰트 부착
-            OpeningManager existingOpening = Camera.main.gameObject.GetComponent<OpeningManager>();
-            if (existingOpening != null) DestroyImmediate(existingOpening);
-
-            OpeningManager openingMgr = Camera.main.gameObject.AddComponent<OpeningManager>();
+            // 4-5. 게임 시작 오프닝 매니저 및 폰트 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
+            OpeningManager openingMgr = Camera.main.gameObject.GetComponent<OpeningManager>();
+            if (openingMgr == null)
+                openingMgr = Camera.main.gameObject.AddComponent<OpeningManager>();
             
-            // 4-6. 모바일 해상도(가로폭 고정) 카메라 세팅 부착
-            MobileCameraAspect existingAspect = Camera.main.gameObject.GetComponent<MobileCameraAspect>();
-            if (existingAspect != null) DestroyImmediate(existingAspect);
-            
-            MobileCameraAspect aspectMgr = Camera.main.gameObject.AddComponent<MobileCameraAspect>();
-            // 벽 외측 엣지(5.5) = 벽 중심(5) + 반두께(0.5) → 화면 가장자리에 벽이 딱 맞게 배치됨
-            aspectMgr.targetHalfWidth = 5.5f;
+            // 4-6. 모바일 해상도(가로폭 고정) 카메라 세팅 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
+            MobileCameraAspect aspectMgr = Camera.main.gameObject.GetComponent<MobileCameraAspect>();
+            if (aspectMgr == null)
+            {
+                aspectMgr = Camera.main.gameObject.AddComponent<MobileCameraAspect>();
+                // 벽 외측 엣지(5.5) = 벽 중심(5) + 반두께(0.5) → 화면 가장자리에 벽이 딱 맞게 배치됨
+                aspectMgr.targetHalfWidth = 5.5f;
+            }
             Debug.Log("📱 모바일 화면 비율 유지(MobileCameraAspect) 매니저 세팅 완료!");
             
             // 폰트 찾기 (TMP_FontAsset으로 검색 - Unity에서 2002.ttf를 TMP 폰트 에셋으로 변환 필요)

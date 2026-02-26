@@ -20,11 +20,11 @@ public class CoinPhysics : MonoBehaviour
     [Tooltip("동전 크기 배율 (1.0 = 기본, 0.8 = 20% 작게). 크기와 판정 범위가 동시에 조절됨")]
     public float coinScale = 0.7f;
 
-    [Tooltip("기초 중력 조절 (기본 0.5 - 테스트용 느린 속도)")]
-    public float gravityScale = 0.5f; 
+    [Tooltip("기초 중력 조절")]
+    public float gravityScale = 1.5f; 
     
-    [Tooltip("첫 터치 시 위로 솟구치는 기본 속도 (테스트용 느린 값)")]
-    public float jumpVelocity = 5f; 
+    [Tooltip("첫 터치 시 위로 솟구치는 기본 속도")]
+    public float jumpVelocity = 20f; 
     
     [Header("사운드 이펙트")]
     [Tooltip("동전을 맞출 때마다 랜덤으로 재생될 소리 목록")]
@@ -35,8 +35,8 @@ public class CoinPhysics : MonoBehaviour
     private AudioSource audioSource;
     
     [Header("더블 콤보 액션 세팅")]
-    [Tooltip("연속 터치로 인정받기 위한 제한 시간 (초 단위, ex: 0.5초 안에 또 때려야 함)")]
-    public float comboTimeLimit = 0.5f;
+    [Tooltip("연속 터치로 인정받기 위한 제한 시간 (초 단위)")]
+    public float comboTimeLimit = 0.3f;
     
     [Tooltip("더블 클릭 시 원래 점프력에 곱해지는 파워업 배율 (1.5 = 1.5배 더 세짐)")]
     public float comboMultiplier = 1.5f;
@@ -51,17 +51,17 @@ public class CoinPhysics : MonoBehaviour
     
     [Space(10)]
     [Tooltip("맞은 위치에 비례하여 생기는 빙글빙글 스핀 속도 배율 (Z축 2D 회전)")]
-    public float spinMultiplier = 500f;
+    public float spinMultiplier = 600f;
     
     [Header("시각적 3D 효과 (가짜 3D 회전)")]
     [Tooltip("동전이 위아래로 튀어 오를 때 앞으로 덤블링하는 3D 시각 효과 속도")]
-    public float visual3DSpinSpeed = 1500f;
+    public float visual3DSpinSpeed = 500f;
 
-    [Tooltip("가장자리를 맞췄을 때 좌우로 튕겨 나가는 힘의 강도 (기본 40)")]
-    public float horizontalBounceForce = 40f;
+    [Tooltip("가장자리를 맞췄을 때 좌우로 튕겨 나가는 힘의 강도")]
+    public float horizontalBounceForce = 20f;
     
-    [Tooltip("최대 하강 속도 제한 (테스트용 느릴 값)")]
-    public float maxFallSpeed = -3f;
+    [Tooltip("최대 하강 속도 제한")]
+    public float maxFallSpeed = -200f;
 
     [Header("동전 앞뒷면 스프라이트")]
     [Tooltip("동전 옆면 최소 Y스케일 (0에 가까울수록 얇음, 0.05 = 5%)")]
@@ -88,8 +88,9 @@ public class CoinPhysics : MonoBehaviour
     private string debugTouchMsg = "";
     private float debugTouchTimer = 0f;
 
-    // 괤적 보간 판정용 (이전 프레임 위치 저장)
+    // 궤적 보간 판정용 (이전 프레임 위치)
     private Vector2 previousPosition;
+    private Vector2 lastSavedPosition; // 프레임 끝에 저장 → 다음 프레임 시작에 previousPosition으로 복사
 
     void Start()
     {
@@ -185,8 +186,8 @@ public class CoinPhysics : MonoBehaviour
 
     void Update()
     {
-        // 궤적 보간 판정용: 이전 프레임 위치 저장 (Update 시작에서 저장해야 정확)
-        previousPosition = (Vector2)transform.position;
+        // 괤적 보간: 이전 프레임에 저장한 위치를 복사 (스크립트 실행 순서에 무관하게 정확)
+        previousPosition = lastSavedPosition;
 
         // 최저 낙하 속도 제한 (너무 빨라지면 프레임 뚫고 나가는 버그 방지)
         if (rb.linearVelocity.y < maxFallSpeed)
@@ -235,7 +236,8 @@ public class CoinPhysics : MonoBehaviour
 
         // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
 
-        // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
+        // 괤적 보간: 현재 프레임 위치를 저장 (다음 프레임에서 previousPosition으로 사용)
+        lastSavedPosition = (Vector2)transform.position;
     }
 
     // CrosshairManager (과녁 시스템)에서 버튼을 누를 때 호출되는 새로운 발사 함수
@@ -388,7 +390,10 @@ public class CoinPhysics : MonoBehaviour
             {
                 CameraController camCtrl = Camera.main.gameObject.GetComponent<CameraController>();
                 if (camCtrl != null)
+                {
                     camCtrl.TriggerShake(0.6f, 0.15f);
+                    camCtrl.TriggerComboLag(1.0f); // 1초간 카메라 거의 정지 → 동전 화면 위로!
+                }
             }
 
             // 초음속 스피드라인 연출
@@ -414,7 +419,7 @@ public class CoinPhysics : MonoBehaviour
         float horizontalSpeed = -offsetX * horizontalBounceForce;
 
         // 콤보 시 약간 더 튀기 (1.0 = 동일, 1.2 = 20% 더 튀김 — 이 값을 조절하세요!)
-        float comboPhysicsBoost = (currentCombo >= 2) ? 3.0f : 0.8f;
+        float comboPhysicsBoost = (currentCombo >= 2) ? 1.5f : 1.0f;
         rb.linearVelocity = new Vector2(horizontalSpeed, jumpVelocity * comboPhysicsBoost);
 
         // 영상 분석 4: 맞은 타점(중심점 대비 좌/우)에 따라 아케이드스러운 엄청난 회전(스핀) 부여

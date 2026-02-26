@@ -9,10 +9,14 @@ public class CameraController : MonoBehaviour
 
     [Header("카메라 세팅")]
     [Tooltip("카메라가 동전을 따라가는 속도 (클수록 빠름)")]
-    public float smoothSpeed = 10f;
+    public float smoothSpeed = 8f;
     
     [Tooltip("화면 중앙에서 동전이 얼마나 아래/위에 위치하게 할지 오프셋")]
     public float yOffset = 1.0f;
+
+    [Tooltip("상승 시 카메라 추적 비율 (0.1=느리게, 1.0=기본속도)")]
+    [Range(0.05f, 1.0f)]
+    public float riseTrackingRatio = 0.15f;
 
     private float baseSmoothSpeed;
 
@@ -35,6 +39,10 @@ public class CameraController : MonoBehaviour
         logicalPosition = transform.position;
     }
 
+    // 콤보 시 카메라 추적을 느리게 하여 동전이 화면 위로 올라가는 연출
+    private float comboLagTimer = 0f;
+    private float comboLagSpeed = 0.3f; // 콤보 중 카메라 추적 속도 (매우 느리게)
+
     void LateUpdate()
     {
         if (target != null)
@@ -53,8 +61,24 @@ public class CameraController : MonoBehaviour
             }
             else
             {
-                // 논리적 위치를 Lerp를 사용하여 부드럽게 이동 (산도알 특유의 카메라 워킹 + 지연)
-                logicalPosition = Vector3.Lerp(logicalPosition, desiredPosition, smoothSpeed * Time.deltaTime);
+                // 콤보 래그: 카메라 추적을 완전 정지 → 동전이 화면 위로!
+                float currentSpeed = smoothSpeed;
+                if (comboLagTimer > 0f)
+                {
+                    comboLagTimer -= Time.deltaTime;
+                    currentSpeed = 0f; // 완전 정지! 테스트용
+                    Debug.Log($"📷 래그 활성 중! timer={comboLagTimer:F2} speed={currentSpeed} camY={logicalPosition.y:F1} coinY={target.position.y:F1}");
+                }
+                else
+                {
+                    // 비대칭 추적: 동전이 카메라 위에 있으면(상승 중) 느리게, 아래에 있으면(하강 중) 빠르게
+                    float coinScreenY = target.position.y - logicalPosition.y;
+                    if (coinScreenY > yOffset)
+                    {
+                        currentSpeed = smoothSpeed * riseTrackingRatio; // 상승 시 느리게 추적 → 동전이 화면 위로!
+                    }
+                }
+                logicalPosition = Vector3.Lerp(logicalPosition, desiredPosition, currentSpeed * Time.deltaTime);
             }
 
             Vector3 finalRenderPosition = logicalPosition;
@@ -121,6 +145,13 @@ public class CameraController : MonoBehaviour
             logicalPosition = new Vector3(logicalPosition.x, targetY, logicalPosition.z);
             transform.position = logicalPosition;
         }
+    }
+
+    // 콤보 시 카메라 추적을 느리게 하여 동전이 화면 위로 날아가는 연출
+    public void TriggerComboLag(float duration)
+    {
+        comboLagTimer = duration;
+        Debug.Log($"📷 콤보 카메라 래그 {duration}초 (추적속도 {comboLagSpeed})");
     }
 
     // 외부(CoinPhysics 등)에서 콤보 터치 시 호출하는 흔들림 함수
