@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
     // [디버그] 하단 디버그 패널
     private TextMeshProUGUI debugText;
 
+    // 바닥벽 추적용 (동전이 버튼 영역에 안 내려오게)
+    private Transform bottomWallTransform;
+
     void Start()
     {
         if (coinTransform != null)
@@ -36,6 +39,7 @@ public class GameManager : MonoBehaviour
         }
 
         CreateDebugUI();
+        BootstrapManagers();
     }
 
     private void AdjustBottomWall(Camera cam)
@@ -84,31 +88,22 @@ public class GameManager : MonoBehaviour
                 Camera.main.orthographicSize = 5.5f / aspect;
                 cameraApplied = true;
                 Debug.Log($"📱 [GameManager] 카메라 강제 설정: orthoSize={Camera.main.orthographicSize:F2}, 해상도={w}x{h}, 비율={aspect:F4}");
-
-                // [바닥 벽 보정] 화면 하단에 바닥 벽 맞춤
-                AdjustBottomWall(Camera.main);
             }
         }
 
+        // 바닥벽을 카메라 하단에서 (1/8 빈 영역 + 1/6 조이스틱 바) 위치로 추적
+        UpdateBottomWall();
+
         if (coinTransform != null && heightText != null)
         {
-            // 현재 높이 계산 (시작점 대비 얼마나 올라왔는지)
             float currentHeight = (coinTransform.position.y - initialY) * heightMultiplier;
+            currentHeight += CoinPhysics.comboBonusHeight; // 콤보 보너스 높이 합산
             
-            // 공중에 있을 때(0m 이상일 때) 혹은 최고 기록 갱신 시 업데이트
             if (currentHeight > highestAltitude)
-            {
                 highestAltitude = currentHeight;
-            }
 
-            // 바닥 밑(-y)으로 떨어지면 그냥 0m로 표시
             if (currentHeight < 0) currentHeight = 0;
-
-            // 소수점 1자리까지 표시 (예: 15.2m)
             heightText.text = currentHeight.ToString("F1") + "m";
-
-            // 만약 최고 기록만 찍고 싶다면 아래 코드를 사용하세요.
-            // heightText.text = highestAltitude.ToString("F1") + "m";
         }
 
         // [디버그] 더블 탭 간격 표시
@@ -117,5 +112,51 @@ public class GameManager : MonoBehaviour
             if (CoinPhysics.lastPairDeltaMs > 0f)
                 debugText.text = $"Tap: {CoinPhysics.lastPairDeltaMs:F0} ms";
         }
+    }
+
+    /// <summary>씬에 CrosshairManager / SkillBarManager가 없으면 자동 생성</summary>
+    private void BootstrapManagers()
+    {
+        if (FindAnyObjectByType<CrosshairManager>() == null)
+        {
+            GameObject chObj = new GameObject("CrosshairManager");
+            chObj.AddComponent<CrosshairManager>();
+            Debug.Log("🎯 CrosshairManager 자동 생성");
+        }
+
+        if (FindAnyObjectByType<SkillBarManager>() == null)
+        {
+            GameObject skObj = new GameObject("SkillBarManager");
+            skObj.AddComponent<SkillBarManager>();
+            Debug.Log("🔥 SkillBarManager 자동 생성");
+        }
+
+        // 바닥벽에 Kinematic Rigidbody2D 추가 (매 프레임 이동을 효율적으로 처리)
+        GameObject bw = GameObject.Find("BottomWall_Auto");
+        if (bw != null)
+        {
+            bottomWallTransform = bw.transform;
+            Rigidbody2D wallRb = bw.GetComponent<Rigidbody2D>();
+            if (wallRb == null)
+            {
+                wallRb = bw.AddComponent<Rigidbody2D>();
+                wallRb.bodyType = RigidbodyType2D.Kinematic;
+            }
+        }
+    }
+
+    /// <summary>바닥벽을 화면 하단 (1/8 빈 영역 + 1/6 바) 위치로 실시간 추적</summary>
+    private void UpdateBottomWall()
+    {
+        if (bottomWallTransform == null || Camera.main == null) return;
+
+        Camera cam = Camera.main;
+        float screenHeight = cam.orthographicSize * 2f;
+        // 하단 빈 영역(1/8) + 조이스틱 바(1/6) = 7/24 ≈ 0.292
+        float barWorldHeight = screenHeight * (1f / 8f + 1f / 6f);
+        float gameAreaBottom = cam.transform.position.y - cam.orthographicSize + barWorldHeight;
+
+        // 벽 윗면이 게임 영역 하단에 오도록 배치 (벽 높이의 절반만큼 아래로)
+        bottomWallTransform.position = new Vector2(0, gameAreaBottom - 0.5f);
     }
 }

@@ -58,6 +58,11 @@ public class AtmosphereObjectSpawner : MonoBehaviour
         circleSprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
         squareSprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Background.psd");
 #endif
+        // iOS 빌드에서도 동작하도록 Resources 폴백
+        if (circleSprite == null)
+            circleSprite = Resources.Load<Sprite>("circle");
+        if (squareSprite == null)
+            squareSprite = Resources.Load<Sprite>("square");
         // 에셋이 없을 경우 clouds를 circleSprite 폴백으로 사용
         if (clouds1Sprite == null) clouds1Sprite = circleSprite;
         if (clouds2Sprite == null) clouds2Sprite = circleSprite;
@@ -162,8 +167,17 @@ public class AtmosphereObjectSpawner : MonoBehaviour
         }
         else
         {
-            // 열권, 외기권 이상 (인공위성 또는 우주 배경의 별)
-            if (Random.value > 0.8f) // 20% 확률로 인공위성/우주쓰레기
+            // 열권, 외기권 이상 (행성, 인공위성, 우주 배경의 별)
+            float rand = Random.value;
+            if (rand > 0.9f) // 10% 확률로 거대한 행성 등장
+            {
+                sr.sprite = planetsSprite;
+                sr.color = new Color(1f, 1f, 1f, Random.Range(0.6f, 1f));
+                propGo.transform.localScale = Vector3.one * Random.Range(3f, 8f); // 행성 크기 크게
+                prop.velocity = new Vector2(0f, Random.Range(-0.1f, -0.5f)); // 매우 느리게 이동
+                sr.sortingOrder = -15; // 별보다는 앞, 동전보다는 뒤
+            }
+            else if (rand > 0.7f) // 20% 확률로 인공위성/우주쓰레기
             {
                 sr.sprite = squareSprite;
                 sr.color = new Color(0.6f, 0.6f, 0.6f, 1f); // 회색
@@ -171,7 +185,7 @@ public class AtmosphereObjectSpawner : MonoBehaviour
                 prop.velocity = new Vector2(Random.Range(-1f, 1f), Random.Range(-0.5f, -2f)); // 서서히 표류
                 prop.rotateSpeed = Random.Range(-45f, 45f); // 뱅글뱅글 돎
             }
-            else // 80% 확률로 심우주의 작은 별들 (패럴랙스 용도)
+            else // 70% 확률로 심우주의 작은 별들 (패럴랙스 용도)
             {
                 sr.sprite = circleSprite;
                 sr.color = new Color(1f, 1f, 1f, Random.Range(0.4f, 1f)); // 반짝이는 하얀 별

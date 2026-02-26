@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using TMPro;
 
-// 하단 스킬바 UI + 피버 스킬 로직을 관리하는 매니저
+// 스킬 버튼 UI + 피버 스킬 로직을 관리하는 매니저
+// 스킬 버튼은 화면 우측, 하단 바(1/6) 바로 위에 작게 배치
 public class SkillBarManager : MonoBehaviour
 {
     [Header("피버 스킬 설정")]
@@ -40,7 +40,7 @@ public class SkillBarManager : MonoBehaviour
     private Transform coinTransform;
     private Rigidbody2D coinRb;
     private Vector3 originalCoinScale;
-    private Vector2 originalCoinPosition; // 피버 전 동전 위치 저장
+    private Vector2 originalCoinPosition;
     private float originalCameraSize;
     private float originalGravityScale;
     private CameraController cameraController;
@@ -50,10 +50,8 @@ public class SkillBarManager : MonoBehaviour
 
     void Start()
     {
-        // 폰트 로드
         customFont = Resources.Load<TMPro.TMP_FontAsset>("2002 SDF");
 
-        // 동전 찾기
         GameObject coin = GameObject.Find("Coin");
         if (coin != null)
         {
@@ -61,7 +59,6 @@ public class SkillBarManager : MonoBehaviour
             coinRb = coin.GetComponent<Rigidbody2D>();
         }
 
-        // 카메라 컨트롤러 참조
         if (Camera.main != null)
             cameraController = Camera.main.GetComponent<CameraController>();
 
@@ -101,7 +98,7 @@ public class SkillBarManager : MonoBehaviour
 
     private void CreateUI()
     {
-        // 스킬바 Canvas 생성
+        // === 캔버스 ===
         GameObject canvasObj = new GameObject("SkillBarCanvas");
         skillCanvas = canvasObj.AddComponent<Canvas>();
         skillCanvas.renderMode = RenderMode.ScreenSpaceOverlay;
@@ -111,40 +108,32 @@ public class SkillBarManager : MonoBehaviour
         scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
         scaler.referenceResolution = new Vector2(1080, 1920);
         scaler.matchWidthOrHeight = 0.5f;
-
         canvasObj.AddComponent<GraphicRaycaster>();
 
-        // EventSystem이 씬에 없으면 자동 생성 (버튼 터치 인식에 필수)
-        if (FindObjectOfType<EventSystem>() == null)
-        {
-            GameObject eventSystem = new GameObject("EventSystem");
-            eventSystem.AddComponent<EventSystem>();
-            eventSystem.AddComponent<StandaloneInputModule>();
-        }
+        // === 피버 버튼 (우측, 하단 바 바로 위에 작게) ===
+        float barTopY = 1f / 8f + 1f / 6f; // 빈 영역(1/8) + 조이스틱 바(1/6) = 약 0.292
 
-        // 스킬 버튼 생성
         GameObject btnObj = new GameObject("FeverButton");
         btnObj.transform.SetParent(canvasObj.transform, false);
 
         RectTransform btnRect = btnObj.AddComponent<RectTransform>();
-        btnRect.anchorMin = new Vector2(0.5f, 0f);
-        btnRect.anchorMax = new Vector2(0.5f, 0f);
-        btnRect.pivot = new Vector2(0.5f, 0f);
-        btnRect.anchoredPosition = new Vector2(0f, 40f);
-        btnRect.sizeDelta = new Vector2(200f, 200f);
+        btnRect.anchorMin = new Vector2(1f, barTopY);
+        btnRect.anchorMax = new Vector2(1f, barTopY);
+        btnRect.pivot = new Vector2(1f, 0f); // 우하단 피벗
+        btnRect.anchoredPosition = new Vector2(-20f, 15f); // 우측 가장자리에서 20px, 바 위 15px
+        btnRect.sizeDelta = new Vector2(100f, 100f);
 
         Image btnImage = btnObj.AddComponent<Image>();
-        btnImage.color = new Color(1f, 0.3f, 0.1f, 0.85f); // 붉은 오렌지
+        btnImage.color = new Color(1f, 0.3f, 0.1f, 1f); // 불투명 붉은 오렌지
 
         feverButton = btnObj.AddComponent<Button>();
         feverButton.targetGraphic = btnImage;
 
-        // 버튼 색상 설정
         ColorBlock colors = feverButton.colors;
-        colors.normalColor = new Color(1f, 0.3f, 0.1f, 0.85f);
+        colors.normalColor = new Color(1f, 0.3f, 0.1f, 1f);
         colors.highlightedColor = new Color(1f, 0.5f, 0.2f, 1f);
         colors.pressedColor = new Color(0.8f, 0.2f, 0.05f, 1f);
-        colors.disabledColor = new Color(0.4f, 0.4f, 0.4f, 0.6f);
+        colors.disabledColor = new Color(0.4f, 0.4f, 0.4f, 0.8f);
         feverButton.colors = colors;
 
         feverButton.onClick.AddListener(ActivateFever);
@@ -159,13 +148,13 @@ public class SkillBarManager : MonoBehaviour
         labelRect.offsetMax = Vector2.zero;
 
         buttonLabel = labelObj.AddComponent<TextMeshProUGUI>();
-        buttonLabel.text = "FEVER";
-        buttonLabel.fontSize = 42;
+        buttonLabel.text = "F";
+        buttonLabel.fontSize = 36;
         buttonLabel.alignment = TextAlignmentOptions.Center;
         buttonLabel.color = Color.white;
         if (customFont != null) buttonLabel.font = customFont;
 
-        // 쿨다운 오버레이 (버튼 위에 덮는 반투명 이미지)
+        // 쿨다운 오버레이
         GameObject overlayObj = new GameObject("CooldownOverlay");
         overlayObj.transform.SetParent(btnObj.transform, false);
         RectTransform overlayRect = overlayObj.AddComponent<RectTransform>();
@@ -183,7 +172,7 @@ public class SkillBarManager : MonoBehaviour
         cooldownOverlay.fillAmount = 0f;
         cooldownOverlay.raycastTarget = false;
 
-        // 피버 히트 카운트 텍스트 (화면 중앙 상단)
+        // === 피버 히트 카운트 텍스트 (화면 중앙 상단) ===
         GameObject hitObj = new GameObject("FeverHitCount");
         hitObj.transform.SetParent(canvasObj.transform, false);
         RectTransform hitRect = hitObj.AddComponent<RectTransform>();
@@ -197,12 +186,12 @@ public class SkillBarManager : MonoBehaviour
         hitCountText.text = "";
         hitCountText.fontSize = 96;
         hitCountText.alignment = TextAlignmentOptions.Center;
-        hitCountText.color = new Color(1f, 1f, 0f, 1f); // 노란색
+        hitCountText.color = new Color(1f, 1f, 0f, 1f);
         hitCountText.enableWordWrapping = false;
         if (customFont != null) hitCountText.font = customFont;
         hitObj.SetActive(false);
 
-        // 피버 타이머 텍스트 (히트 카운트 아래)
+        // === 피버 타이머 텍스트 ===
         GameObject timerObj = new GameObject("FeverTimer");
         timerObj.transform.SetParent(canvasObj.transform, false);
         RectTransform timerRect = timerObj.AddComponent<RectTransform>();
@@ -237,7 +226,6 @@ public class SkillBarManager : MonoBehaviour
         CoinPhysics.feverHitPower = 0f;
         feverTimer = feverDuration;
 
-        // 버튼 비활성
         if (feverButton != null)
             feverButton.interactable = false;
 
@@ -248,12 +236,12 @@ public class SkillBarManager : MonoBehaviour
         coinRb.gravityScale = 0f;
         coinRb.constraints = RigidbodyConstraints2D.FreezeAll;
 
-        // 동전을 화면 정중앙으로 이동 (어디에 있든 중앙에서 확대)
+        // 동전을 화면 정중앙으로 이동
         originalCoinPosition = coinRb.position;
-        Vector2 screenCenter = Camera.main.transform.position; // 카메라 중심 = 화면 중앙
-        coinRb.constraints = RigidbodyConstraints2D.None; // 이동 위해 잠시 해제
+        Vector2 screenCenter = Camera.main.transform.position;
+        coinRb.constraints = RigidbodyConstraints2D.None;
         coinRb.position = screenCenter;
-        coinRb.constraints = RigidbodyConstraints2D.FreezeAll; // 다시 고정
+        coinRb.constraints = RigidbodyConstraints2D.FreezeAll;
 
         // 동전 확대 (Lerp)
         originalCoinScale = coinTransform.localScale;
@@ -268,7 +256,7 @@ public class SkillBarManager : MonoBehaviour
         }
         coinTransform.localScale = targetScale;
 
-        // 카메라 줌인 (동전이 이미 중앙에 있으므로 줌만)
+        // 카메라 줌인
         if (Camera.main != null)
         {
             originalCameraSize = Camera.main.orthographicSize;
@@ -283,9 +271,7 @@ public class SkillBarManager : MonoBehaviour
             hitCountText.text = "0 hits!";
         }
         if (timerText != null)
-        {
             timerText.gameObject.SetActive(true);
-        }
 
         // --- 5초 대기 ---
         yield return new WaitForSeconds(feverDuration);
@@ -294,7 +280,6 @@ public class SkillBarManager : MonoBehaviour
         CoinPhysics.isFeverActive = false;
         int finalHits = CoinPhysics.feverHitCount;
 
-        // UI 숨김
         if (hitCountText != null)
             hitCountText.gameObject.SetActive(false);
         if (timerText != null)
@@ -311,7 +296,6 @@ public class SkillBarManager : MonoBehaviour
         }
         coinTransform.localScale = originalCoinScale;
 
-        // 카메라 원복 (줌)
         if (cameraController != null)
             cameraController.ZoomTo(originalCameraSize, 0.3f);
 
@@ -321,16 +305,13 @@ public class SkillBarManager : MonoBehaviour
         float gravity = 9.81f * originalGravityScale;
         float peakHeight = (bonusVelocity * bonusVelocity) / (2f * gravity);
 
-        // ★ 제약 해제 → 원래 위치 기준으로 정점 순간이동
         coinRb.constraints = RigidbodyConstraints2D.None;
         coinRb.gravityScale = originalGravityScale;
 
-        // 동전을 원래 X위치 + 정점 높이로 순간이동 (화면 중앙이 아니라 원래 있던 곳 기준)
         Vector2 peakPos = new Vector2(originalCoinPosition.x, originalCoinPosition.y + peakHeight);
         coinRb.position = peakPos;
         coinRb.linearVelocity = Vector2.zero;
 
-        // 카메라도 즉시 정점으로 스냅 + 낙하 동안 즉시 추적
         float fallTime = Mathf.Sqrt(2f * peakHeight / gravity) + 1f;
         if (cameraController != null)
         {

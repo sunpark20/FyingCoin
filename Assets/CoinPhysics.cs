@@ -13,12 +13,15 @@ public class CoinPhysics : MonoBehaviour
     public static int feverHitCount = 0;        // 터치 횟수 (UI 표시용)
     public static float feverHitPower = 0f;      // 거리 가중치 누적 (보너스 계산용)
 
+    // 콤보 보너스 높이 (GameManager에서 참조하여 높이 표시에 합산)
+    public static float comboBonusHeight = 0f;
+
     [Header("산도알 스타일 물리 파라미터")]
-    [Tooltip("기초 중력 조절 (기본 2.0 - 숫자가 클수록 무겁고 빨리 떨어짐)")]
-    public float gravityScale = 2.0f; 
+    [Tooltip("기초 중력 조절 (기본 0.5 - 테스트용 느린 속도)")]
+    public float gravityScale = 0.5f; 
     
-    [Tooltip("첫 터치 시 위로 솟구치는 기본 속도 (기본 10)")]
-    public float jumpVelocity = 10f; 
+    [Tooltip("첫 터치 시 위로 솟구치는 기본 속도 (테스트용 느린 값)")]
+    public float jumpVelocity = 5f; 
     
     [Header("사운드 이펙트")]
     [Tooltip("동전을 맞출 때마다 랜덤으로 재생될 소리 목록")]
@@ -54,8 +57,8 @@ public class CoinPhysics : MonoBehaviour
     [Tooltip("가장자리를 맞췄을 때 좌우로 튕겨 나가는 힘의 강도 (기본 40)")]
     public float horizontalBounceForce = 40f;
     
-    [Tooltip("최대 하강 속도 제한 (너무 빨리 떨어져서 누르기 힘든 현상 방지)")]
-    public float maxFallSpeed = -10f;
+    [Tooltip("최대 하강 속도 제한 (테스트용 느릴 값)")]
+    public float maxFallSpeed = -3f;
 
     [Header("동전 앞뒷면 스프라이트")]
     [Tooltip("동전 옆면 최소 Y스케일 (0에 가까울수록 얇음, 0.05 = 5%)")]
@@ -74,6 +77,13 @@ public class CoinPhysics : MonoBehaviour
     [Tooltip("구멍 이미지의 렌더링 레이어 (동전보다 높아야 앞에 보임)")]
     [SerializeField] private int holeSortingOrder = 10;
     private Sprite holeSprite;
+
+    // [추가] 터치 가능 영역을 표시할 정면 가이드 오브젝트
+    private GameObject touchVisualizer;
+
+    // 디버그용 텍스트 변수
+    private string debugTouchMsg = "";
+    private float debugTouchTimer = 0f;
 
     void Start()
     {
@@ -125,6 +135,38 @@ public class CoinPhysics : MonoBehaviour
             
             // 통통 튀게 하려면 PhysicsMaterial2D(Bounciness=1, Friction=0)를 Collider에 넣어야 합니다.
         }
+
+        // 터치 영역 가이드 이미지 생성
+        CreateTouchVisualizer();
+    }
+
+    private void CreateTouchVisualizer()
+    {
+        touchVisualizer = new GameObject("TouchAreaIndicator");
+        SpriteRenderer vsr = touchVisualizer.AddComponent<SpriteRenderer>();
+        
+        if (holeSprite != null)
+        {
+            vsr.sprite = holeSprite; // circle.png를 holeSprite에 로드해둠
+            vsr.color = new Color(0.5f, 0.5f, 0.5f, 0.5f); // 회색 50% 투명
+            vsr.sortingOrder = sr != null ? sr.sortingOrder - 2 : -2; // 동전 뒤
+            
+            // 터치 반경(touchRadius)에 딱 맞게 스케일 조정
+            float circleSize = vsr.sprite.bounds.size.x;
+            if (circleSize > 0)
+            {
+                float targetScale = (touchRadius * 2f) / circleSize;
+                touchVisualizer.transform.localScale = new Vector3(targetScale, targetScale, 1f);
+            }
+        }
+        else if (frontSprite != null)
+        {
+            // circle.png가 없으면 그냥 동전 정면을 사용
+            vsr.sprite = frontSprite;
+            vsr.color = new Color(0.5f, 0.5f, 0.5f, 0.5f);
+            vsr.sortingOrder = sr != null ? sr.sortingOrder - 2 : -2;
+            touchVisualizer.transform.localScale = transform.localScale;
+        }
     }
 
     void Update()
@@ -167,34 +209,58 @@ public class CoinPhysics : MonoBehaviour
             transform.localScale = s;
         }
 
-        // 에디터/PC 마우스
-        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        if (touchVisualizer != null)
         {
-            Vector2 pos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            TryHitAt(pos);
+            touchVisualizer.transform.position = transform.position;
         }
 
-        // iOS 실기기 터치
-        var ts = Touchscreen.current;
-        if (ts != null && ts.primaryTouch.press.wasPressedThisFrame)
-        {
-            Vector2 pos = Camera.main.ScreenToWorldPoint(ts.primaryTouch.position.ReadValue());
-            TryHitAt(pos);
-        }
+        if (debugTouchTimer > 0) debugTouchTimer -= Time.deltaTime;
+
+        // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
     }
 
-    private void TryHitAt(Vector2 worldPos)
+    // CrosshairManager (과녁 시스템)에서 버튼을 누를 때 호출되는 새로운 발사 함수
+    public void TryHitFromCrosshair(Vector2 worldPos)
     {
+        SetDebugText("과녁 발사! (총)");
+        
         // 정면 기준 원형 터치 영역 (Y스케일 변해도 항상 동일한 크기)
         float dist = Vector2.Distance(worldPos, (Vector2)transform.position);
         if (dist <= touchRadius)
         {
             Debug.Log($"동전 맞춤! 좌표: {worldPos}");
+            SetDebugText(debugTouchMsg + "\n-> 동전 명중!");
             HitCoin(worldPos);
         }
         else
         {
             Debug.Log($"빗나감! 좌표: {worldPos}, 충돌체: 없음");
+            SetDebugText(debugTouchMsg + "\n-> 빗나감(허공)");
+        }
+    }
+
+    private void SetDebugText(string msg)
+    {
+        debugTouchMsg = msg;
+        debugTouchTimer = 1.0f;
+    }
+
+    void OnGUI()
+    {
+        if (debugTouchTimer > 0)
+        {
+            GUIStyle style = new GUIStyle();
+            style.fontSize = Screen.width / 15;
+            style.normal.textColor = Color.yellow;
+            style.fontStyle = FontStyle.Bold;
+            
+            // 글자 테두리(그림자) 효과를 위해 여러 번 그림
+            Rect rect = new Rect(50, 100, Screen.width, Screen.height / 10);
+            GUIStyle shadow = new GUIStyle(style);
+            shadow.normal.textColor = Color.black;
+            
+            GUI.Label(new Rect(rect.x+3, rect.y+3, rect.width, rect.height), debugTouchMsg, shadow);
+            GUI.Label(rect, debugTouchMsg, style);
         }
     }
 
@@ -254,19 +320,22 @@ public class CoinPhysics : MonoBehaviour
         else
             lastPairDeltaMs = (Time.time - pairStartTime) * 1000f; // 짝수 터치: 간격 기록
 
-        // 콤보가 쌓일수록 점프력이 '곱빼기'로 강해집니다
-        float finalJumpVelocity = jumpVelocity;
+        // 콤보가 쌓일수록 보너스 높이가 수치로 추가됩니다 (물리 속도는 동일)
         float soundPitch = Random.Range(0.9f, 1.1f); // 기본 피치
         float soundVolume = 1.0f; // 기본 볼륨
 
         if (currentCombo >= 2)
         {
-            // 두 번 이상 맞추면 배율(기본 1.5배) 적용
-            finalJumpVelocity = jumpVelocity * comboMultiplier;
-            
-            // 🔊 타격감이 쎄졌으므로 사운드 피치와 볼륨도 다이내믹하게 증폭
-            //soundPitch *= comboMultiplier; // 더 높고 경쾌한 톤
-            //soundVolume *= comboMultiplier; // 더 큰 소리
+            // 물리 속도는 그대로, 보너스 높이만 수치로 계산
+            float comboVelocity = jumpVelocity * comboMultiplier;
+            float gravity = 9.81f * gravityScale;
+            if (gravity > 0f)
+            {
+                float normalPeak = (jumpVelocity * jumpVelocity) / (2f * gravity);
+                float comboPeak = (comboVelocity * comboVelocity) / (2f * gravity);
+                comboBonusHeight += (comboPeak - normalPeak);
+                Debug.Log($"🚀 콤보 보너스! +{comboPeak - normalPeak:F1}m (누적: {comboBonusHeight:F1}m)");
+            }
             
             // 콤보 성공 사운드 재생 (총소리)
             if (comboSound != null && audioSource != null)
@@ -275,16 +344,18 @@ public class CoinPhysics : MonoBehaviour
                 audioSource.PlayOneShot(comboSound, soundVolume);
             }
 
-            // 🎥 [속도감 연출] 카메라 흔들림(Shake) 작동
+            // 🎥 [속도감 연출] 카메라 흔들림 + 스피드라인 트리거
             if (Camera.main != null)
             {
                 CameraController camCtrl = Camera.main.gameObject.GetComponent<CameraController>();
                 if (camCtrl != null)
-                {
-                    // 총소리와 함께 화면을 짧고 강하게 흔듭니다. (크기, 지속시간)
                     camCtrl.TriggerShake(0.6f, 0.15f);
-                }
             }
+
+            // 초음속 스피드라인 연출
+            SpeedLineManager speedLines = FindAnyObjectByType<SpeedLineManager>();
+            if (speedLines != null)
+                speedLines.TriggerComboLines(0.8f);
         }
         else
         {
@@ -303,8 +374,9 @@ public class CoinPhysics : MonoBehaviour
         // 가장자리를 때렸을 때 맞은 반대 방향으로 튕겨 나가는 좌우 속도 계산
         float horizontalSpeed = -offsetX * horizontalBounceForce;
 
-        // 이전 중력을 무시하고 위로, 그리고 좌우로 즉각적으로(Instant Burst) 타겟 속도를 덮어씌움
-        rb.linearVelocity = new Vector2(horizontalSpeed, finalJumpVelocity);
+        // 콤보 시 약간 더 튀기 (1.0 = 동일, 1.2 = 20% 더 튀김 — 이 값을 조절하세요!)
+        float comboPhysicsBoost = (currentCombo >= 2) ? 3.0f : 0.8f;
+        rb.linearVelocity = new Vector2(horizontalSpeed, jumpVelocity * comboPhysicsBoost);
 
         // 영상 분석 4: 맞은 타점(중심점 대비 좌/우)에 따라 아케이드스러운 엄청난 회전(스핀) 부여
         rb.AddTorque(-offsetX * spinMultiplier, ForceMode2D.Impulse);
@@ -365,5 +437,13 @@ public class CoinPhysics : MonoBehaviour
     {
         if (rb == null) return;
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, bonusVelocity);
+    }
+
+    private void OnDestroy()
+    {
+        if (touchVisualizer != null)
+        {
+            Destroy(touchVisualizer);
+        }
     }
 }
