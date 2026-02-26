@@ -50,6 +50,15 @@ public class SkillBarManager : MonoBehaviour
 
     void Start()
     {
+        // 중복 인스턴스 방지 (씬에 이미 있으면 자신을 파괴)
+        SkillBarManager[] all = FindObjectsByType<SkillBarManager>(FindObjectsSortMode.None);
+        if (all.Length > 1)
+        {
+            Debug.Log("🗑️ SkillBarManager 중복 감지 → 파괴");
+            Destroy(gameObject);
+            return;
+        }
+
         customFont = Resources.Load<TMPro.TMP_FontAsset>("2002 SDF");
 
         GameObject coin = GameObject.Find("Coin");

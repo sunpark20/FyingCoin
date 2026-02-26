@@ -203,22 +203,9 @@ public class AutoSetupCoinGame : MonoBehaviour
             Debug.Log("🎬 오프닝 타이핑 연출 세팅 완료!");
         }
 
-        // 5. 스킬바 매니저 부착 (피버 스킬 등)
-        GameObject skillBarObj = GameObject.Find("SkillBarManager");
-        if (skillBarObj != null) DestroyImmediate(skillBarObj);
-
-        skillBarObj = new GameObject("SkillBarManager");
-        skillBarObj.AddComponent<SkillBarManager>();
-        Debug.Log("🔥 스킬바 매니저 (피버 스킬) 세팅 완료!");
-
-        // 6. [추가] 과녁, 조이스틱, 사격 버튼 UI 매니저 부착
-        GameObject crosshairObj = GameObject.Find("CrosshairManager");
-        if (crosshairObj != null) DestroyImmediate(crosshairObj);
-
-        crosshairObj = new GameObject("CrosshairManager");
-        CrosshairManager chManager = crosshairObj.AddComponent<CrosshairManager>();
-        chManager.Initialize(); // UI 생성
-        Debug.Log("🎯 십자선(조이스틱 & 사격) 매니저 세팅 완료!");
+        // 5~6. SkillBarManager / CrosshairManager는 런타임에 GameManager.BootstrapManagers()가 자동 생성
+        // (에디터에서 미리 만들면 Start()에서 또 만들어져서 중복됨)
+        Debug.Log("ℹ️ SkillBarManager / CrosshairManager는 Play 시 GameManager가 자동 생성합니다.");
 
         Debug.Log("🎉 [자동 세팅 완료] 이제 화면 상단의 Play(▶️) 버튼을 눌러보세요!");
     }

@@ -17,6 +17,9 @@ public class CoinPhysics : MonoBehaviour
     public static float comboBonusHeight = 0f;
 
     [Header("산도알 스타일 물리 파라미터")]
+    [Tooltip("동전 크기 배율 (1.0 = 기본, 0.8 = 20% 작게). 크기와 판정 범위가 동시에 조절됨")]
+    public float coinScale = 0.7f;
+
     [Tooltip("기초 중력 조절 (기본 0.5 - 테스트용 느린 속도)")]
     public float gravityScale = 0.5f; 
     
@@ -85,6 +88,9 @@ public class CoinPhysics : MonoBehaviour
     private string debugTouchMsg = "";
     private float debugTouchTimer = 0f;
 
+    // 괤적 보간 판정용 (이전 프레임 위치 저장)
+    private Vector2 previousPosition;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -108,7 +114,15 @@ public class CoinPhysics : MonoBehaviour
         if (sr != null && frontSprite != null)
             sr.sprite = frontSprite;
 
-        // 기본 Y스케일 저장 (두께감 계산용)
+        // coinScale 적용 (크기 + 판정 범위 동시 조절)
+        Vector3 originalScale = transform.localScale;
+        transform.localScale = new Vector3(
+            originalScale.x * coinScale, 
+            originalScale.y * coinScale, 
+            originalScale.z
+        );
+
+        // 기본 Y스케일 저장 (두께감 계산용) — coinScale 적용 후 저장
         baseScaleY = transform.localScale.y;
 
         // 정면 상태의 터치 반경 계산 (콜라이더 기준)
@@ -216,6 +230,9 @@ public class CoinPhysics : MonoBehaviour
 
         if (debugTouchTimer > 0) debugTouchTimer -= Time.deltaTime;
 
+        // 괤적 보간 판정용: 매 프레임 이전 위치 저장
+        previousPosition = (Vector2)transform.position;
+
         // "터치가 아닌 총을 쏘는 과녁형식"으로 변경되었으므로 직접 터치 처리 삭제
     }
 
@@ -224,19 +241,39 @@ public class CoinPhysics : MonoBehaviour
     {
         SetDebugText("과녁 발사! (총)");
         
-        // 정면 기준 원형 터치 영역 (Y스케일 변해도 항상 동일한 크기)
-        float dist = Vector2.Distance(worldPos, (Vector2)transform.position);
+        // 1차: 현재 위치 판정 (정면 기준 원형 터치 영역)
+        Vector2 currentPos = (Vector2)transform.position;
+        float dist = Vector2.Distance(worldPos, currentPos);
         if (dist <= touchRadius)
         {
             Debug.Log($"동전 맞춤! 좌표: {worldPos}");
             SetDebugText(debugTouchMsg + "\n-> 동전 명중!");
             HitCoin(worldPos);
+            return;
         }
-        else
+
+        // 2차: 괤적 보간 판정 (이전 프레임 ~ 현재 프레임 사이 경로 체크)
+        // 동전이 고속 이동 중일 때, 에임이 괤적 위에 있으면 명중
+        float segLen = Vector2.Distance(previousPosition, currentPos);
+        if (segLen > 0.01f) // 이동이 있었을 때만
         {
-            Debug.Log($"빗나감! 좌표: {worldPos}, 충돌체: 없음");
-            SetDebugText(debugTouchMsg + "\n-> 빗나감(허공)");
+            // 점과 선분 사이의 최단 거리 계산
+            Vector2 segDir = currentPos - previousPosition;
+            float t = Mathf.Clamp01(Vector2.Dot(worldPos - previousPosition, segDir) / (segLen * segLen));
+            Vector2 closestPoint = previousPosition + t * segDir;
+            float closestDist = Vector2.Distance(worldPos, closestPoint);
+
+            if (closestDist <= touchRadius)
+            {
+                Debug.Log($"동전 맞춤! (괤적 보간) 좌표: {worldPos}, 최근접점: {closestPoint}");
+                SetDebugText(debugTouchMsg + "\n-> 괤적 보간 명중!");
+                HitCoin(closestPoint); // 괤적 위의 최근접점을 타격점으로 사용
+                return;
+            }
         }
+
+        Debug.Log($"빗나감! 좌표: {worldPos}, 충돌체: 없음");
+        SetDebugText(debugTouchMsg + "\n-> 빗나감(허공)");
     }
 
     private void SetDebugText(string msg)

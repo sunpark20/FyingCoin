@@ -23,7 +23,6 @@ public class CrosshairManager : MonoBehaviour
     private RectTransform crosshairUI;
     private RectTransform joystickHandle;
     private RectTransform joystickBg;
-    private Button shootButton;
     private TextMeshProUGUI ammoText;
     
     // 조이스틱 상태
@@ -34,6 +33,14 @@ public class CrosshairManager : MonoBehaviour
 
     void Start()
     {
+        // 중복 인스턴스 방지 (씬에 이미 있으면 자신을 파괴)
+        CrosshairManager[] all = FindObjectsByType<CrosshairManager>(FindObjectsSortMode.None);
+        if (all.Length > 1)
+        {
+            Debug.Log("🗑️ CrosshairManager 중복 감지 → 파괴");
+            Destroy(gameObject);
+            return;
+        }
         Initialize();
     }
 
@@ -192,17 +199,9 @@ public class CrosshairManager : MonoBehaviour
         Image shImage = shObj.AddComponent<Image>();
         shImage.color = new Color(0.8f, 0.15f, 0.1f, 0.35f);
 
-        shootButton = shObj.AddComponent<Button>();
-        shootButton.targetGraphic = shImage;
-
-        ColorBlock colors = shootButton.colors;
-        colors.normalColor = new Color(0.8f, 0.15f, 0.1f, 0.35f);
-        colors.highlightedColor = new Color(1f, 0.3f, 0.2f, 0.5f);
-        colors.pressedColor = new Color(1f, 0.4f, 0.3f, 0.7f);
-        colors.disabledColor = new Color(0.3f, 0.3f, 0.3f, 0.35f);
-        shootButton.colors = colors;
-
-        shootButton.onClick.AddListener(OnShootPressed);
+        // Button 대신 IPointerDownHandler로 즉시 발사 (리듬게임 방식)
+        ShootTrigger trigger = shObj.AddComponent<ShootTrigger>();
+        trigger.owner = this;
 
         // "SHOOT" + 총알 갯수 텍스트
         GameObject txtObj = new GameObject("AmmoText");
@@ -225,7 +224,7 @@ public class CrosshairManager : MonoBehaviour
         UpdateAmmoUI();
     }
 
-    private void OnShootPressed()
+    public void OnShootPressed()
     {
         // 총알 무제한 (테스트 모드) — 항상 발사 가능
         if (cachedCoin == null)
@@ -241,9 +240,6 @@ public class CrosshairManager : MonoBehaviour
     {
         if (ammoText != null)
             ammoText.text = currentAmmo + " / " + maxAmmo;
-        
-        if (shootButton != null)
-            shootButton.interactable = (currentAmmo > 0);
     }
 }
 
@@ -284,5 +280,18 @@ public class SimpleJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IP
     {
         handle.anchoredPosition = startPos;
         onMove?.Invoke(Vector2.zero);
+    }
+}
+
+// 발사 버튼: 누르는 즉시(PointerDown) 발사 (리듬게임 방식)
+// Button.onClick은 손가락 뗄 때(PointerUp) 발동 → 50~100ms 지연 발생
+public class ShootTrigger : MonoBehaviour, IPointerDownHandler
+{
+    public CrosshairManager owner;
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        if (owner != null)
+            owner.OnShootPressed();
     }
 }
