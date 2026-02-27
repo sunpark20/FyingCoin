@@ -1,0 +1,5239 @@
+fileFormatVersion: 2
+guid: 538f943939fa9458b8dd773857101553
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -431310494855789635
+    second: Bkg 5 Big Stars_0
+  - first:
+      213: 6889762018609905145
+    second: Bkg 5 Big Stars_1
+  - first:
+      213: -3320895004035181140
+    second: Bkg 5 Big Stars_2
+  - first:
+      213: -7255266440735741834
+    second: Bkg 5 Big Stars_3
+  - first:
+      213: 5740532942292680825
+    second: Bkg 5 Big Stars_4
+  - first:
+      213: -6504297532392082194
+    second: Bkg 5 Big Stars_5
+  - first:
+      213: -1934783343246884078
+    second: Bkg 5 Big Stars_6
+  - first:
+      213: -5830933796112558857
+    second: Bkg 5 Big Stars_7
+  - first:
+      213: 6683278746203850181
+    second: Bkg 5 Big Stars_8
+  - first:
+      213: -2250778947055812644
+    second: Bkg 5 Big Stars_9
+  - first:
+      213: 4207689485355447544
+    second: Bkg 5 Big Stars_10
+  - first:
+      213: -2911344432197685343
+    second: Bkg 5 Big Stars_11
+  - first:
+      213: -3233691087588120669
+    second: Bkg 5 Big Stars_12
+  - first:
+      213: -8590242811475587870
+    second: Bkg 5 Big Stars_13
+  - first:
+      213: -6757479143620135536
+    second: Bkg 5 Big Stars_14
+  - first:
+      213: -8345589442988287772
+    second: Bkg 5 Big Stars_15
+  - first:
+      213: -4487084377519361817
+    second: Bkg 5 Big Stars_16
+  - first:
+      213: -6877547979457469109
+    second: Bkg 5 Big Stars_17
+  - first:
+      213: -6744630296938458182
+    second: Bkg 5 Big Stars_18
+  - first:
+      213: 1070279854057837747
+    second: Bkg 5 Big Stars_19
+  - first:
+      213: 5101079427695317607
+    second: Bkg 5 Big Stars_20
+  - first:
+      213: 8830871090858895463
+    second: Bkg 5 Big Stars_21
+  - first:
+      213: 5321988321102158203
+    second: Bkg 5 Big Stars_22
+  - first:
+      213: -621261265039492847
+    second: Bkg 5 Big Stars_23
+  - first:
+      213: 1994353135079892434
+    second: Bkg 5 Big Stars_24
+  - first:
+      213: -2636120262719843261
+    second: Bkg 5 Big Stars_25
+  - first:
+      213: 5630420503205699476
+    second: Bkg 5 Big Stars_26
+  - first:
+      213: -1572305435161641857
+    second: Bkg 5 Big Stars_27
+  - first:
+      213: -6103368644463934934
+    second: Bkg 5 Big Stars_28
+  - first:
+      213: 4590235953045005690
+    second: Bkg 5 Big Stars_29
+  - first:
+      213: -7325152979552832136
+    second: Bkg 5 Big Stars_30
+  - first:
+      213: -7933459275215681081
+    second: Bkg 5 Big Stars_31
+  - first:
+      213: 5166571945191808470
+    second: Bkg 5 Big Stars_32
+  - first:
+      213: -992827127216354234
+    second: Bkg 5 Big Stars_33
+  - first:
+      213: 8068715768797419717
+    second: Bkg 5 Big Stars_34
+  - first:
+      213: 7183039091331504852
+    second: Bkg 5 Big Stars_35
+  - first:
+      213: 2338761579880480426
+    second: Bkg 5 Big Stars_36
+  - first:
+      213: 1895000488450294751
+    second: Bkg 5 Big Stars_37
+  - first:
+      213: 6764794749298933169
+    second: Bkg 5 Big Stars_38
+  - first:
+      213: 5348734591722829715
+    second: Bkg 5 Big Stars_39
+  - first:
+      213: -4898049634909747317
+    second: Bkg 5 Big Stars_40
+  - first:
+      213: 1368482734064102693
+    second: Bkg 5 Big Stars_41
+  - first:
+      213: 6366195485072723531
+    second: Bkg 5 Big Stars_42
+  - first:
+      213: 1736676319902602068
+    second: Bkg 5 Big Stars_43
+  - first:
+      213: 8230829655723440615
+    second: Bkg 5 Big Stars_44
+  - first:
+      213: 2103310148404923094
+    second: Bkg 5 Big Stars_45
+  - first:
+      213: 376928167045896973
+    second: Bkg 5 Big Stars_46
+  - first:
+      213: -6690357903492071516
+    second: Bkg 5 Big Stars_47
+  - first:
+      213: 6221316986768105512
+    second: Bkg 5 Big Stars_48
+  - first:
+      213: 7898492294778428638
+    second: Bkg 5 Big Stars_49
+  - first:
+      213: -2974625343453123178
+    second: Bkg 5 Big Stars_50
+  - first:
+      213: 1684117912326063047
+    second: Bkg 5 Big Stars_51
+  - first:
+      213: 3569714494581444670
+    second: Bkg 5 Big Stars_52
+  - first:
+      213: -6073273236174639847
+    second: Bkg 5 Big Stars_53
+  - first:
+      213: -4075623258245199489
+    second: Bkg 5 Big Stars_54
+  - first:
+      213: 5809370434304903453
+    second: Bkg 5 Big Stars_55
+  - first:
+      213: -1314105675678680319
+    second: Bkg 5 Big Stars_56
+  - first:
+      213: -5953714348085272043
+    second: Bkg 5 Big Stars_57
+  - first:
+      213: -5407523395164740643
+    second: Bkg 5 Big Stars_58
+  - first:
+      213: 7080037317072812104
+    second: Bkg 5 Big Stars_59
+  - first:
+      213: -1073516024993687237
+    second: Bkg 5 Big Stars_60
+  - first:
+      213: 857262719061577127
+    second: Bkg 5 Big Stars_61
+  - first:
+      213: 6695418987594019750
+    second: Bkg 5 Big Stars_62
+  - first:
+      213: -9137778748125574287
+    second: Bkg 5 Big Stars_63
+  - first:
+      213: -7961837130006738799
+    second: Bkg 5 Big Stars_64
+  - first:
+      213: 6831794225143930673
+    second: Bkg 5 Big Stars_65
+  - first:
+      213: 9199918674718915841
+    second: Bkg 5 Big Stars_66
+  - first:
+      213: -2751207286761000854
+    second: Bkg 5 Big Stars_67
+  - first:
+      213: 6399612409659576612
+    second: Bkg 5 Big Stars_68
+  - first:
+      213: 3748767543737775195
+    second: Bkg 5 Big Stars_69
+  - first:
+      213: -6830988989337037338
+    second: Bkg 5 Big Stars_70
+  - first:
+      213: -3484632102935069136
+    second: Bkg 5 Big Stars_71
+  - first:
+      213: 2686112550186848983
+    second: Bkg 5 Big Stars_72
+  - first:
+      213: -6453532524134801855
+    second: Bkg 5 Big Stars_73
+  - first:
+      213: 412053534833853332
+    second: Bkg 5 Big Stars_74
+  - first:
+      213: 5267494931061227675
+    second: Bkg 5 Big Stars_75
+  - first:
+      213: 5854619741070633414
+    second: Bkg 5 Big Stars_76
+  - first:
+      213: 6563453537405400968
+    second: Bkg 5 Big Stars_77
+  - first:
+      213: -2957839293268125945
+    second: Bkg 5 Big Stars_78
+  - first:
+      213: 7344015207603992116
+    second: Bkg 5 Big Stars_79
+  - first:
+      213: -6133439101097397943
+    second: Bkg 5 Big Stars_80
+  - first:
+      213: 7800650242617637426
+    second: Bkg 5 Big Stars_81
+  - first:
+      213: -1919448454771641294
+    second: Bkg 5 Big Stars_82
+  - first:
+      213: 8327453081927570792
+    second: Bkg 5 Big Stars_83
+  - first:
+      213: 8869095019403898881
+    second: Bkg 5 Big Stars_84
+  - first:
+      213: -8067847343590580884
+    second: Bkg 5 Big Stars_85
+  - first:
+      213: -7257171329410498238
+    second: Bkg 5 Big Stars_86
+  - first:
+      213: 5554488463896060697
+    second: Bkg 5 Big Stars_87
+  - first:
+      213: -286401706172472403
+    second: Bkg 5 Big Stars_88
+  - first:
+      213: 6325120251219153487
+    second: Bkg 5 Big Stars_89
+  - first:
+      213: 3593331206112291151
+    second: Bkg 5 Big Stars_90
+  - first:
+      213: 7298984299160750504
+    second: Bkg 5 Big Stars_91
+  - first:
+      213: -603340429179610917
+    second: Bkg 5 Big Stars_92
+  - first:
+      213: 521824527129913785
+    second: Bkg 5 Big Stars_93
+  - first:
+      213: 8096394171355363661
+    second: Bkg 5 Big Stars_94
+  - first:
+      213: 8688582871299135711
+    second: Bkg 5 Big Stars_95
+  - first:
+      213: -7078408852816879657
+    second: Bkg 5 Big Stars_96
+  - first:
+      213: -3089416638299060331
+    second: Bkg 5 Big Stars_97
+  - first:
+      213: 2468354035985916005
+    second: Bkg 5 Big Stars_98
+  - first:
+      213: -462690374908368109
+    second: Bkg 5 Big Stars_99
+  - first:
+      213: 5003217444040459466
+    second: Bkg 5 Big Stars_100
+  - first:
+      213: 2942924666453542100
+    second: Bkg 5 Big Stars_101
+  - first:
+      213: -8036716717341508279
+    second: Bkg 5 Big Stars_102
+  - first:
+      213: 3502151784813281889
+    second: Bkg 5 Big Stars_103
+  - first:
+      213: -6925165009145876937
+    second: Bkg 5 Big Stars_104
+  - first:
+      213: -2702555652833134777
+    second: Bkg 5 Big Stars_105
+  - first:
+      213: -8812598702289363197
+    second: Bkg 5 Big Stars_106
+  - first:
+      213: 5883831190024896492
+    second: Bkg 5 Big Stars_107
+  - first:
+      213: -8170877617035078111
+    second: Bkg 5 Big Stars_108
+  - first:
+      213: 3932610528397125525
+    second: Bkg 5 Big Stars_109
+  - first:
+      213: 7951116801321807200
+    second: Bkg 5 Big Stars_110
+  - first:
+      213: 3104082281965931503
+    second: Bkg 5 Big Stars_111
+  - first:
+      213: -6403538888099108667
+    second: Bkg 5 Big Stars_112
+  - first:
+      213: 6385951962846003146
+    second: Bkg 5 Big Stars_113
+  - first:
+      213: 4293216988248349602
+    second: Bkg 5 Big Stars_114
+  - first:
+      213: -5326373450721447655
+    second: Bkg 5 Big Stars_115
+  - first:
+      213: 1971028057002557183
+    second: Bkg 5 Big Stars_116
+  - first:
+      213: -4933089199319197776
+    second: Bkg 5 Big Stars_117
+  - first:
+      213: -2040280497645085808
+    second: Bkg 5 Big Stars_118
+  - first:
+      213: -406188586644354497
+    second: Bkg 5 Big Stars_119
+  - first:
+      213: 1624140698538329444
+    second: Bkg 5 Big Stars_120
+  - first:
+      213: 3975869674557622670
+    second: Bkg 5 Big Stars_121
+  - first:
+      213: -7866244701434516817
+    second: Bkg 5 Big Stars_122
+  - first:
+      213: 434996699174333885
+    second: Bkg 5 Big Stars_123
+  - first:
+      213: 2828933990699304673
+    second: Bkg 5 Big Stars_124
+  - first:
+      213: -6250636519000939721
+    second: Bkg 5 Big Stars_125
+  - first:
+      213: 2757514107081895889
+    second: Bkg 5 Big Stars_126
+  - first:
+      213: 7385121047935212717
+    second: Bkg 5 Big Stars_127
+  - first:
+      213: 830262602414787902
+    second: Bkg 5 Big Stars_128
+  - first:
+      213: 6510709613513831591
+    second: Bkg 5 Big Stars_129
+  - first:
+      213: -526102347420498536
+    second: Bkg 5 Big Stars_130
+  - first:
+      213: -6735538236737879393
+    second: Bkg 5 Big Stars_131
+  - first:
+      213: 8552514894504364438
+    second: Bkg 5 Big Stars_132
+  - first:
+      213: 5672247117813635701
+    second: Bkg 5 Big Stars_133
+  - first:
+      213: 6868242403605516070
+    second: Bkg 5 Big Stars_134
+  - first:
+      213: 2972789498597120628
+    second: Bkg 5 Big Stars_135
+  - first:
+      213: -5424519291839094591
+    second: Bkg 5 Big Stars_136
+  - first:
+      213: 5675478483795581928
+    second: Bkg 5 Big Stars_137
+  - first:
+      213: 3730065089974468440
+    second: Bkg 5 Big Stars_138
+  - first:
+      213: -721127941231608327
+    second: Bkg 5 Big Stars_139
+  - first:
+      213: 6974495063871108308
+    second: Bkg 5 Big Stars_140
+  - first:
+      213: 2166158120139397874
+    second: Bkg 5 Big Stars_141
+  - first:
+      213: 7048417668069562507
+    second: Bkg 5 Big Stars_142
+  - first:
+      213: -8047974323831196220
+    second: Bkg 5 Big Stars_143
+  - first:
+      213: -5911683709585583432
+    second: Bkg 5 Big Stars_144
+  - first:
+      213: 4572533896785043744
+    second: Bkg 5 Big Stars_145
+  - first:
+      213: 3684965183453123869
+    second: Bkg 5 Big Stars_146
+  - first:
+      213: -4509278978141088179
+    second: Bkg 5 Big Stars_147
+  - first:
+      213: -4489373326399934687
+    second: Bkg 5 Big Stars_148
+  - first:
+      213: -3458543925322611392
+    second: Bkg 5 Big Stars_149
+  - first:
+      213: -3047962022202316740
+    second: Bkg 5 Big Stars_150
+  - first:
+      213: -5296479304065625466
+    second: Bkg 5 Big Stars_151
+  - first:
+      213: -5037911426556082642
+    second: Bkg 5 Big Stars_152
+  - first:
+      213: -3870401680704392175
+    second: Bkg 5 Big Stars_153
+  - first:
+      213: -2551616768682558418
+    second: Bkg 5 Big Stars_154
+  - first:
+      213: -4020198170694153510
+    second: Bkg 5 Big Stars_155
+  - first:
+      213: -7886514864415840986
+    second: Bkg 5 Big Stars_156
+  - first:
+      213: 8179816766159463564
+    second: Bkg 5 Big Stars_157
+  - first:
+      213: 8955606339926169997
+    second: Bkg 5 Big Stars_158
+  - first:
+      213: 6214796957113714911
+    second: Bkg 5 Big Stars_159
+  - first:
+      213: 2678418688516297858
+    second: Bkg 5 Big Stars_160
+  - first:
+      213: -7731260054588446219
+    second: Bkg 5 Big Stars_161
+  - first:
+      213: -6533951701289250773
+    second: Bkg 5 Big Stars_162
+  - first:
+      213: -4855200797325212796
+    second: Bkg 5 Big Stars_163
+  - first:
+      213: -6288888711832086662
+    second: Bkg 5 Big Stars_164
+  - first:
+      213: 4745222418297220877
+    second: Bkg 5 Big Stars_165
+  - first:
+      213: 3250559035327529927
+    second: Bkg 5 Big Stars_166
+  - first:
+      213: -2843697041099063623
+    second: Bkg 5 Big Stars_167
+  - first:
+      213: -1663523883920384001
+    second: Bkg 5 Big Stars_168
+  - first:
+      213: -7360646237637780954
+    second: Bkg 5 Big Stars_169
+  - first:
+      213: -8622849129437399937
+    second: Bkg 5 Big Stars_170
+  - first:
+      213: -635138603189839015
+    second: Bkg 5 Big Stars_171
+  - first:
+      213: 778023425977342501
+    second: Bkg 5 Big Stars_172
+  - first:
+      213: -5236323659605021643
+    second: Bkg 5 Big Stars_173
+  - first:
+      213: 6040263589514838506
+    second: Bkg 5 Big Stars_174
+  - first:
+      213: 6260559558830296875
+    second: Bkg 5 Big Stars_175
+  - first:
+      213: 2808365605546587837
+    second: Bkg 5 Big Stars_176
+  - first:
+      213: -5848819313641440568
+    second: Bkg 5 Big Stars_177
+  - first:
+      213: -7156492864070172296
+    second: Bkg 5 Big Stars_178
+  - first:
+      213: -3034217281206283068
+    second: Bkg 5 Big Stars_179
+  - first:
+      213: -1813645944948062554
+    second: Bkg 5 Big Stars_180
+  - first:
+      213: -5940172060028059737
+    second: Bkg 5 Big Stars_181
+  - first:
+      213: 6451662744069939513
+    second: Bkg 5 Big Stars_182
+  - first:
+      213: 4599056433952811846
+    second: Bkg 5 Big Stars_183
+  - first:
+      213: 94448499404909250
+    second: Bkg 5 Big Stars_184
+  - first:
+      213: 497368228818374352
+    second: Bkg 5 Big Stars_185
+  - first:
+      213: -4609798154939198983
+    second: Bkg 5 Big Stars_186
+  - first:
+      213: 1467765360330666762
+    second: Bkg 5 Big Stars_187
+  - first:
+      213: -6332544549189967793
+    second: Bkg 5 Big Stars_188
+  - first:
+      213: -2515361334950525607
+    second: Bkg 5 Big Stars_189
+  - first:
+      213: -4372940389477485808
+    second: Bkg 5 Big Stars_190
+  - first:
+      213: -1908827387956170418
+    second: Bkg 5 Big Stars_191
+  - first:
+      213: -1605714044316165311
+    second: Bkg 5 Big Stars_192
+  - first:
+      213: 1631122102840089489
+    second: Bkg 5 Big Stars_193
+  - first:
+      213: 4804609024456457232
+    second: Bkg 5 Big Stars_194
+  - first:
+      213: -2451644649332334050
+    second: Bkg 5 Big Stars_195
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_0
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1985
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3093ed36da30af0800000000000000
+      internalID: -431310494855789635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2003
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdb83a6d0a5d9f50800000000000000
+      internalID: 6889762018609905145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_2
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1887
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca51d14b69fc9e1d0800000000000000
+      internalID: -3320895004035181140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_3
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2000
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6782229bc9d105b90800000000000000
+      internalID: -7255266440735741834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1964
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97088cedb487aaf40800000000000000
+      internalID: 5740532942292680825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_5
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1882
+        width: 59
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4f1540bd71cb5a0800000000000000
+      internalID: -6504297532392082194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_6
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1995
+        width: 105
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2134d6cdcc44625e0800000000000000
+      internalID: -1934783343246884078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_7
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1998
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f414e52b9c541fa0800000000000000
+      internalID: -5830933796112558857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_8
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1995
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c506623c96cfbc50800000000000000
+      internalID: 6683278746203850181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_9
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2004
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf7fc80970a3c0e0800000000000000
+      internalID: -2250778947055812644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1827
+        width: 112
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4f1cb2b47b46a30800000000000000
+      internalID: 4207689485355447544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1931
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afab04f9a3d897d0800000000000000
+      internalID: -2911344432197685343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_12
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1985
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7a6f2b61f9f13d0800000000000000
+      internalID: -3233691087588120669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_13
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1967
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec05af0da359c880800000000000000
+      internalID: -8590242811475587870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1946
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0953963858c9832a0800000000000000
+      internalID: -6757479143620135536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1924
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8de615e928e2c80800000000000000
+      internalID: -8345589442988287772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_16
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1954
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f0c0488caab1c0800000000000000
+      internalID: -4487084377519361817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_17
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1914
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b456bbe2d8a0e80a0800000000000000
+      internalID: -6877547979457469109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_18
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1903
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab355a1ca724662a0800000000000000
+      internalID: -6744630296938458182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_19
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1798
+        width: 153
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4df5f4bd56ade00800000000000000
+      internalID: 1070279854057837747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_20
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1860
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76215da76bcaac640800000000000000
+      internalID: 5101079427695317607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_21
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1926
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76829eb187e8d8a70800000000000000
+      internalID: 8830871090858895463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1921
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7952125e208bd940800000000000000
+      internalID: 5321988321102158203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_23
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 1926
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1197c98cb26d067f0800000000000000
+      internalID: -621261265039492847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_24
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1906
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5af1d1c9d5dab10800000000000000
+      internalID: 1994353135079892434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_25
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1886
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344df5b769e9a6bd0800000000000000
+      internalID: -2636120262719843261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_26
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1877
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fd6adcd95432e40800000000000000
+      internalID: 5630420503205699476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_27
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1744
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c36c2898c0e2ae0800000000000000
+      internalID: -1572305435161641857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_28
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1776
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22487d0e8a7c4ba0800000000000000
+      internalID: -6103368644463934934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_29
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1863
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a756978774bc3bf30800000000000000
+      internalID: 4590235953045005690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_30
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1788
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875fb58ec24d75a90800000000000000
+      internalID: -7325152979552832136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_31
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1752
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9cdbc82d0b6e190800000000000000
+      internalID: -7933459275215681081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_32
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1768
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd18ab7fc953b740800000000000000
+      internalID: 5166571945191808470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_33
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1807
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cc5eeecf4c832f0800000000000000
+      internalID: -992827127216354234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_34
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1796
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c853c8ed36d9ff60800000000000000
+      internalID: 8068715768797419717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_35
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1810
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da1f860ff74fa360800000000000000
+      internalID: 7183039091331504852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_36
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1763
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae7b1ff343f47020800000000000000
+      internalID: 2338761579880480426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1595
+        width: 228
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3854377e46c4a10800000000000000
+      internalID: 1895000488450294751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_38
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1765
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdf36aabf061ed50800000000000000
+      internalID: 6764794749298933169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_39
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1764
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397bb79b5c58a3a40800000000000000
+      internalID: 5348734591722829715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_40
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1699
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8709fadec1a60cb0800000000000000
+      internalID: -4898049634909747317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1624
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d652dcbc3ddf210800000000000000
+      internalID: 1368482734064102693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_42
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1696
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e847a6015495850800000000000000
+      internalID: 6366195485072723531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_43
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1646
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45390a169e9e91810800000000000000
+      internalID: 1736676319902602068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_44
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1694
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9752c86f7c93270800000000000000
+      internalID: 8230829655723440615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_45
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1706
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da4628af65703d10800000000000000
+      internalID: 2103310148404923094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_46
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1608
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1c9ebb2e1b3500800000000000000
+      internalID: 376928167045896973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_47
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1679
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afb02e0fe21723a0800000000000000
+      internalID: -6690357903492071516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_48
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1667
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820aa6766de865650800000000000000
+      internalID: 6221316986768105512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_49
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1632
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc9d63e4e41d9d60800000000000000
+      internalID: 7898492294778428638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_50
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1558
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d2a97a20208b6d0800000000000000
+      internalID: -2974625343453123178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_51
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1521
+        width: 140
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3411481503f5710800000000000000
+      internalID: 1684117912326063047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_52
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1615
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30171f6b6c2a8130800000000000000
+      internalID: 3569714494581444670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_53
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1611
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d6ce55b2667bba0800000000000000
+      internalID: -6073273236174639847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_54
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1617
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7989fd7d3a7077c0800000000000000
+      internalID: -4075623258245199489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_55
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1568
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19866171a70f9050800000000000000
+      internalID: 5809370434304903453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_56
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1589
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bf8d3b9db53cde0800000000000000
+      internalID: -1314105675678680319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_57
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1597
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5122b343858206da0800000000000000
+      internalID: -5953714348085272043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_58
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1604
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd367945f1e94f4b0800000000000000
+      internalID: -5407523395164740643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_59
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1507
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84872a0ad68514260800000000000000
+      internalID: 7080037317072812104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_60
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1576
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39df8decda1a11f0800000000000000
+      internalID: -1073516024993687237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_61
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1591
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adc9d8a6eb95eb00800000000000000
+      internalID: 857262719061577127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_62
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1554
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a372f96818eaec50800000000000000
+      internalID: 6695418987594019750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_63
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1564
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b8cd184a6103180800000000000000
+      internalID: -9137778748125574287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1540
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ce6a505fd18190800000000000000
+      internalID: -7961837130006738799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_65
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1475
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd440c6a86fce50800000000000000
+      internalID: 6831794225143930673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_66
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1450
+        width: 170
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d7a199a4dacaf70800000000000000
+      internalID: 9199918674718915841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_67
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1496
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60f4299c8fb1d9d0800000000000000
+      internalID: -2751207286761000854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_68
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1508
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421d0f9749dffc850800000000000000
+      internalID: 6399612409659576612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_69
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1505
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54f00e183c460430800000000000000
+      internalID: 3748767543737775195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_70
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1510
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e516f1d4b37331a0800000000000000
+      internalID: -6830988989337037338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_71
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1399
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ef1a3909914afc0800000000000000
+      internalID: -3484632102935069136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_72
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1396
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d21b9cf12df64520800000000000000
+      internalID: 2686112550186848983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_73
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1413
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ed3809c527076a0800000000000000
+      internalID: -6453532524134801855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_74
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1429
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493473cb188e7b500800000000000000
+      internalID: 412053534833853332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_75
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1335
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90431e3bb6e91940800000000000000
+      internalID: 5267494931061227675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_76
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1379
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c92189a2a9cf3150800000000000000
+      internalID: 5854619741070633414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_77
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1333
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88774d4b732161b50800000000000000
+      internalID: 6563453537405400968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_78
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1330
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7079f0685d4a3f6d0800000000000000
+      internalID: -2957839293268125945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_79
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1346
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367d4acbee2be560800000000000000
+      internalID: 7344015207603992116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_80
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1391
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941399742a5a1eaa0800000000000000
+      internalID: -6133439101097397943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_81
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23af948e01a714c60800000000000000
+      internalID: 7800650242617637426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_82
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1171
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234f9a0dccfbc55e0800000000000000
+      internalID: -1919448454771641294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_83
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1235
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8655600157e019370800000000000000
+      internalID: 8327453081927570792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_84
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1254
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10071cefdea551b70800000000000000
+      internalID: 8869095019403898881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_85
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1264
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d5437169f390090800000000000000
+      internalID: -8067847343590580884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1254
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24186544029594b90800000000000000
+      internalID: -7257171329410498238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1135
+        width: 98
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a78734d1851d40800000000000000
+      internalID: 5554488463896060697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_88
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1211
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da326886a2f760cf0800000000000000
+      internalID: -286401706172472403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_89
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1243
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f421c874b5757c750800000000000000
+      internalID: 6325120251219153487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_90
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1227
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4926a491b31ed130800000000000000
+      internalID: 3593331206112291151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_91
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1165
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a941a46c833b4560800000000000000
+      internalID: 7298984299160750504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_92
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1225
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd81e18831180a7f0800000000000000
+      internalID: -603340429179610917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_93
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1111
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b92aa684a4ed3700800000000000000
+      internalID: 521824527129913785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_94
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1180
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49fd213a9b2c5070800000000000000
+      internalID: 8096394171355363661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_95
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1154
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8145d561c049870800000000000000
+      internalID: 8688582871299135711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_96
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1190
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df9ed0c6a074cd90800000000000000
+      internalID: -7078408852816879657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_97
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1176
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597c0079fef2025d0800000000000000
+      internalID: -3089416638299060331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_98
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1120
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560a7d6faea514220800000000000000
+      internalID: 2468354035985916005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_99
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1161
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b28923e813499f0800000000000000
+      internalID: -462690374908368109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_100
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1090
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c116d1cffe6540800000000000000
+      internalID: 5003217444040459466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_101
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1051
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c2b0546e57d820800000000000000
+      internalID: 2942924666453542100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_102
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1012
+        width: 109
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d7a66d9b8d77090800000000000000
+      internalID: -8036716717341508279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_103
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1060
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162cb4b3e742a9030800000000000000
+      internalID: 3502151784813281889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_104
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1104
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e25e28d1fd4ef90800000000000000
+      internalID: -6925165009145876937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_105
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1025
+        width: 149
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7473827d3f79e7ad0800000000000000
+      internalID: -2702555652833134777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_106
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1127
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f59f1eb2c53b580800000000000000
+      internalID: -8812598702289363197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_107
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1096
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef3ccf1b4197a150800000000000000
+      internalID: 5883831190024896492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_108
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1025
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1261f6539163b9e80800000000000000
+      internalID: -8170877617035078111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_109
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 984
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59762119070739630800000000000000
+      internalID: 3932610528397125525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_110
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 928
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d2d6e9a9a085e60800000000000000
+      internalID: 7951116801321807200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_111
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1021
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febc92aa36ae31b20800000000000000
+      internalID: 3104082281965931503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_112
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1010
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8e3750f4f0227a0800000000000000
+      internalID: -6403538888099108667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_113
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 986
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acff42ad9757f9850800000000000000
+      internalID: 6385951962846003146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_114
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1016
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab1738ba12949b30800000000000000
+      internalID: 4293216988248349602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_115
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 972
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9113da0219be416b0800000000000000
+      internalID: -5326373450721447655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_116
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 964
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe37fb239f7a5b10800000000000000
+      internalID: 1971028057002557183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_117
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 993
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7534582852a8bb0800000000000000
+      internalID: -4933089199319197776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_118
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 914
+        width: 109
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b15bf72b77fa3e0800000000000000
+      internalID: -2040280497645085808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_119
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 937
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ace3de1adec5af0800000000000000
+      internalID: -406188586644354497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_120
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 898
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465c1a93c5b1a8610800000000000000
+      internalID: 1624140698538329444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_121
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 901
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89414967602d2730800000000000000
+      internalID: 3975869674557622670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_122
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 959
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa62b60f1c75d290800000000000000
+      internalID: -7866244701434516817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_123
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 833
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbde0c4713b690600800000000000000
+      internalID: 434996699174333885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_124
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 915
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e609a8e974624720800000000000000
+      internalID: 2828933990699304673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_125
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 894
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7336dd804374149a0800000000000000
+      internalID: -6250636519000939721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_126
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 859
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfaebf6878a44620800000000000000
+      internalID: 2757514107081895889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_127
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 835
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac507d07783d7660800000000000000
+      internalID: 7385121047935212717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_128
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 850
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d893f107fa58b00800000000000000
+      internalID: 830262602414787902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_129
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 845
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a47635f5efaa5a50800000000000000
+      internalID: 6510709613513831591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_130
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 834
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8958082d3b8e2b8f0800000000000000
+      internalID: -526102347420498536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_131
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 841
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f928d2cf8af8682a0800000000000000
+      internalID: -6735538236737879393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_132
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 848
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6998b2fbbf2a0b670800000000000000
+      internalID: 8552514894504364438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_133
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 832
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ad38763bed7be40800000000000000
+      internalID: 5672247117813635701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_134
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 838
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f8e2a9316e05f50800000000000000
+      internalID: 6868242403605516070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_135
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 838
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a94e76c48714920800000000000000
+      internalID: 2972789498597120628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c06da4c17c38b4b0800000000000000
+      internalID: -5424519291839094591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_137
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 769
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb120d6c9953ce40800000000000000
+      internalID: 5675478483795581928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_138
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 743
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f7305cf6ad3c330800000000000000
+      internalID: 3730065089974468440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_139
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 664
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdf74945f90ef5f0800000000000000
+      internalID: -721127941231608327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_140
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 562
+        width: 111
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4b0c1ee426ac060800000000000000
+      internalID: 6974495063871108308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_141
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 637
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa9c3e555dbf0e10800000000000000
+      internalID: 2166158120139397874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_142
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 652
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b889fd5668201d160800000000000000
+      internalID: 7048417668069562507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_143
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 501
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5b3921ef9df4090800000000000000
+      internalID: -8047974323831196220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_144
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 580
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b210b1dcfa75fda0800000000000000
+      internalID: -5911683709585583432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_145
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 587
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0212e415a57e47f30800000000000000
+      internalID: 4572533896785043744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15d7618f40a32330800000000000000
+      internalID: 3684965183453123869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_147
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 516
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4693ca19a2db61c0800000000000000
+      internalID: -4509278978141088179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_148
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 543
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f61dfceba82b1c0800000000000000
+      internalID: -4489373326399934687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_149
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 528
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0458f03cf98c000d0800000000000000
+      internalID: -3458543925322611392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_150
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 331
+        width: 122
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38efb980b673b5d0800000000000000
+      internalID: -3047962022202316740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_151
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 425
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682d5f882202f76b0800000000000000
+      internalID: -5296479304065625466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_152
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 454
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e264e32ef3eb51ab0800000000000000
+      internalID: -5037911426556082642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_153
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 474
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1143a8b7d22994ac0800000000000000
+      internalID: -3870401680704392175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_154
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 476
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cfeb36116d69cd0800000000000000
+      internalID: -2551616768682558418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_155
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 459
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada891d40136538c0800000000000000
+      internalID: -4020198170694153510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_156
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 275
+        width: 143
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e7aee3887d8290800000000000000
+      internalID: -7886514864415840986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_157
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 402
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8428b2a20c848170800000000000000
+      internalID: 8179816766159463564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_158
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 312
+        width: 112
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89198f6484b84c70800000000000000
+      internalID: 8955606339926169997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_159
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 390
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd801f3b7e46f3650800000000000000
+      internalID: 6214796957113714911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_160
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 335
+        width: 140
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28418c83b97ab2520800000000000000
+      internalID: 2678418688516297858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_161
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 356
+        width: 70
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9a61c31fb05b490800000000000000
+      internalID: -7731260054588446219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_162
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 332
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b205819cb8db255a0800000000000000
+      internalID: -6533951701289250773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_163
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 281
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483cc3a499cde9cb0800000000000000
+      internalID: -4855200797325212796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_164
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 346
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77d84b590169b8a0800000000000000
+      internalID: -6288888711832086662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_165
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 270
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f63dee5aa6ad140800000000000000
+      internalID: 4745222418297220877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_166
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 317
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3422e683e4c1d20800000000000000
+      internalID: 3250559035327529927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_167
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 206
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bef5709b982988d0800000000000000
+      internalID: -2843697041099063623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_168
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 225
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff1c8f57d9f9e8e0800000000000000
+      internalID: -1663523883920384001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_169
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 173
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ad848ce3bb9d990800000000000000
+      internalID: -7360646237637780954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_170
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 103
+        width: 206
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74f810176c755880800000000000000
+      internalID: -8622849129437399937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_171
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 203
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b5bb53ec88f27f0800000000000000
+      internalID: -635138603189839015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_172
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 210
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52adf4c0f281cca00800000000000000
+      internalID: 778023425977342501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_173
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 198
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ce444ff57d457b0800000000000000
+      internalID: -5236323659605021643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_174
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 228
+        width: 88
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae102c26bb353d350800000000000000
+      internalID: 6040263589514838506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_175
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 166
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f8147bfb9f1e650800000000000000
+      internalID: 6260559558830296875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_176
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 205
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6770e83a159f620800000000000000
+      internalID: 2808365605546587837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca35f692d1d4dea0800000000000000
+      internalID: -5848819313641440568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_178
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 134
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ca7728a70fac90800000000000000
+      internalID: -7156492864070172296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_179
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4195e657b44e5d0800000000000000
+      internalID: -3034217281206283068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_180
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 34
+        width: 147
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a60b074f92a4d6e0800000000000000
+      internalID: -1813645944948062554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_181
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 120
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afb359dbf4409da0800000000000000
+      internalID: -5940172060028059737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_182
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 65
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93129e65519e88950800000000000000
+      internalID: 6451662744069939513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_183
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b6bb7b57123df30800000000000000
+      internalID: 4599056433952811846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_184
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 16
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca2998e86c8f4100800000000000000
+      internalID: 94448499404909250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_185
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dec849d4c107e600800000000000000
+      internalID: 497368228818374352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_186
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 68
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f119987005b600c0800000000000000
+      internalID: -4609798154939198983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_187
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 18
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03f12491dc8e5410800000000000000
+      internalID: 1467765360330666762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_188
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 17
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402235a8484e18a0800000000000000
+      internalID: -6332544549189967793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_189
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955858c5134a71dd0800000000000000
+      internalID: -2515361334950525607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_190
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 9
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0137c3572e13053c0800000000000000
+      internalID: -4372940389477485808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_191
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 37
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41f553aa9b7285e0800000000000000
+      internalID: -1908827387956170418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_192
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 12
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bdda9859b57b9e0800000000000000
+      internalID: -1605714044316165311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_193
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 13
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b521519e8e2a610800000000000000
+      internalID: 1631122102840089489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_194
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 5
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cfc5ba3766da240800000000000000
+      internalID: 4804609024456457232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 5 Big Stars_195
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 33
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e122f094e220afdd0800000000000000
+      internalID: -2451644649332334050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bkg 5 Big Stars_0: -431310494855789635
+      Bkg 5 Big Stars_1: 6889762018609905145
+      Bkg 5 Big Stars_10: 4207689485355447544
+      Bkg 5 Big Stars_100: 5003217444040459466
+      Bkg 5 Big Stars_101: 2942924666453542100
+      Bkg 5 Big Stars_102: -8036716717341508279
+      Bkg 5 Big Stars_103: 3502151784813281889
+      Bkg 5 Big Stars_104: -6925165009145876937
+      Bkg 5 Big Stars_105: -2702555652833134777
+      Bkg 5 Big Stars_106: -8812598702289363197
+      Bkg 5 Big Stars_107: 5883831190024896492
+      Bkg 5 Big Stars_108: -8170877617035078111
+      Bkg 5 Big Stars_109: 3932610528397125525
+      Bkg 5 Big Stars_11: -2911344432197685343
+      Bkg 5 Big Stars_110: 7951116801321807200
+      Bkg 5 Big Stars_111: 3104082281965931503
+      Bkg 5 Big Stars_112: -6403538888099108667
+      Bkg 5 Big Stars_113: 6385951962846003146
+      Bkg 5 Big Stars_114: 4293216988248349602
+      Bkg 5 Big Stars_115: -5326373450721447655
+      Bkg 5 Big Stars_116: 1971028057002557183
+      Bkg 5 Big Stars_117: -4933089199319197776
+      Bkg 5 Big Stars_118: -2040280497645085808
+      Bkg 5 Big Stars_119: -406188586644354497
+      Bkg 5 Big Stars_12: -3233691087588120669
+      Bkg 5 Big Stars_120: 1624140698538329444
+      Bkg 5 Big Stars_121: 3975869674557622670
+      Bkg 5 Big Stars_122: -7866244701434516817
+      Bkg 5 Big Stars_123: 434996699174333885
+      Bkg 5 Big Stars_124: 2828933990699304673
+      Bkg 5 Big Stars_125: -6250636519000939721
+      Bkg 5 Big Stars_126: 2757514107081895889
+      Bkg 5 Big Stars_127: 7385121047935212717
+      Bkg 5 Big Stars_128: 830262602414787902
+      Bkg 5 Big Stars_129: 6510709613513831591
+      Bkg 5 Big Stars_13: -8590242811475587870
+      Bkg 5 Big Stars_130: -526102347420498536
+      Bkg 5 Big Stars_131: -6735538236737879393
+      Bkg 5 Big Stars_132: 8552514894504364438
+      Bkg 5 Big Stars_133: 5672247117813635701
+      Bkg 5 Big Stars_134: 6868242403605516070
+      Bkg 5 Big Stars_135: 2972789498597120628
+      Bkg 5 Big Stars_136: -5424519291839094591
+      Bkg 5 Big Stars_137: 5675478483795581928
+      Bkg 5 Big Stars_138: 3730065089974468440
+      Bkg 5 Big Stars_139: -721127941231608327
+      Bkg 5 Big Stars_14: -6757479143620135536
+      Bkg 5 Big Stars_140: 6974495063871108308
+      Bkg 5 Big Stars_141: 2166158120139397874
+      Bkg 5 Big Stars_142: 7048417668069562507
+      Bkg 5 Big Stars_143: -8047974323831196220
+      Bkg 5 Big Stars_144: -5911683709585583432
+      Bkg 5 Big Stars_145: 4572533896785043744
+      Bkg 5 Big Stars_146: 3684965183453123869
+      Bkg 5 Big Stars_147: -4509278978141088179
+      Bkg 5 Big Stars_148: -4489373326399934687
+      Bkg 5 Big Stars_149: -3458543925322611392
+      Bkg 5 Big Stars_15: -8345589442988287772
+      Bkg 5 Big Stars_150: -3047962022202316740
+      Bkg 5 Big Stars_151: -5296479304065625466
+      Bkg 5 Big Stars_152: -5037911426556082642
+      Bkg 5 Big Stars_153: -3870401680704392175
+      Bkg 5 Big Stars_154: -2551616768682558418
+      Bkg 5 Big Stars_155: -4020198170694153510
+      Bkg 5 Big Stars_156: -7886514864415840986
+      Bkg 5 Big Stars_157: 8179816766159463564
+      Bkg 5 Big Stars_158: 8955606339926169997
+      Bkg 5 Big Stars_159: 6214796957113714911
+      Bkg 5 Big Stars_16: -4487084377519361817
+      Bkg 5 Big Stars_160: 2678418688516297858
+      Bkg 5 Big Stars_161: -7731260054588446219
+      Bkg 5 Big Stars_162: -6533951701289250773
+      Bkg 5 Big Stars_163: -4855200797325212796
+      Bkg 5 Big Stars_164: -6288888711832086662
+      Bkg 5 Big Stars_165: 4745222418297220877
+      Bkg 5 Big Stars_166: 3250559035327529927
+      Bkg 5 Big Stars_167: -2843697041099063623
+      Bkg 5 Big Stars_168: -1663523883920384001
+      Bkg 5 Big Stars_169: -7360646237637780954
+      Bkg 5 Big Stars_17: -6877547979457469109
+      Bkg 5 Big Stars_170: -8622849129437399937
+      Bkg 5 Big Stars_171: -635138603189839015
+      Bkg 5 Big Stars_172: 778023425977342501
+      Bkg 5 Big Stars_173: -5236323659605021643
+      Bkg 5 Big Stars_174: 6040263589514838506
+      Bkg 5 Big Stars_175: 6260559558830296875
+      Bkg 5 Big Stars_176: 2808365605546587837
+      Bkg 5 Big Stars_177: -5848819313641440568
+      Bkg 5 Big Stars_178: -7156492864070172296
+      Bkg 5 Big Stars_179: -3034217281206283068
+      Bkg 5 Big Stars_18: -6744630296938458182
+      Bkg 5 Big Stars_180: -1813645944948062554
+      Bkg 5 Big Stars_181: -5940172060028059737
+      Bkg 5 Big Stars_182: 6451662744069939513
+      Bkg 5 Big Stars_183: 4599056433952811846
+      Bkg 5 Big Stars_184: 94448499404909250
+      Bkg 5 Big Stars_185: 497368228818374352
+      Bkg 5 Big Stars_186: -4609798154939198983
+      Bkg 5 Big Stars_187: 1467765360330666762
+      Bkg 5 Big Stars_188: -6332544549189967793
+      Bkg 5 Big Stars_189: -2515361334950525607
+      Bkg 5 Big Stars_19: 1070279854057837747
+      Bkg 5 Big Stars_190: -4372940389477485808
+      Bkg 5 Big Stars_191: -1908827387956170418
+      Bkg 5 Big Stars_192: -1605714044316165311
+      Bkg 5 Big Stars_193: 1631122102840089489
+      Bkg 5 Big Stars_194: 4804609024456457232
+      Bkg 5 Big Stars_195: -2451644649332334050
+      Bkg 5 Big Stars_2: -3320895004035181140
+      Bkg 5 Big Stars_20: 5101079427695317607
+      Bkg 5 Big Stars_21: 8830871090858895463
+      Bkg 5 Big Stars_22: 5321988321102158203
+      Bkg 5 Big Stars_23: -621261265039492847
+      Bkg 5 Big Stars_24: 1994353135079892434
+      Bkg 5 Big Stars_25: -2636120262719843261
+      Bkg 5 Big Stars_26: 5630420503205699476
+      Bkg 5 Big Stars_27: -1572305435161641857
+      Bkg 5 Big Stars_28: -6103368644463934934
+      Bkg 5 Big Stars_29: 4590235953045005690
+      Bkg 5 Big Stars_3: -7255266440735741834
+      Bkg 5 Big Stars_30: -7325152979552832136
+      Bkg 5 Big Stars_31: -7933459275215681081
+      Bkg 5 Big Stars_32: 5166571945191808470
+      Bkg 5 Big Stars_33: -992827127216354234
+      Bkg 5 Big Stars_34: 8068715768797419717
+      Bkg 5 Big Stars_35: 7183039091331504852
+      Bkg 5 Big Stars_36: 2338761579880480426
+      Bkg 5 Big Stars_37: 1895000488450294751
+      Bkg 5 Big Stars_38: 6764794749298933169
+      Bkg 5 Big Stars_39: 5348734591722829715
+      Bkg 5 Big Stars_4: 5740532942292680825
+      Bkg 5 Big Stars_40: -4898049634909747317
+      Bkg 5 Big Stars_41: 1368482734064102693
+      Bkg 5 Big Stars_42: 6366195485072723531
+      Bkg 5 Big Stars_43: 1736676319902602068
+      Bkg 5 Big Stars_44: 8230829655723440615
+      Bkg 5 Big Stars_45: 2103310148404923094
+      Bkg 5 Big Stars_46: 376928167045896973
+      Bkg 5 Big Stars_47: -6690357903492071516
+      Bkg 5 Big Stars_48: 6221316986768105512
+      Bkg 5 Big Stars_49: 7898492294778428638
+      Bkg 5 Big Stars_5: -6504297532392082194
+      Bkg 5 Big Stars_50: -2974625343453123178
+      Bkg 5 Big Stars_51: 1684117912326063047
+      Bkg 5 Big Stars_52: 3569714494581444670
+      Bkg 5 Big Stars_53: -6073273236174639847
+      Bkg 5 Big Stars_54: -4075623258245199489
+      Bkg 5 Big Stars_55: 5809370434304903453
+      Bkg 5 Big Stars_56: -1314105675678680319
+      Bkg 5 Big Stars_57: -5953714348085272043
+      Bkg 5 Big Stars_58: -5407523395164740643
+      Bkg 5 Big Stars_59: 7080037317072812104
+      Bkg 5 Big Stars_6: -1934783343246884078
+      Bkg 5 Big Stars_60: -1073516024993687237
+      Bkg 5 Big Stars_61: 857262719061577127
+      Bkg 5 Big Stars_62: 6695418987594019750
+      Bkg 5 Big Stars_63: -9137778748125574287
+      Bkg 5 Big Stars_64: -7961837130006738799
+      Bkg 5 Big Stars_65: 6831794225143930673
+      Bkg 5 Big Stars_66: 9199918674718915841
+      Bkg 5 Big Stars_67: -2751207286761000854
+      Bkg 5 Big Stars_68: 6399612409659576612
+      Bkg 5 Big Stars_69: 3748767543737775195
+      Bkg 5 Big Stars_7: -5830933796112558857
+      Bkg 5 Big Stars_70: -6830988989337037338
+      Bkg 5 Big Stars_71: -3484632102935069136
+      Bkg 5 Big Stars_72: 2686112550186848983
+      Bkg 5 Big Stars_73: -6453532524134801855
+      Bkg 5 Big Stars_74: 412053534833853332
+      Bkg 5 Big Stars_75: 5267494931061227675
+      Bkg 5 Big Stars_76: 5854619741070633414
+      Bkg 5 Big Stars_77: 6563453537405400968
+      Bkg 5 Big Stars_78: -2957839293268125945
+      Bkg 5 Big Stars_79: 7344015207603992116
+      Bkg 5 Big Stars_8: 6683278746203850181
+      Bkg 5 Big Stars_80: -6133439101097397943
+      Bkg 5 Big Stars_81: 7800650242617637426
+      Bkg 5 Big Stars_82: -1919448454771641294
+      Bkg 5 Big Stars_83: 8327453081927570792
+      Bkg 5 Big Stars_84: 8869095019403898881
+      Bkg 5 Big Stars_85: -8067847343590580884
+      Bkg 5 Big Stars_86: -7257171329410498238
+      Bkg 5 Big Stars_87: 5554488463896060697
+      Bkg 5 Big Stars_88: -286401706172472403
+      Bkg 5 Big Stars_89: 6325120251219153487
+      Bkg 5 Big Stars_9: -2250778947055812644
+      Bkg 5 Big Stars_90: 3593331206112291151
+      Bkg 5 Big Stars_91: 7298984299160750504
+      Bkg 5 Big Stars_92: -603340429179610917
+      Bkg 5 Big Stars_93: 521824527129913785
+      Bkg 5 Big Stars_94: 8096394171355363661
+      Bkg 5 Big Stars_95: 8688582871299135711
+      Bkg 5 Big Stars_96: -7078408852816879657
+      Bkg 5 Big Stars_97: -3089416638299060331
+      Bkg 5 Big Stars_98: 2468354035985916005
+      Bkg 5 Big Stars_99: -462690374908368109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

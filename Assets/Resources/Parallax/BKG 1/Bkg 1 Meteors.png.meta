@@ -1,0 +1,5031 @@
+fileFormatVersion: 2
+guid: 9fbf9c2fd2c304179aefcfd06e6a8305
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3851168538303505282
+    second: Bkg 1 Meteors_0
+  - first:
+      213: 156395256677547449
+    second: Bkg 1 Meteors_1
+  - first:
+      213: 4618395363375100525
+    second: Bkg 1 Meteors_2
+  - first:
+      213: -4748853656020903076
+    second: Bkg 1 Meteors_3
+  - first:
+      213: -7187444300826662201
+    second: Bkg 1 Meteors_4
+  - first:
+      213: -501673958528736035
+    second: Bkg 1 Meteors_5
+  - first:
+      213: -2797803984713064966
+    second: Bkg 1 Meteors_6
+  - first:
+      213: 9185516169468266661
+    second: Bkg 1 Meteors_7
+  - first:
+      213: 4955886139712681973
+    second: Bkg 1 Meteors_8
+  - first:
+      213: 9076592680357429287
+    second: Bkg 1 Meteors_9
+  - first:
+      213: 5629967001805467979
+    second: Bkg 1 Meteors_10
+  - first:
+      213: 6400782900331178379
+    second: Bkg 1 Meteors_11
+  - first:
+      213: 3124571480760299631
+    second: Bkg 1 Meteors_12
+  - first:
+      213: -5888930852434675929
+    second: Bkg 1 Meteors_13
+  - first:
+      213: -8034921828720022227
+    second: Bkg 1 Meteors_14
+  - first:
+      213: -8852762168779555065
+    second: Bkg 1 Meteors_15
+  - first:
+      213: -7257763789013433428
+    second: Bkg 1 Meteors_16
+  - first:
+      213: -5786825190468132529
+    second: Bkg 1 Meteors_17
+  - first:
+      213: -6797547380649567634
+    second: Bkg 1 Meteors_18
+  - first:
+      213: -8933647624635663179
+    second: Bkg 1 Meteors_19
+  - first:
+      213: -7898673581633845505
+    second: Bkg 1 Meteors_20
+  - first:
+      213: -5820962862831969254
+    second: Bkg 1 Meteors_21
+  - first:
+      213: 2449985009894672386
+    second: Bkg 1 Meteors_22
+  - first:
+      213: 5427168818997155290
+    second: Bkg 1 Meteors_23
+  - first:
+      213: -8047647580635016003
+    second: Bkg 1 Meteors_24
+  - first:
+      213: -1070628259123170963
+    second: Bkg 1 Meteors_25
+  - first:
+      213: -3576335746655002974
+    second: Bkg 1 Meteors_26
+  - first:
+      213: 9208428598512067741
+    second: Bkg 1 Meteors_27
+  - first:
+      213: -7112545695234318816
+    second: Bkg 1 Meteors_28
+  - first:
+      213: -6895090000302446760
+    second: Bkg 1 Meteors_29
+  - first:
+      213: -174781302790153266
+    second: Bkg 1 Meteors_30
+  - first:
+      213: 4164364237446641148
+    second: Bkg 1 Meteors_31
+  - first:
+      213: 4388447207131493558
+    second: Bkg 1 Meteors_32
+  - first:
+      213: -5256848146101175939
+    second: Bkg 1 Meteors_33
+  - first:
+      213: -2759898162639698099
+    second: Bkg 1 Meteors_34
+  - first:
+      213: -2666291849139598020
+    second: Bkg 1 Meteors_35
+  - first:
+      213: 3944381997085858065
+    second: Bkg 1 Meteors_36
+  - first:
+      213: 6326883937587433535
+    second: Bkg 1 Meteors_37
+  - first:
+      213: 140973998693652140
+    second: Bkg 1 Meteors_38
+  - first:
+      213: 8643565245440843345
+    second: Bkg 1 Meteors_39
+  - first:
+      213: 7891765904369522907
+    second: Bkg 1 Meteors_40
+  - first:
+      213: 591338041109964125
+    second: Bkg 1 Meteors_41
+  - first:
+      213: 9132230664492435971
+    second: Bkg 1 Meteors_42
+  - first:
+      213: 4199887743227824958
+    second: Bkg 1 Meteors_43
+  - first:
+      213: 1070799882406260875
+    second: Bkg 1 Meteors_44
+  - first:
+      213: 7381905923369008305
+    second: Bkg 1 Meteors_45
+  - first:
+      213: 3311825389384143011
+    second: Bkg 1 Meteors_46
+  - first:
+      213: -5486636840712989134
+    second: Bkg 1 Meteors_47
+  - first:
+      213: -2136511260393775677
+    second: Bkg 1 Meteors_48
+  - first:
+      213: 620587989114979668
+    second: Bkg 1 Meteors_49
+  - first:
+      213: 5739852455820709599
+    second: Bkg 1 Meteors_50
+  - first:
+      213: 1749596814592235351
+    second: Bkg 1 Meteors_51
+  - first:
+      213: 3080709270433666751
+    second: Bkg 1 Meteors_52
+  - first:
+      213: -3016606028687229489
+    second: Bkg 1 Meteors_53
+  - first:
+      213: -5470726514567917129
+    second: Bkg 1 Meteors_54
+  - first:
+      213: -5473643535397752735
+    second: Bkg 1 Meteors_55
+  - first:
+      213: -6685189795953676857
+    second: Bkg 1 Meteors_56
+  - first:
+      213: 1314014517435724306
+    second: Bkg 1 Meteors_57
+  - first:
+      213: -505583222738213020
+    second: Bkg 1 Meteors_58
+  - first:
+      213: 117611560812837224
+    second: Bkg 1 Meteors_59
+  - first:
+      213: -5940999283675640884
+    second: Bkg 1 Meteors_60
+  - first:
+      213: -1083753833647538032
+    second: Bkg 1 Meteors_61
+  - first:
+      213: 3724715674394481463
+    second: Bkg 1 Meteors_62
+  - first:
+      213: 854518022323311049
+    second: Bkg 1 Meteors_63
+  - first:
+      213: -8814571056908889866
+    second: Bkg 1 Meteors_64
+  - first:
+      213: -4962061261776443347
+    second: Bkg 1 Meteors_65
+  - first:
+      213: -1244298228411549109
+    second: Bkg 1 Meteors_66
+  - first:
+      213: -8713665394938621072
+    second: Bkg 1 Meteors_67
+  - first:
+      213: -8899727446460599503
+    second: Bkg 1 Meteors_68
+  - first:
+      213: 4743346337292220025
+    second: Bkg 1 Meteors_69
+  - first:
+      213: 7078230458513393775
+    second: Bkg 1 Meteors_70
+  - first:
+      213: 1555925779225544739
+    second: Bkg 1 Meteors_71
+  - first:
+      213: 9215709670899409119
+    second: Bkg 1 Meteors_72
+  - first:
+      213: 8018858363313607728
+    second: Bkg 1 Meteors_73
+  - first:
+      213: 651916312485648097
+    second: Bkg 1 Meteors_74
+  - first:
+      213: -3010623035543244138
+    second: Bkg 1 Meteors_75
+  - first:
+      213: -4226091198516266371
+    second: Bkg 1 Meteors_76
+  - first:
+      213: 2256522311546350693
+    second: Bkg 1 Meteors_77
+  - first:
+      213: 1091923716475265510
+    second: Bkg 1 Meteors_78
+  - first:
+      213: 5239086771362267039
+    second: Bkg 1 Meteors_79
+  - first:
+      213: 6500185132432575817
+    second: Bkg 1 Meteors_80
+  - first:
+      213: 2997492786958594818
+    second: Bkg 1 Meteors_81
+  - first:
+      213: 6961834261022282205
+    second: Bkg 1 Meteors_82
+  - first:
+      213: -8362155297153347105
+    second: Bkg 1 Meteors_83
+  - first:
+      213: -875838149478813843
+    second: Bkg 1 Meteors_84
+  - first:
+      213: -2048191857561634509
+    second: Bkg 1 Meteors_85
+  - first:
+      213: -6643602471095393899
+    second: Bkg 1 Meteors_86
+  - first:
+      213: 8502288565934587663
+    second: Bkg 1 Meteors_87
+  - first:
+      213: 939917642108690435
+    second: Bkg 1 Meteors_88
+  - first:
+      213: -7070755432791835597
+    second: Bkg 1 Meteors_89
+  - first:
+      213: -1098223930108263539
+    second: Bkg 1 Meteors_90
+  - first:
+      213: -3457156824553668930
+    second: Bkg 1 Meteors_91
+  - first:
+      213: 862916542557507959
+    second: Bkg 1 Meteors_92
+  - first:
+      213: 1421258744406306057
+    second: Bkg 1 Meteors_93
+  - first:
+      213: -2323620778092137141
+    second: Bkg 1 Meteors_94
+  - first:
+      213: -2525059890851713068
+    second: Bkg 1 Meteors_95
+  - first:
+      213: 160859644933548853
+    second: Bkg 1 Meteors_96
+  - first:
+      213: 6662021955135843448
+    second: Bkg 1 Meteors_97
+  - first:
+      213: 4347469102164365211
+    second: Bkg 1 Meteors_98
+  - first:
+      213: 6478565502088158189
+    second: Bkg 1 Meteors_99
+  - first:
+      213: 6912855742249726415
+    second: Bkg 1 Meteors_100
+  - first:
+      213: -3411023547776573773
+    second: Bkg 1 Meteors_101
+  - first:
+      213: 2987195901940729728
+    second: Bkg 1 Meteors_102
+  - first:
+      213: 5838276536026556665
+    second: Bkg 1 Meteors_103
+  - first:
+      213: 6807085243489495258
+    second: Bkg 1 Meteors_104
+  - first:
+      213: -7248409672229892223
+    second: Bkg 1 Meteors_105
+  - first:
+      213: 264639843921907259
+    second: Bkg 1 Meteors_106
+  - first:
+      213: -4156600123298642318
+    second: Bkg 1 Meteors_107
+  - first:
+      213: 6644294161052226006
+    second: Bkg 1 Meteors_108
+  - first:
+      213: -5633864919733361175
+    second: Bkg 1 Meteors_109
+  - first:
+      213: 3155391457997483007
+    second: Bkg 1 Meteors_110
+  - first:
+      213: -864408115752150534
+    second: Bkg 1 Meteors_111
+  - first:
+      213: 3331816303488977600
+    second: Bkg 1 Meteors_112
+  - first:
+      213: -2904039441155435352
+    second: Bkg 1 Meteors_113
+  - first:
+      213: 9030938693664231994
+    second: Bkg 1 Meteors_114
+  - first:
+      213: -1662457676195883768
+    second: Bkg 1 Meteors_115
+  - first:
+      213: -47454295837213234
+    second: Bkg 1 Meteors_116
+  - first:
+      213: -2876749178451317357
+    second: Bkg 1 Meteors_117
+  - first:
+      213: 4073825300331028584
+    second: Bkg 1 Meteors_118
+  - first:
+      213: -5248350698621796874
+    second: Bkg 1 Meteors_119
+  - first:
+      213: 962913073472735411
+    second: Bkg 1 Meteors_120
+  - first:
+      213: -7352545901991432864
+    second: Bkg 1 Meteors_121
+  - first:
+      213: 3906396003166766371
+    second: Bkg 1 Meteors_122
+  - first:
+      213: 6252645649114786762
+    second: Bkg 1 Meteors_123
+  - first:
+      213: 1010340550244752505
+    second: Bkg 1 Meteors_124
+  - first:
+      213: -5878991334927461346
+    second: Bkg 1 Meteors_125
+  - first:
+      213: 2735014350205048878
+    second: Bkg 1 Meteors_126
+  - first:
+      213: -5231437095476231538
+    second: Bkg 1 Meteors_127
+  - first:
+      213: 150206387503060619
+    second: Bkg 1 Meteors_128
+  - first:
+      213: -8982855971659776828
+    second: Bkg 1 Meteors_129
+  - first:
+      213: 1229125988436076930
+    second: Bkg 1 Meteors_130
+  - first:
+      213: -8690015187667576055
+    second: Bkg 1 Meteors_131
+  - first:
+      213: 2764170175190363329
+    second: Bkg 1 Meteors_132
+  - first:
+      213: -2063999073298036449
+    second: Bkg 1 Meteors_133
+  - first:
+      213: -6165283857341232616
+    second: Bkg 1 Meteors_134
+  - first:
+      213: 7465116355764906629
+    second: Bkg 1 Meteors_135
+  - first:
+      213: -2228352047768495873
+    second: Bkg 1 Meteors_136
+  - first:
+      213: -444330948023466613
+    second: Bkg 1 Meteors_137
+  - first:
+      213: -7047500580944657155
+    second: Bkg 1 Meteors_138
+  - first:
+      213: -734811303820821504
+    second: Bkg 1 Meteors_139
+  - first:
+      213: -5257958312300586839
+    second: Bkg 1 Meteors_140
+  - first:
+      213: -7299206131916971017
+    second: Bkg 1 Meteors_141
+  - first:
+      213: 2772421307288781996
+    second: Bkg 1 Meteors_142
+  - first:
+      213: -2165547632932896634
+    second: Bkg 1 Meteors_143
+  - first:
+      213: 999455687617028170
+    second: Bkg 1 Meteors_144
+  - first:
+      213: -4249713226358629807
+    second: Bkg 1 Meteors_145
+  - first:
+      213: -9122945915284673885
+    second: Bkg 1 Meteors_146
+  - first:
+      213: 4221579741022433989
+    second: Bkg 1 Meteors_147
+  - first:
+      213: 2118388794926305154
+    second: Bkg 1 Meteors_148
+  - first:
+      213: 6850154222459654925
+    second: Bkg 1 Meteors_149
+  - first:
+      213: -8238517385036683065
+    second: Bkg 1 Meteors_150
+  - first:
+      213: 2303060588867505340
+    second: Bkg 1 Meteors_151
+  - first:
+      213: 7717336752420048705
+    second: Bkg 1 Meteors_152
+  - first:
+      213: -6560153057035933077
+    second: Bkg 1 Meteors_153
+  - first:
+      213: 6814153829830032695
+    second: Bkg 1 Meteors_154
+  - first:
+      213: 2374671048890027535
+    second: Bkg 1 Meteors_155
+  - first:
+      213: 8330392508224970939
+    second: Bkg 1 Meteors_156
+  - first:
+      213: 4208345949188133691
+    second: Bkg 1 Meteors_157
+  - first:
+      213: 1575167984609285564
+    second: Bkg 1 Meteors_158
+  - first:
+      213: -3751341542393968111
+    second: Bkg 1 Meteors_159
+  - first:
+      213: -7921682616104835922
+    second: Bkg 1 Meteors_160
+  - first:
+      213: 4290947510650723242
+    second: Bkg 1 Meteors_161
+  - first:
+      213: 3606868153807082892
+    second: Bkg 1 Meteors_162
+  - first:
+      213: 4573174600543322239
+    second: Bkg 1 Meteors_163
+  - first:
+      213: 6813036453774583173
+    second: Bkg 1 Meteors_164
+  - first:
+      213: 8316921924705779659
+    second: Bkg 1 Meteors_165
+  - first:
+      213: 889645955889352199
+    second: Bkg 1 Meteors_166
+  - first:
+      213: 7964957930137797862
+    second: Bkg 1 Meteors_167
+  - first:
+      213: 3391091150050577404
+    second: Bkg 1 Meteors_168
+  - first:
+      213: -5164772952803729458
+    second: Bkg 1 Meteors_169
+  - first:
+      213: -5877015117222442762
+    second: Bkg 1 Meteors_170
+  - first:
+      213: -5369823921388775010
+    second: Bkg 1 Meteors_171
+  - first:
+      213: -7014721831567878390
+    second: Bkg 1 Meteors_172
+  - first:
+      213: -8131914613531243604
+    second: Bkg 1 Meteors_173
+  - first:
+      213: 7995958869248915513
+    second: Bkg 1 Meteors_174
+  - first:
+      213: -7214097799526159804
+    second: Bkg 1 Meteors_175
+  - first:
+      213: 3359098187234561660
+    second: Bkg 1 Meteors_176
+  - first:
+      213: 4347019033472898080
+    second: Bkg 1 Meteors_177
+  - first:
+      213: -280203710905607842
+    second: Bkg 1 Meteors_178
+  - first:
+      213: 6844704613879337880
+    second: Bkg 1 Meteors_179
+  - first:
+      213: -1045609469068993270
+    second: Bkg 1 Meteors_180
+  - first:
+      213: -4336639858304284130
+    second: Bkg 1 Meteors_181
+  - first:
+      213: 7532906847749484046
+    second: Bkg 1 Meteors_182
+  - first:
+      213: 7560387881050247786
+    second: Bkg 1 Meteors_183
+  - first:
+      213: 5873543009209149399
+    second: Bkg 1 Meteors_184
+  - first:
+      213: 2517725271546110604
+    second: Bkg 1 Meteors_185
+  - first:
+      213: 9215402136477710419
+    second: Bkg 1 Meteors_186
+  - first:
+      213: -7361546528448323161
+    second: Bkg 1 Meteors_187
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_0
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1995
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283adb79169127530800000000000000
+      internalID: 3851168538303505282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_1
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1932
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd32d648a0ab2200800000000000000
+      internalID: 156395256677547449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1968
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62b84a1d16d71040800000000000000
+      internalID: 4618395363375100525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_3
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1978
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b1f86a2cea81eb0800000000000000
+      internalID: -4748853656020903076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_4
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1946
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca22563d71114c90800000000000000
+      internalID: -7187444300826662201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_5
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1938
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4a4d45132b909f0800000000000000
+      internalID: -501673958528736035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_6
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1931
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd510c69143c29d0800000000000000
+      internalID: -2797803984713064966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_7
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1920
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a843c70a42897f70800000000000000
+      internalID: 9185516169468266661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_8
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1890
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f73bd8cf28d6c440800000000000000
+      internalID: 4955886139712681973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_9
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1904
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7208d93f3f886fd70800000000000000
+      internalID: 9076592680357429287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_10
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1824
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4139c7c829a12e40800000000000000
+      internalID: 5629967001805467979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_11
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1887
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8962a2922624d850800000000000000
+      internalID: 6400782900331178379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1823
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60b8020535bc5b20800000000000000
+      internalID: 3124571480760299631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_13
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1829
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727fac13790564ea0800000000000000
+      internalID: -5888930852434675929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1803
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d6c19ea293e7090800000000000000
+      internalID: -8034921828720022227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1731
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fb0e026bba42580800000000000000
+      internalID: -8852762168779555065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1723
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca34924894e374b90800000000000000
+      internalID: -7257763789013433428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1705
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f416dd0362111bfa0800000000000000
+      internalID: -5786825190468132529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1675
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ade781ca24aa1a0800000000000000
+      internalID: -6797547380649567634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1679
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc341161de450480800000000000000
+      internalID: -8933647624635663179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1667
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6c3f9f936426290800000000000000
+      internalID: -7898673581633845505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1586
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cd826fd19c73fa0800000000000000
+      internalID: -5820962862831969254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1524
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208cdcbc268100220800000000000000
+      internalID: 2449985009894672386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_23
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1574
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d668594d215b40800000000000000
+      internalID: 5427168818997155290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1564
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4d7b6e923015090800000000000000
+      internalID: -8047647580635016003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_25
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1559
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61f770554d5421f0800000000000000
+      internalID: -1070628259123170963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1549
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aed81f269d4e5ec0800000000000000
+      internalID: -3576335746655002974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_27
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1554
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d942cd1a509eacf70800000000000000
+      internalID: 9208428598512067741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_28
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1541
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e13d2cf592b4d90800000000000000
+      internalID: -7112545695234318816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1441
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857ef9d2d28bf40a0800000000000000
+      internalID: -6895090000302446760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1509
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb10d5c45d039df0800000000000000
+      internalID: -174781302790153266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_31
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1515
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5f850d53bcac930800000000000000
+      internalID: 4164364237446641148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_32
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1514
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4b0a0eb75e6ec30800000000000000
+      internalID: 4388447207131493558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_33
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1520
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79f77d867ceb07b0800000000000000
+      internalID: -5256848146101175939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1505
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d478b9f5e3fd2b9d0800000000000000
+      internalID: -2759898162639698099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1487
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dc38890bd6ffad0800000000000000
+      internalID: -2666291849139598020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_36
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1491
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1199fb237824db630800000000000000
+      internalID: 3944381997085858065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_37
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1484
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3016038b6b9dc750800000000000000
+      internalID: 6326883937587433535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1475
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca693bada17d4f100800000000000000
+      internalID: 140973998693652140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_39
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1470
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ed96f8bcc14f770800000000000000
+      internalID: 8643565245440843345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd81c74174f258d60800000000000000
+      internalID: 7891765904369522907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1473
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55e88ab0dad43800800000000000000
+      internalID: 591338041109964125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1442
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a400c97633cbe70800000000000000
+      internalID: 9132230664492435971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1437
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b8c9786aff84a30800000000000000
+      internalID: 4199887743227824958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1445
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80fa58d1de3cde00800000000000000
+      internalID: 1070799882406260875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_45
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1445
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcf2c7835cc17660800000000000000
+      internalID: 7381905923369008305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_46
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1444
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a09c5415a7f5fd20800000000000000
+      internalID: 3311825389384143011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1434
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2361bb1ecdc8bd3b0800000000000000
+      internalID: -5486636840712989134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_48
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1431
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5b9114569952e0800000000000000
+      internalID: -2136511260393775677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1428
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4558213fc75cc9800800000000000000
+      internalID: 620587989114979668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_50
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1402
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdec854c56d08af40800000000000000
+      internalID: 5739852455820709599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1362
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757dce97801d74810800000000000000
+      internalID: 1749596814592235351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1297
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6937852c0e0ca20800000000000000
+      internalID: 3080709270433666751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_53
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1246
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdbbc0bcccd226d0800000000000000
+      internalID: -3016606028687229489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1231
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15edb58331414b0800000000000000
+      internalID: -5470726514567917129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_55
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1224
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160f0858436b904b0800000000000000
+      internalID: -5473643535397752735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1217
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd6d1cdc4f6933a0800000000000000
+      internalID: -6685189795953676857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1174
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212767ddd315c3210800000000000000
+      internalID: 1314014517435724306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_58
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1180
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467aa44dcbecbf8f0800000000000000
+      internalID: -505583222738213020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1165
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8697ab76717d1a100800000000000000
+      internalID: 117611560812837224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1150
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbc9a5d0a45d8da0800000000000000
+      internalID: -5940999283675640884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090887951abb5f0f0800000000000000
+      internalID: -1083753833647538032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_62
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1148
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733dc95eb29d0b330800000000000000
+      internalID: 3724715674394481463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_63
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1138
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c110c62d9bdbdb00800000000000000
+      internalID: 854518022323311049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1117
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f09189435a5ca580800000000000000
+      internalID: -8814571056908889866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_65
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1105
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28a6129297332bb0800000000000000
+      internalID: -4962061261776443347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_66
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1065
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab1e49a5d5bbee0800000000000000
+      internalID: -1244298228411549109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_67
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1049
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073d1138d77d21780800000000000000
+      internalID: -8713665394938621072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_68
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 967
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133fbeb4a01dd7480800000000000000
+      internalID: -8899727446460599503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_69
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1008
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976f3f8cc50c3d140800000000000000
+      internalID: 4743346337292220025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_70
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1000
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f688a06991dea3260800000000000000
+      internalID: 7078230458513393775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_71
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1009
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3288c97a042c79510800000000000000
+      internalID: 1555925779225544739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 964
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd067176e17c4ef70800000000000000
+      internalID: 9215709670899409119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_73
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 846
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0345a791235b84f60800000000000000
+      internalID: 8018858363313607728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 803
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e65df4ae621c0900800000000000000
+      internalID: 651916312485648097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 879
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69236d5dc4e1836d0800000000000000
+      internalID: -3010623035543244138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_76
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 883
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a780c1278e955c0800000000000000
+      internalID: -4226091198516266371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_77
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 846
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca6773617c05f10800000000000000
+      internalID: 2256522311546350693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_78
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 850
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1255ab5da472f00800000000000000
+      internalID: 1091923716475265510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_79
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 860
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ffe7229a9f4b840800000000000000
+      internalID: 5239086771362267039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_80
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 856
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d4be040fb453a50800000000000000
+      internalID: 6500185132432575817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_81
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 846
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203767feecb399920800000000000000
+      internalID: 2997492786958594818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_82
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 831
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1906100676d9060800000000000000
+      internalID: 6961834261022282205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_83
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 804
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd11684df08a3fb80800000000000000
+      internalID: -8362155297153347105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_84
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 816
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f649be7d568d3f0800000000000000
+      internalID: -875838149478813843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_85
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 817
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f03a7b5c5393e0800000000000000
+      internalID: -2048191857561634509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_86
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 779
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591a37970ce2dc3a0800000000000000
+      internalID: -6643602471095393899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_87
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 786
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f756657623ef570800000000000000
+      internalID: 8502288565934587663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_88
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 774
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300e2089d124b0d00800000000000000
+      internalID: 939917642108690435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_89
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 735
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c77c67561afdd90800000000000000
+      internalID: -7070755432791835597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_90
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 704
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83401a772352c0f0800000000000000
+      internalID: -1098223930108263539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_91
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 718
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe39a35f26b500d0800000000000000
+      internalID: -3457156824553668930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_92
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 646
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771d2f50602b9fb00800000000000000
+      internalID: 862916542557507959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_93
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 682
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d61424c4359b310800000000000000
+      internalID: 1421258744406306057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_94
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 687
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45f911a637d0cfd0800000000000000
+      internalID: -2323620778092137141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_95
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 690
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df6239586f25fcd0800000000000000
+      internalID: -2525059890851713068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_96
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 678
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ba5faaefc7b3200800000000000000
+      internalID: 160859644933548853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_97
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 664
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ca9b9dba1447c50800000000000000
+      internalID: 6662021955135843448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_98
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 673
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f4e725d10555c30800000000000000
+      internalID: 4347469102164365211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_99
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 672
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb901ecffc78e950800000000000000
+      internalID: 6478565502088158189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_100
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 664
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc17054fba56fef50800000000000000
+      internalID: 6912855742249726415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_101
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 662
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bed84ad72c99a0d0800000000000000
+      internalID: -3411023547776573773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_102
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 669
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870ea198d6a47920800000000000000
+      internalID: 2987195901940729728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_103
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 654
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f86c56b399b50150800000000000000
+      internalID: 5838276536026556665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_104
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 650
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8aef5a6ff977e50800000000000000
+      internalID: 6807085243489495258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_105
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 649
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f4b3c8ec9786b90800000000000000
+      internalID: -7248409672229892223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_106
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 652
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e416239803ca300800000000000000
+      internalID: 264639843921907259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_107
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 646
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2768071e53ac056c0800000000000000
+      internalID: -4156600123298642318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_108
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 657
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d158b42656453c50800000000000000
+      internalID: 6644294161052226006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_109
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 642
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e522ca74bd70d1b0800000000000000
+      internalID: -5633864919733361175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_110
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 636
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbed3520d33acb20800000000000000
+      internalID: 3155391457997483007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_111
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 642
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d0a706610104f0800000000000000
+      internalID: -864408115752150534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_112
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 597
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cac05a764dfc3e20800000000000000
+      internalID: 3331816303488977600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_113
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 602
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4d438b387c2b7d0800000000000000
+      internalID: -2904039441155435352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_114
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 583
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32df28d4e6545d70800000000000000
+      internalID: 9030938693664231994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_115
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 579
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80519343d83cde8e0800000000000000
+      internalID: -1662457676195883768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_116
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 566
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd7e81c198675ff0800000000000000
+      internalID: -47454295837213234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_117
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 555
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d23862ddbb318d0800000000000000
+      internalID: -2876749178451317357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_118
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 538
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860ea3fc682298830800000000000000
+      internalID: 4073825300331028584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_119
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 528
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd79f7b8dc1a27b0800000000000000
+      internalID: -5248350698621796874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_120
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 524
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b80ceda654fc5d00800000000000000
+      internalID: 962913073472735411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_121
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 501
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06deb05257286f990800000000000000
+      internalID: -7352545901991432864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_122
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 505
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325c2c8c77e463630800000000000000
+      internalID: 3906396003166766371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_123
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 463
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbe0e5071cd5c650800000000000000
+      internalID: 6252645649114786762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_124
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 420
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cd28f9063750e00800000000000000
+      internalID: 1010340550244752505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_125
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 441
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e149c047780a96ea0800000000000000
+      internalID: -5878991334927461346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_126
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 358
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28519f8f09b4f520800000000000000
+      internalID: 2735014350205048878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_127
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 304
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e828653dda33667b0800000000000000
+      internalID: -5231437095476231538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_128
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 301
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b865d12e9e3a51200800000000000000
+      internalID: 150206387503060619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_129
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 310
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccf8b4461c765380800000000000000
+      internalID: -8982855971659776828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_130
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 273
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289eee4039bbe0110800000000000000
+      internalID: 1229125988436076930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_131
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 281
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b135e7a3dd66780800000000000000
+      internalID: -8690015187667576055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_132
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 277
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc63fe012e4c5620800000000000000
+      internalID: 2764170175190363329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_133
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 248
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19c55347c33b53e0800000000000000
+      internalID: -2063999073298036449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_134
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 253
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ac9bf2ff2807aa0800000000000000
+      internalID: -6165283857341232616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_135
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 248
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a635016cb699760800000000000000
+      internalID: 7465116355764906629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_136
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 258
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff89e3e6e9d4311e0800000000000000
+      internalID: -2228352047768495873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_137
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 244
+        width: 117
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8549506b5b65d9f0800000000000000
+      internalID: -444330948023466613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_138
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 237
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df44f669f8f323e90800000000000000
+      internalID: -7047500580944657155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_139
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 246
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c71da230d6dc5f0800000000000000
+      internalID: -734811303820821504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_140
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 221
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d287d5caf707b0800000000000000
+      internalID: -5257958312300586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_141
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 236
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f36cb422b204ba90800000000000000
+      internalID: -7299206131916971017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_142
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 234
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca40ca47d7e997620800000000000000
+      internalID: 2772421307288781996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_143
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 223
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680c8d2c6ed62f1e0800000000000000
+      internalID: -2165547632932896634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_144
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 214
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40282d07a7cedd00800000000000000
+      internalID: 999455687617028170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_145
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a5d99265cf505c0800000000000000
+      internalID: -4249713226358629807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_146
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 208
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa2b568609c46180800000000000000
+      internalID: -9122945915284673885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_147
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 208
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2b0a65860169a30800000000000000
+      internalID: 4221579741022433989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_148
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 200
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f00c1a267066d10800000000000000
+      internalID: 2118388794926305154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_149
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 201
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03995eb8f2a01f50800000000000000
+      internalID: 6850154222459654925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_150
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 203
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8220d7618eaad80800000000000000
+      internalID: -8238517385036683065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_151
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc46a7476d16ff10800000000000000
+      internalID: 2303060588867505340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_152
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 41
+        width: 82
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f401c53ec791b60800000000000000
+      internalID: 7717336752420048705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_153
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a2e234d87a5f4a0800000000000000
+      internalID: -6560153057035933077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_154
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 163
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73df2e72eccb09e50800000000000000
+      internalID: 6814153829830032695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_155
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 155
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e8e77ccb684f020800000000000000
+      internalID: 2374671048890027535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_156
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 141
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0235499df7b9370800000000000000
+      internalID: 8330392508224970939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_157
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 135
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331051185c076a30800000000000000
+      internalID: 4208345949188133691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_158
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 72
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb55438bfee1cd510800000000000000
+      internalID: 1575167984609285564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_159
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 123
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a017e1ebe80fbc0800000000000000
+      internalID: -3751341542393968111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_160
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 116
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea42faba1a7801290800000000000000
+      internalID: -7921682616104835922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_161
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabde2ac6028c8b30800000000000000
+      internalID: 4290947510650723242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_162
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 121
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c851753d97b2e0230800000000000000
+      internalID: 3606868153807082892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_163
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 101
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f704939c11e277f30800000000000000
+      internalID: 4573174600543322239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_164
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 99
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5856505ce84cc8e50800000000000000
+      internalID: 6813036453774583173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_165
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 103
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcffeb2fc64ab6370800000000000000
+      internalID: 8316921924705779659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_166
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 95
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ec5a88848a85c00800000000000000
+      internalID: 889645955889352199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_167
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e44bcc8907398e60800000000000000
+      internalID: 7964957930137797862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_168
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 84
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb4cb72f639f0f20800000000000000
+      internalID: 3391091150050577404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_169
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 79
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf96921d5a0358b0800000000000000
+      internalID: -5164772952803729458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_170
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 71
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80b5e73e5a07ea0800000000000000
+      internalID: -5877015117222442762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_171
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e991a33189d8a75b0800000000000000
+      internalID: -5369823921388775010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_172
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 74
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a071837e8a3b6ae90800000000000000
+      internalID: -7014721831567878390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_173
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab89a46eb2a52f80800000000000000
+      internalID: -8131914613531243604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_174
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 68
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93837382a3a57fe60800000000000000
+      internalID: 7995958869248915513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_175
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 66
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ae054f54062eb90800000000000000
+      internalID: -7214097799526159804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_176
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 46
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e46c7010aed9e20800000000000000
+      internalID: 3359098187234561660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_177
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 51
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024930a87c6b35c30800000000000000
+      internalID: 4347019033472898080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_178
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 47
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5999b2a5348c1cf0800000000000000
+      internalID: -280203710905607842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_179
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 10
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89351ced4964dfe50800000000000000
+      internalID: 6844704613879337880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_180
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 37
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d9b5e4abf3d71f0800000000000000
+      internalID: -1045609469068993270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_181
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a09fe760921d3c0800000000000000
+      internalID: -4336639858304284130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_182
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e2732fdd24a8860800000000000000
+      internalID: 7532906847749484046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_183
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 34
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621b2e98b4ebe860800000000000000
+      internalID: 7560387881050247786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_184
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 9
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7e3ec5f34038150800000000000000
+      internalID: 5873543009209149399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_185
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 20
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a7848bc1c0f220800000000000000
+      internalID: 2517725271546110604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_186
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 0
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3583127fa6fa3ef70800000000000000
+      internalID: 9215402136477710419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bkg 1 Meteors_187
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 0
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1e35e7f6886d990800000000000000
+      internalID: -7361546528448323161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bkg 1 Meteors_0: 3851168538303505282
+      Bkg 1 Meteors_1: 156395256677547449
+      Bkg 1 Meteors_10: 5629967001805467979
+      Bkg 1 Meteors_100: 6912855742249726415
+      Bkg 1 Meteors_101: -3411023547776573773
+      Bkg 1 Meteors_102: 2987195901940729728
+      Bkg 1 Meteors_103: 5838276536026556665
+      Bkg 1 Meteors_104: 6807085243489495258
+      Bkg 1 Meteors_105: -7248409672229892223
+      Bkg 1 Meteors_106: 264639843921907259
+      Bkg 1 Meteors_107: -4156600123298642318
+      Bkg 1 Meteors_108: 6644294161052226006
+      Bkg 1 Meteors_109: -5633864919733361175
+      Bkg 1 Meteors_11: 6400782900331178379
+      Bkg 1 Meteors_110: 3155391457997483007
+      Bkg 1 Meteors_111: -864408115752150534
+      Bkg 1 Meteors_112: 3331816303488977600
+      Bkg 1 Meteors_113: -2904039441155435352
+      Bkg 1 Meteors_114: 9030938693664231994
+      Bkg 1 Meteors_115: -1662457676195883768
+      Bkg 1 Meteors_116: -47454295837213234
+      Bkg 1 Meteors_117: -2876749178451317357
+      Bkg 1 Meteors_118: 4073825300331028584
+      Bkg 1 Meteors_119: -5248350698621796874
+      Bkg 1 Meteors_12: 3124571480760299631
+      Bkg 1 Meteors_120: 962913073472735411
+      Bkg 1 Meteors_121: -7352545901991432864
+      Bkg 1 Meteors_122: 3906396003166766371
+      Bkg 1 Meteors_123: 6252645649114786762
+      Bkg 1 Meteors_124: 1010340550244752505
+      Bkg 1 Meteors_125: -5878991334927461346
+      Bkg 1 Meteors_126: 2735014350205048878
+      Bkg 1 Meteors_127: -5231437095476231538
+      Bkg 1 Meteors_128: 150206387503060619
+      Bkg 1 Meteors_129: -8982855971659776828
+      Bkg 1 Meteors_13: -5888930852434675929
+      Bkg 1 Meteors_130: 1229125988436076930
+      Bkg 1 Meteors_131: -8690015187667576055
+      Bkg 1 Meteors_132: 2764170175190363329
+      Bkg 1 Meteors_133: -2063999073298036449
+      Bkg 1 Meteors_134: -6165283857341232616
+      Bkg 1 Meteors_135: 7465116355764906629
+      Bkg 1 Meteors_136: -2228352047768495873
+      Bkg 1 Meteors_137: -444330948023466613
+      Bkg 1 Meteors_138: -7047500580944657155
+      Bkg 1 Meteors_139: -734811303820821504
+      Bkg 1 Meteors_14: -8034921828720022227
+      Bkg 1 Meteors_140: -5257958312300586839
+      Bkg 1 Meteors_141: -7299206131916971017
+      Bkg 1 Meteors_142: 2772421307288781996
+      Bkg 1 Meteors_143: -2165547632932896634
+      Bkg 1 Meteors_144: 999455687617028170
+      Bkg 1 Meteors_145: -4249713226358629807
+      Bkg 1 Meteors_146: -9122945915284673885
+      Bkg 1 Meteors_147: 4221579741022433989
+      Bkg 1 Meteors_148: 2118388794926305154
+      Bkg 1 Meteors_149: 6850154222459654925
+      Bkg 1 Meteors_15: -8852762168779555065
+      Bkg 1 Meteors_150: -8238517385036683065
+      Bkg 1 Meteors_151: 2303060588867505340
+      Bkg 1 Meteors_152: 7717336752420048705
+      Bkg 1 Meteors_153: -6560153057035933077
+      Bkg 1 Meteors_154: 6814153829830032695
+      Bkg 1 Meteors_155: 2374671048890027535
+      Bkg 1 Meteors_156: 8330392508224970939
+      Bkg 1 Meteors_157: 4208345949188133691
+      Bkg 1 Meteors_158: 1575167984609285564
+      Bkg 1 Meteors_159: -3751341542393968111
+      Bkg 1 Meteors_16: -7257763789013433428
+      Bkg 1 Meteors_160: -7921682616104835922
+      Bkg 1 Meteors_161: 4290947510650723242
+      Bkg 1 Meteors_162: 3606868153807082892
+      Bkg 1 Meteors_163: 4573174600543322239
+      Bkg 1 Meteors_164: 6813036453774583173
+      Bkg 1 Meteors_165: 8316921924705779659
+      Bkg 1 Meteors_166: 889645955889352199
+      Bkg 1 Meteors_167: 7964957930137797862
+      Bkg 1 Meteors_168: 3391091150050577404
+      Bkg 1 Meteors_169: -5164772952803729458
+      Bkg 1 Meteors_17: -5786825190468132529
+      Bkg 1 Meteors_170: -5877015117222442762
+      Bkg 1 Meteors_171: -5369823921388775010
+      Bkg 1 Meteors_172: -7014721831567878390
+      Bkg 1 Meteors_173: -8131914613531243604
+      Bkg 1 Meteors_174: 7995958869248915513
+      Bkg 1 Meteors_175: -7214097799526159804
+      Bkg 1 Meteors_176: 3359098187234561660
+      Bkg 1 Meteors_177: 4347019033472898080
+      Bkg 1 Meteors_178: -280203710905607842
+      Bkg 1 Meteors_179: 6844704613879337880
+      Bkg 1 Meteors_18: -6797547380649567634
+      Bkg 1 Meteors_180: -1045609469068993270
+      Bkg 1 Meteors_181: -4336639858304284130
+      Bkg 1 Meteors_182: 7532906847749484046
+      Bkg 1 Meteors_183: 7560387881050247786
+      Bkg 1 Meteors_184: 5873543009209149399
+      Bkg 1 Meteors_185: 2517725271546110604
+      Bkg 1 Meteors_186: 9215402136477710419
+      Bkg 1 Meteors_187: -7361546528448323161
+      Bkg 1 Meteors_19: -8933647624635663179
+      Bkg 1 Meteors_2: 4618395363375100525
+      Bkg 1 Meteors_20: -7898673581633845505
+      Bkg 1 Meteors_21: -5820962862831969254
+      Bkg 1 Meteors_22: 2449985009894672386
+      Bkg 1 Meteors_23: 5427168818997155290
+      Bkg 1 Meteors_24: -8047647580635016003
+      Bkg 1 Meteors_25: -1070628259123170963
+      Bkg 1 Meteors_26: -3576335746655002974
+      Bkg 1 Meteors_27: 9208428598512067741
+      Bkg 1 Meteors_28: -7112545695234318816
+      Bkg 1 Meteors_29: -6895090000302446760
+      Bkg 1 Meteors_3: -4748853656020903076
+      Bkg 1 Meteors_30: -174781302790153266
+      Bkg 1 Meteors_31: 4164364237446641148
+      Bkg 1 Meteors_32: 4388447207131493558
+      Bkg 1 Meteors_33: -5256848146101175939
+      Bkg 1 Meteors_34: -2759898162639698099
+      Bkg 1 Meteors_35: -2666291849139598020
+      Bkg 1 Meteors_36: 3944381997085858065
+      Bkg 1 Meteors_37: 6326883937587433535
+      Bkg 1 Meteors_38: 140973998693652140
+      Bkg 1 Meteors_39: 8643565245440843345
+      Bkg 1 Meteors_4: -7187444300826662201
+      Bkg 1 Meteors_40: 7891765904369522907
+      Bkg 1 Meteors_41: 591338041109964125
+      Bkg 1 Meteors_42: 9132230664492435971
+      Bkg 1 Meteors_43: 4199887743227824958
+      Bkg 1 Meteors_44: 1070799882406260875
+      Bkg 1 Meteors_45: 7381905923369008305
+      Bkg 1 Meteors_46: 3311825389384143011
+      Bkg 1 Meteors_47: -5486636840712989134
+      Bkg 1 Meteors_48: -2136511260393775677
+      Bkg 1 Meteors_49: 620587989114979668
+      Bkg 1 Meteors_5: -501673958528736035
+      Bkg 1 Meteors_50: 5739852455820709599
+      Bkg 1 Meteors_51: 1749596814592235351
+      Bkg 1 Meteors_52: 3080709270433666751
+      Bkg 1 Meteors_53: -3016606028687229489
+      Bkg 1 Meteors_54: -5470726514567917129
+      Bkg 1 Meteors_55: -5473643535397752735
+      Bkg 1 Meteors_56: -6685189795953676857
+      Bkg 1 Meteors_57: 1314014517435724306
+      Bkg 1 Meteors_58: -505583222738213020
+      Bkg 1 Meteors_59: 117611560812837224
+      Bkg 1 Meteors_6: -2797803984713064966
+      Bkg 1 Meteors_60: -5940999283675640884
+      Bkg 1 Meteors_61: -1083753833647538032
+      Bkg 1 Meteors_62: 3724715674394481463
+      Bkg 1 Meteors_63: 854518022323311049
+      Bkg 1 Meteors_64: -8814571056908889866
+      Bkg 1 Meteors_65: -4962061261776443347
+      Bkg 1 Meteors_66: -1244298228411549109
+      Bkg 1 Meteors_67: -8713665394938621072
+      Bkg 1 Meteors_68: -8899727446460599503
+      Bkg 1 Meteors_69: 4743346337292220025
+      Bkg 1 Meteors_7: 9185516169468266661
+      Bkg 1 Meteors_70: 7078230458513393775
+      Bkg 1 Meteors_71: 1555925779225544739
+      Bkg 1 Meteors_72: 9215709670899409119
+      Bkg 1 Meteors_73: 8018858363313607728
+      Bkg 1 Meteors_74: 651916312485648097
+      Bkg 1 Meteors_75: -3010623035543244138
+      Bkg 1 Meteors_76: -4226091198516266371
+      Bkg 1 Meteors_77: 2256522311546350693
+      Bkg 1 Meteors_78: 1091923716475265510
+      Bkg 1 Meteors_79: 5239086771362267039
+      Bkg 1 Meteors_8: 4955886139712681973
+      Bkg 1 Meteors_80: 6500185132432575817
+      Bkg 1 Meteors_81: 2997492786958594818
+      Bkg 1 Meteors_82: 6961834261022282205
+      Bkg 1 Meteors_83: -8362155297153347105
+      Bkg 1 Meteors_84: -875838149478813843
+      Bkg 1 Meteors_85: -2048191857561634509
+      Bkg 1 Meteors_86: -6643602471095393899
+      Bkg 1 Meteors_87: 8502288565934587663
+      Bkg 1 Meteors_88: 939917642108690435
+      Bkg 1 Meteors_89: -7070755432791835597
+      Bkg 1 Meteors_9: 9076592680357429287
+      Bkg 1 Meteors_90: -1098223930108263539
+      Bkg 1 Meteors_91: -3457156824553668930
+      Bkg 1 Meteors_92: 862916542557507959
+      Bkg 1 Meteors_93: 1421258744406306057
+      Bkg 1 Meteors_94: -2323620778092137141
+      Bkg 1 Meteors_95: -2525059890851713068
+      Bkg 1 Meteors_96: 160859644933548853
+      Bkg 1 Meteors_97: 6662021955135843448
+      Bkg 1 Meteors_98: 4347469102164365211
+      Bkg 1 Meteors_99: 6478565502088158189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

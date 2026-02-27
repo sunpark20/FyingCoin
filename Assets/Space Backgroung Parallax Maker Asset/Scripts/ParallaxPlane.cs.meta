@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6a561d7b90e851e4c974fb887ac73de8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93514
+  packageName: MK - Space Background Parallax Maker
+  packageVersion: 2.1
+  assetPath: Assets/Space Backgroung Parallax Maker Asset/Scripts/ParallaxPlane.cs
+  uploadId: 508432

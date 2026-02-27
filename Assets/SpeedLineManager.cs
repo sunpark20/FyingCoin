@@ -95,7 +95,7 @@ public class SpeedLineManager : MonoBehaviour
         sr.color = new Color(r, g, b, Random.Range(0.3f, 0.8f));
         sr.sortingOrder = -4; // 동전보다 뒤, 일반 라인보다 앞
 
-        AtmosphereProp prop = lineGo.AddComponent<AtmosphereProp>();
+        SpeedLineProp prop = lineGo.AddComponent<SpeedLineProp>();
         // 아래로 빠르게 쏟아짐 (초음속 체감)
         prop.velocity = new Vector2(0, -Random.Range(30f, 60f));
     }
@@ -119,7 +119,26 @@ public class SpeedLineManager : MonoBehaviour
         sr.color = new Color(1f, 1f, 1f, Random.Range(0.2f, 0.6f));
         sr.sortingOrder = -5;
 
-        AtmosphereProp prop = lineGo.AddComponent<AtmosphereProp>();
-        prop.velocity = new Vector2(0, currentSpeed * 2.5f * directionY); 
+        SpeedLineProp prop = lineGo.AddComponent<SpeedLineProp>();
+        prop.velocity = new Vector2(0, currentSpeed * 2.5f * directionY);
+    }
+}
+
+/// <summary>
+/// 스피드라인/소닉붐 파편에 속도를 부여하고 화면 밖 이탈 시 자동 삭제.
+/// (기존 SpeedLineProp 역할을 SpeedLineManager 전용으로 분리)
+/// </summary>
+public class SpeedLineProp : MonoBehaviour
+{
+    public Vector2 velocity;
+    private Camera cam;
+
+    void Start() { cam = Camera.main; }
+
+    void Update()
+    {
+        transform.Translate(velocity * Time.deltaTime, Space.World);
+        if (cam != null && transform.position.y < cam.transform.position.y - 15f)
+            Destroy(gameObject);
     }
 }

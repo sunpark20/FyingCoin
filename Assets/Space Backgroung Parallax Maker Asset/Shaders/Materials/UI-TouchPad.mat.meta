@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9f02ec5ce59dd664a9cbb913aeb14b80
+timeCreated: 1497961875
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93514
+  packageName: MK - Space Background Parallax Maker
+  packageVersion: 2.1
+  assetPath: Assets/Space Backgroung Parallax Maker Asset/Shaders/Materials/UI-TouchPad.mat
+  uploadId: 508432

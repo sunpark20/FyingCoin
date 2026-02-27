@@ -131,7 +131,6 @@ public class AutoSetupCoinGame : MonoBehaviour
         // 4. 메인 카메라 배경색 수정, 추적 스크립트 및 배경 매니저 연결
         if (Camera.main != null)
         {
-            // 배경색은 BackgroundManager에서 고도에 따라 자동 설정되므로 고정색 세팅은 제거
             // 4-1. 카메라 추적 스크립트 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
             CameraController camCtrl = Camera.main.GetComponent<CameraController>();
             if (camCtrl == null)
@@ -139,19 +138,15 @@ public class AutoSetupCoinGame : MonoBehaviour
             camCtrl.target = coin.transform;
             Debug.Log("🎥 카메라 무한 추적 세팅 완료!");
 
-            // 4-2. 배경색 변화 매니저 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
-            BackgroundManager bgManager = Camera.main.GetComponent<BackgroundManager>();
-            if (bgManager == null)
-                bgManager = Camera.main.gameObject.AddComponent<BackgroundManager>();
-            bgManager.target = coin.transform;
-            Debug.Log("🌌 고도별 대기권 배경색 변환 매니저 세팅 완료!");
-
-            // 4-3. 고도별 오브젝트 스포너 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
-            AtmosphereObjectSpawner spawner = Camera.main.gameObject.GetComponent<AtmosphereObjectSpawner>();
-            if (spawner == null)
-                spawner = Camera.main.gameObject.AddComponent<AtmosphereObjectSpawner>();
-            spawner.target = coin.transform;
-            Debug.Log("🛸 고도별 대기권 배경 오브젝트 스포너 세팅 완료!");
+            // 4-2. SpaceParallaxController 셋업 (패럴랙스 우주 배경)
+            SpaceParallaxController parallaxCtrl = FindFirstObjectByType<SpaceParallaxController>();
+            if (parallaxCtrl == null)
+            {
+                GameObject parallaxRoot = new GameObject("SpaceParallaxRoot");
+                parallaxCtrl = parallaxRoot.AddComponent<SpaceParallaxController>();
+            }
+            parallaxCtrl.target = coin.transform;
+            Debug.Log("🌌 우주 패럴랙스 배경 시스템 세팅 완료!");
 
             // 4-4. 가속 시 화면 집중선 이펙트 매니저 부착 (기존 컴포넌트 유지하여 Inspector 값 보존)
             SpeedLineManager speedLineMgr = Camera.main.gameObject.GetComponent<SpeedLineManager>();
